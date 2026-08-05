@@ -8,21 +8,21 @@
 :root{--bg:#070a11;--panel:#111827;--panel2:#182235;--line:#2d3a50;--text:#eef5ff;--muted:#98a8bc;--cyan:#25d9ff;--orange:#ff9c2b;--danger:#ff8492}
 *{box-sizing:border-box}
 body{margin:0;background:linear-gradient(145deg,#05070c,#111a2b);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans JP",sans-serif}
-header{position:sticky;top:0;z-index:10;padding:14px;background:rgba(7,10,17,.96);border-bottom:1px solid var(--line);backdrop-filter:blur(10px)}
-h1{font-size:18px;margin:0 0 10px;color:var(--cyan)}
-.controls{display:grid;grid-template-columns:repeat(4,minmax(120px,1fr));gap:8px}
-button,input,select{min-height:42px;padding:9px 10px;border:1px solid #35455e;border-radius:8px;background:#111a29;color:var(--text);font-size:14px}
+header{position:sticky;top:0;z-index:10;padding:8px;background:rgba(7,10,17,.96);border-bottom:1px solid var(--line);backdrop-filter:blur(10px)}
+h1{font-size:16px;margin:0 0 6px;color:var(--cyan)}
+.controls{display:grid;grid-template-columns:repeat(5,minmax(110px,1fr));gap:6px}
+button,input,select{min-height:34px;padding:5px 8px;border:1px solid #35455e;border-radius:8px;background:#111a29;color:var(--text);font-size:14px}
 button{font-weight:700;cursor:pointer}.mode.active{background:#073c4b;border-color:var(--cyan)}
-#status{margin-top:9px;color:var(--muted);font-size:13px;line-height:1.45}#status.error{color:var(--danger)}
-main{max-width:1100px;margin:auto;padding:14px}.summary{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:12px}
-.badge{padding:6px 10px;border:1px solid var(--line);border-radius:999px;background:var(--panel);font-size:12px;display:inline-flex;align-items:center;gap:6px}
-.group{margin-bottom:10px;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--panel)}
-.group-title{width:100%;display:flex;justify-content:space-between;border:0;border-radius:0;background:linear-gradient(90deg,#182235,#101725);padding:12px 14px}
+#status{margin-top:6px;color:var(--muted);font-size:13px;line-height:1.45}#status.error{color:var(--danger)}
+main{max-width:1100px;margin:auto;padding:8px}.summary{display:flex;gap:5px;flex-wrap:wrap;margin-bottom:7px}
+.badge{padding:4px 8px;border:1px solid var(--line);border-radius:999px;background:var(--panel);font-size:12px;display:inline-flex;align-items:center;gap:6px}
+.group{margin-bottom:6px;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--panel)}
+.group-title{width:100%;display:flex;justify-content:space-between;border:0;border-radius:0;background:linear-gradient(90deg,#182235,#101725);padding:7px 10px}
 .group-title strong{color:var(--orange)}.group.closed .rows{display:none}
-.row{display:grid;grid-template-columns:minmax(260px,1fr) 140px 140px;gap:10px;align-items:center;padding:9px 12px;border-top:1px solid #202c40}
+.row{display:grid;grid-template-columns:minmax(220px,1fr) 125px 125px;gap:6px;align-items:center;padding:4px 8px;min-height:38px;border-top:1px solid #202c40}
 .row:hover{filter:brightness(1.08)}
-.title{font-weight:650;overflow-wrap:anywhere}
-.option-select,.clear-select{width:100%}
+.title{font-weight:650;overflow-wrap:anywhere;font-size:13px;line-height:1.2}
+.option-select,.clear-select{width:100%;min-height:30px;padding:3px 6px;font-size:12px}
 .column-head{display:grid;grid-template-columns:minmax(260px,1fr) 140px 140px;gap:10px;align-items:center;padding:8px 12px;border-top:1px solid #202c40;background:#0d1522;color:var(--muted);font-size:12px;font-weight:700}
 .column-head .option-head{color:#25d9ff;text-align:center}
 .column-head .clear-head{color:#ff5aa5;text-align:center}
@@ -49,10 +49,10 @@ main{max-width:1100px;margin:auto;padding:14px}.summary{display:flex;gap:7px;fle
 .controls{grid-template-columns:1fr 1fr}
 .controls input{grid-column:1/-1}
 .column-head{display:none}
-.row{grid-template-columns:minmax(0,1fr);padding:9px 8px;gap:7px}
-.field-wrap{display:grid;grid-template-columns:86px minmax(0,1fr);gap:7px;align-items:center}
+.row{grid-template-columns:minmax(0,1fr);padding:4px 6px;gap:4px}
+.field-wrap{display:grid;grid-template-columns:76px minmax(0,1fr);gap:4px;align-items:center}
 .field-label{display:block;color:var(--muted);font-size:11px;font-weight:700}
-.option-select,.clear-select{width:100%}
+.option-select,.clear-select{width:100%;min-height:30px;padding:3px 6px;font-size:12px}
 h1{font-size:16px}
 }
 @media(min-width:701px){.field-wrap{display:contents}}
@@ -67,15 +67,11 @@ h1{font-size:16px}
 <input id="search" type="search" placeholder="曲名検索">
 <select id="clearFilter"></select>
 <button id="refreshBtn">曲データ更新</button>
-<button id="exportBtn">バックアップ保存</button>
-<button id="importBtn">バックアップ読込</button>
-<button id="resetBtn">オプション初期化</button>
 </div>
 <div id="status">SP☆12専用データを準備中…</div>
 </header>
 <main><div id="summary" class="summary"></div><div id="app" class="empty">準備中です</div></main>
 <footer style="max-width:1100px;margin:auto;padding:0 14px 20px;color:var(--muted);font-size:12px">楽曲データ参照元：sp12.iidx.app（SP☆12のみ）</footer>
-<input id="importFile" type="file" accept=".json,application/json" hidden>
 <script>
 const DATA_URL='./data/sp12.json';
 const CACHE_KEY='iidx_sp12_only_sheet_cache_v7';
@@ -204,11 +200,6 @@ function render(){
     <strong>${esc(rank)}</strong>
     <span>${a.length}譜面 ▾</span>
    </button>
-   <div class="column-head">
-    <span>曲名</span>
-    <span class="option-head">オプション</span>
-    <span class="clear-head">クリアランプ</span>
-   </div>
    <div class="rows">${a
     .sort((x,y)=>x.title.localeCompare(y.title,'ja'))
     .map(s=>{
@@ -262,18 +253,12 @@ function render(){
 }
 
 function switchMode(m){mode=m;save();render()}
-function exportData(){
- const blob=new Blob([JSON.stringify({options,clears,exportedAt:new Date().toISOString()},null,2)],{type:'application/json'});
- const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='IIDX_SP12_options.json';a.click();URL.revokeObjectURL(a.href);
-}
 $('#normalBtn').onclick=()=>switchMode('normal');$('#hardBtn').onclick=()=>switchMode('hard');
-$('#search').oninput=render;$('#clearFilter').onchange=render;$('#refreshBtn').onclick=()=>load(true);
-$('#exportBtn').onclick=exportData;$('#importBtn').onclick=()=>$('#importFile').click();
-$('#importFile').onchange=async e=>{try{const d=JSON.parse(await e.target.files[0].text());options=d.options||{};clears=d.clears||{};save();render();status('バックアップを読み込みました')}catch(x){status('バックアップを読み込めませんでした',true)}};
-$('#resetBtn').onclick=()=>{if(confirm('すべてのオプションとクリアランプを未設定に戻しますか？')){options={};clears={};save();render()}};
+$('#search').oninput=render;$('#clearFilter').onchange=render;$('#refreshBtn').onclick=()=>load(true);clears={};save();render()}};
 $('#clearFilter').innerHTML='<option value="">全クリアランプ</option>'+CLEARS.map(c=>`<option>${c}</option>`).join('');
 ['iidx_sp12_only_sheet_cache_v3','iidx_sp12_only_sheet_cache_v4','iidx_sp12_only_sheet_cache_v5','iidx_sp12_only_sheet_cache_v6'].forEach(k=>localStorage.removeItem(k));
 render();load(false);
 </script>
 </body>
 </html>
+<style>.column-head{display:none!important}</style>
