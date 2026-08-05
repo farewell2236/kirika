@@ -26,7 +26,7 @@ main{max-width:1100px;margin:auto;padding:8px}.summary{display:flex;gap:5px;flex
 .column-head{display:grid;grid-template-columns:minmax(260px,1fr) 140px 140px;gap:10px;align-items:center;padding:8px 12px;border-top:1px solid #202c40;background:#0d1522;color:var(--muted);font-size:12px;font-weight:700}
 .column-head .option-head{color:#25d9ff;text-align:center}
 .column-head .clear-head{color:#ff5aa5;text-align:center}
-.field-label{display:block;color:var(--muted);font-size:9px;font-weight:700;margin-bottom:1px}
+.field-label{display:none}
 .row.failed{background:#5f6368;color:#fff}
 .row.assist{background:#7e57c2;color:#fff}
 .row.easy{background:#2e7d32;color:#fff}
@@ -216,13 +216,13 @@ function render(){
       <div class="field-wrap">
        <span class="field-label">オプション</span>
        <select class="option-select" aria-label="オプション" data-key="${esc(key)}">
-        ${OPTIONS.map(o=>`<option${getOpt(s)===o?' selected':''}>${o}</option>`).join('')}
+        ${OPTIONS.map(o=>`<option${getOpt(s)===o?' selected':''}>${o==='未設定'?'オプション':o}</option>`).join('')}
        </select>
       </div>
       <div class="field-wrap">
        <span class="field-label">クリアランプ</span>
        <select class="clear-select" aria-label="クリアランプ" data-key="${esc(key)}">
-        ${CLEARS.map(c=>`<option${clear===c?' selected':''}>${c}</option>`).join('')}
+        ${CLEARS.map(c=>`<option${clear===c?' selected':''}>${c==='未設定'?'クリアランプ':c}</option>`).join('')}
        </select>
       </div>
      </div>`;
