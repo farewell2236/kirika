@@ -15,7 +15,16 @@ button,input,select{min-height:42px;padding:9px 10px;border:1px solid #35455e;bo
 button{font-weight:700;cursor:pointer}.mode.active{background:#073c4b;border-color:var(--cyan)}
 #status{margin-top:9px;color:var(--muted);font-size:13px;line-height:1.45}#status.error{color:var(--danger)}
 main{max-width:1100px;margin:auto;padding:14px}.summary{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:12px}
-.badge{padding:6px 10px;border:1px solid var(--line);border-radius:999px;background:var(--panel);font-size:12px}
+.badge{padding:6px 10px;border:1px solid var(--line);border-radius:999px;background:var(--panel);font-size:12px;display:inline-flex;align-items:center;gap:6px}
+.lamp-dot{width:10px;height:10px;border-radius:50%;display:inline-block;flex:0 0 10px}
+.lamp-unset{background:#111827;border:1px solid #5b6b82}
+.lamp-failed{background:#5f6368}
+.lamp-assist{background:#7e57c2}
+.lamp-easy{background:#2e7d32}
+.lamp-clear{background:#4dd0e1}
+.lamp-hard{background:#c62828}
+.lamp-exhard{background:#fdd835}
+.lamp-fullcombo{background:#fb8c00}
 .group{margin-bottom:10px;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--panel)}
 .group-title{width:100%;display:flex;justify-content:space-between;border:0;border-radius:0;background:linear-gradient(90deg,#182235,#101725);padding:12px 14px}
 .group-title strong{color:var(--orange)}.group.closed .rows{display:none}
@@ -116,6 +125,19 @@ async function load(force=false){
   }
  }
 }
+function clearDotClass(v){
+ switch(v){
+  case 'FAILED': return 'lamp-failed';
+  case 'ASSIST': return 'lamp-assist';
+  case 'EASY': return 'lamp-easy';
+  case 'CLEAR': return 'lamp-clear';
+  case 'HARD': return 'lamp-hard';
+  case 'EX HARD': return 'lamp-exhard';
+  case 'FULLCOMBO': return 'lamp-fullcombo';
+  default:return 'lamp-unset';
+ }
+}
+
 function clearRowStyle(v){
  const styles={
   'FAILED':'background:#5f6368 !important;color:#ffffff !important;',
@@ -152,7 +174,8 @@ function render(){
    save();
    render();
   });
- $('#summary').innerHTML=`<span class="badge">全 ${list.length}譜面</span>`+OPTIONS.map(o=>`<span class="badge">${o}: ${list.filter(s=>getOpt(s)===o).length}</span>`).join('');
+ $('#summary').innerHTML=`<span class="badge">全 ${list.length}譜面</span>`+
+  CLEARS.map(c=>`<span class="badge"><span class="lamp-dot ${clearDotClass(c)}"></span>${c}: ${list.filter(s=>(clears[optKey(s)]||'未設定')===c).length}</span>`).join('');
 }
 function switchMode(m){mode=m;save();render()}
 function exportData(){
