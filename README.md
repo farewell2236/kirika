@@ -1,22 +1,21 @@
 # IIDX SP☆12 OPTION MANAGER
 
-公開URL: https://farewell2236.github.io/naide/
+GitHub Pages用の静的サイトです。☆11は取得しません。
 
-## この版の変更点
+## 分類の取得方法
 
-- 既存の `songs.json` は使用しません。
-- 楽曲データは `data/sp12.json` から読み込みます。
-- そのため、以前の `songs.json` が残っていても競合・誤読込しません。
-- GitHub Actionsには通信タイムアウトがあります。
-- 更新失敗時も既存の `data/sp12.json` は消しません。
+`tier` 数値から独自に分類名を推測しません。
+GitHub Actionsが元のatwiki難易度表を読み、ページに表示されている
+`地力A`、`個人差B+` などのセクション見出しをそのまま `data/sp12.json` に保存します。
+同名のANOTHER／LEGGENDARIAを混同しないよう、楽曲Wiki URLで照合します。
 
-## 導入
+## 初回公開
 
-このフォルダの中身を `farewell2236/naide` のルートへコピーし、GitHub Desktopでコミット・プッシュしてください。
-古い `songs.json` は削除しても残しても動作に影響しません。
+1. このフォルダの中身をリポジトリ直下へ配置してPushします。
+2. GitHubの `Actions` から `Update SP12 data` を開き、`Run workflow` を実行します。
+3. 緑のチェックが付き、`data/sp12.json` が更新されたらPagesを再読み込みします。
+4. `Settings → Pages → Deploy from a branch → main / root` を選択します。
 
-GitHub Pagesは `Settings → Pages → Deploy from a branch → main → /(root)` に設定します。
+公開URL: `https://farewell2236.github.io/kirika/`
 
-## 手動更新
-
-`Actions → Update SP12 data → Run workflow` を実行します。
+Actionsは毎日自動実行されます。取得や照合に異常がある場合は既存JSONを上書きせず、Actionをエラー終了させます。
