@@ -120,7 +120,7 @@ function render(){
  $('#app').innerHTML=[...groups].filter(([,a])=>a.length).map(([rank,a])=>`<section class="group">
  <button class="group-title"><strong>${esc(rank)}</strong><span>${a.length}譜面 ▾</span></button>
  <div class="rows">${a.sort((x,y)=>x.title.localeCompare(y.title,'ja')).map(s=>`<div class="row">
- <span class="ver">${esc(s.ver)}</span><span class="title">${esc(s.title)}</span>
+ <span class="ver">${esc(s.ver)}</span><span class="title">${esc(s.title)}${(/(LEGGENDARIA|LEGENDARIA|†|L$)/i.test(String(s.chart||""))?" †":"")}</span>
  <select class="option-select" data-key="${esc(optKey(s))}">${OPTIONS.map(o=>`<option${getOpt(s)===o?' selected':''}>${o}</option>`).join('')}</select>
  </div>`).join('')}</div></section>`).join('')||(songs.length?'<div class="empty">該当曲なし</div>':'<div class="empty">曲データがありません。「曲データ更新」を押してください。</div>');
  document.querySelectorAll('.group-title').forEach(b=>b.onclick=()=>b.parentElement.classList.toggle('closed'));
