@@ -15,14 +15,47 @@ button,input,select{min-height:42px;padding:9px 10px;border:1px solid #35455e;bo
 button{font-weight:700;cursor:pointer}.mode.active{background:#073c4b;border-color:var(--cyan)}
 #status{margin-top:9px;color:var(--muted);font-size:13px;line-height:1.45}#status.error{color:var(--danger)}
 main{max-width:1100px;margin:auto;padding:14px}.summary{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:12px}
-.badge{padding:6px 10px;border:1px solid var(--line);border-radius:999px;background:var(--panel);font-size:12px}
+.badge{padding:6px 10px;border:1px solid var(--line);border-radius:999px;background:var(--panel);font-size:12px;display:inline-flex;align-items:center;gap:6px}
 .group{margin-bottom:10px;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--panel)}
 .group-title{width:100%;display:flex;justify-content:space-between;border:0;border-radius:0;background:linear-gradient(90deg,#182235,#101725);padding:12px 14px}
 .group-title strong{color:var(--orange)}.group.closed .rows{display:none}
 .row{display:grid;grid-template-columns:minmax(260px,1fr) 140px 140px;gap:10px;align-items:center;padding:9px 12px;border-top:1px solid #202c40}
-.row:hover{background:#152033}.ver{color:var(--muted);font-size:12px}.title{font-weight:650;overflow-wrap:anywhere}.option-select,.clear-select{width:100%}
+.row:hover{filter:brightness(1.08)}
+.title{font-weight:650;overflow-wrap:anywhere}
+.option-select,.clear-select{width:100%}
+.column-head{display:grid;grid-template-columns:minmax(260px,1fr) 140px 140px;gap:10px;align-items:center;padding:8px 12px;border-top:1px solid #202c40;background:#0d1522;color:var(--muted);font-size:12px;font-weight:700}
+.column-head .option-head{color:#25d9ff;text-align:center}
+.column-head .clear-head{color:#ff5aa5;text-align:center}
+.field-label{display:none}
+.row.failed{background:#5f6368;color:#fff}
+.row.assist{background:#7e57c2;color:#fff}
+.row.easy{background:#2e7d32;color:#fff}
+.row.clear{background:#4dd0e1;color:#000}
+.row.hard{background:#c62828;color:#fff}
+.row.exhard{background:#fdd835;color:#000}
+.row.fullcombo{background:#fb8c00;color:#000}
+.row.clear select,.row.exhard select,.row.fullcombo select{color:#eef5ff}
+.lamp-dot{width:10px;height:10px;border-radius:50%;display:inline-block;flex:0 0 10px}
+.lamp-unset{background:#111827;border:1px solid #5b6b82}
+.lamp-failed{background:#5f6368}
+.lamp-assist{background:#7e57c2}
+.lamp-easy{background:#2e7d32}
+.lamp-clear{background:#4dd0e1}
+.lamp-hard{background:#c62828}
+.lamp-exhard{background:#fdd835}
+.lamp-fullcombo{background:#fb8c00}
 .empty{text-align:center;padding:55px 10px;color:var(--muted)}
-@media(max-width:700px){.controls{grid-template-columns:1fr 1fr}.controls input{grid-column:1/-1}.row{grid-template-columns:42px minmax(0,1fr);padding:9px 8px;gap:7px}.option-select,.clear-select{grid-column:2}h1{font-size:16px}}
+@media(max-width:700px){
+.controls{grid-template-columns:1fr 1fr}
+.controls input{grid-column:1/-1}
+.column-head{display:none}
+.row{grid-template-columns:minmax(0,1fr);padding:9px 8px;gap:7px}
+.field-wrap{display:grid;grid-template-columns:86px minmax(0,1fr);gap:7px;align-items:center}
+.field-label{display:block;color:var(--muted);font-size:11px;font-weight:700}
+.option-select,.clear-select{width:100%}
+h1{font-size:16px}
+}
+@media(min-width:701px){.field-wrap{display:contents}}
 </style>
 </head>
 <body>
@@ -80,7 +113,7 @@ function transform(raw){
    const ver=clean(pick(x,['version','ver','series']))||'-';
    const normal=normalizeRank(pick(x,['n_clear_string','normal_string','normal','normal_rank']));
    const hard=normalizeRank(pick(x,['hard_string','hard','hard_rank']));
-   return {title,chart:'SP☆12',ver,normal,hard,level:12,source:'sp12.iidx.app'};
+   return {title,chart,ver,normal,hard,level:12,source:'sp12.iidx.app'};
  }).filter(x=>x.title&&x.level===12);
  const seen=new Set();
  return rows.filter(x=>{const key=x.title+'\0'+x.ver;if(seen.has(key))return false;seen.add(key);return true});
@@ -111,37 +144,132 @@ async function load(force=false){
   }
  }
 }
+function clearClass(v){
+ switch(v){
+  case 'FAILED': return 'failed';
+  case 'ASSIST': return 'assist';
+  case 'EASY': return 'easy';
+  case 'CLEAR': return 'clear';
+  case 'HARD': return 'hard';
+  case 'EX HARD': return 'exhard';
+  case 'FULLCOMBO': return 'fullcombo';
+  default:return '';
+ }
+}
+function clearDotClass(v){
+ switch(v){
+  case 'FAILED': return 'lamp-failed';
+  case 'ASSIST': return 'lamp-assist';
+  case 'EASY': return 'lamp-easy';
+  case 'CLEAR': return 'lamp-clear';
+  case 'HARD': return 'lamp-hard';
+  case 'EX HARD': return 'lamp-exhard';
+  case 'FULLCOMBO': return 'lamp-fullcombo';
+  default:return 'lamp-unset';
+ }
+}
+function isLeggendaria(s){
+ const values=[s.chart,s.difficulty,s.difficulty_name,s.sheet_type]
+  .map(v=>String(v??'').trim());
+ return values.some(v=>
+  /LEGGENDARIA|LEGENDARIA/i.test(v) ||
+  v==='4' || v.toUpperCase()==='L'
+ );
+}
+
 function currentList(){
  return songs.map(s=>({...s,rank:mode==='normal'?s.normal:s.hard}));
 }
 function render(){
- $('#normalBtn').classList.toggle('active',mode==='normal');$('#hardBtn').classList.toggle('active',mode==='hard');
- const list=currentList(),q=clean($('#search').value).toLowerCase(),f=$('#optionFilter').value;
- const shown=list.filter(s=>(!q||s.title.toLowerCase().includes(q))&&(!f||getOpt(s)===f));
- const groups=new Map(ORDER.map(r=>[r,[]]));shown.forEach(s=>(groups.get(s.rank)||groups.get('未分類')).push(s));
+ $('#normalBtn').classList.toggle('active',mode==='normal');
+ $('#hardBtn').classList.toggle('active',mode==='hard');
+
+ const list=currentList();
+ const q=clean($('#search').value).toLowerCase();
+ const f=$('#optionFilter').value;
+ const shown=list.filter(s=>
+  (!q||s.title.toLowerCase().includes(q)) &&
+  (!f||getOpt(s)===f)
+ );
+
+ const groups=new Map(ORDER.map(r=>[r,[]]));
+ shown.forEach(s=>(groups.get(s.rank)||groups.get('未分類')).push(s));
+
  $('#app').className='';
- $('#app').innerHTML=[...groups].filter(([,a])=>a.length).map(([rank,a])=>`<section class="group">
- <button class="group-title"><strong>${esc(rank)}</strong><span>${a.length}譜面 ▾</span></button>
- <div class="rows">${a.sort((x,y)=>x.title.localeCompare(y.title,'ja')).map(s=>`<div class="row">
- <span class="title">${esc(s.title)}</span>
- <select class="option-select" aria-label="オプション" data-key="${esc(optKey(s))}">${OPTIONS.map(o=>`<option${getOpt(s)===o?' selected':''}>${o}</option>`).join('')}</select>
- <select class="clear-select" aria-label="クリアランプ" data-key="${esc(optKey(s))}">${CLEARS.map(c=>`<option${(clears[optKey(s)]||'未設定')===c?' selected':''}>${c}</option>`).join('')}</select>
- </div>`).join('')}</div></section>`).join('')||(songs.length?'<div class="empty">該当曲なし</div>':'<div class="empty">曲データがありません。「曲データ更新」を押してください。</div>');
- document.querySelectorAll('.group-title').forEach(b=>b.onclick=()=>b.parentElement.classList.toggle('closed'));
- document.querySelectorAll('.option-select').forEach(s=>s.onchange=()=>{options[s.dataset.key]=s.value;save();render()});
-  document.querySelectorAll('.clear-select').forEach(s=>s.onchange=()=>{clears[s.dataset.key]=s.value;save();});
- $('#summary').innerHTML=`<span class="badge">全 ${list.length}譜面</span>`+OPTIONS.map(o=>`<span class="badge">${o}: ${list.filter(s=>getOpt(s)===o).length}</span>`).join('');
+ $('#app').innerHTML=[...groups]
+  .filter(([,a])=>a.length)
+  .map(([rank,a])=>`<section class="group">
+   <button class="group-title">
+    <strong>${esc(rank)}</strong>
+    <span>${a.length}譜面 ▾</span>
+   </button>
+   <div class="column-head">
+    <span>曲名</span>
+    <span class="option-head">オプション</span>
+    <span class="clear-head">クリアランプ</span>
+   </div>
+   <div class="rows">${a
+    .sort((x,y)=>x.title.localeCompare(y.title,'ja'))
+    .map(s=>{
+     const key=optKey(s);
+     const clear=clears[key]||'未設定';
+     return `<div class="row ${clearClass(clear)}">
+      <span class="title">${esc(s.title)}${isLeggendaria(s)?' †':''}</span>
+      <div class="field-wrap">
+       <span class="field-label">オプション</span>
+       <select class="option-select" aria-label="オプション" data-key="${esc(key)}">
+        ${OPTIONS.map(o=>`<option${getOpt(s)===o?' selected':''}>${o}</option>`).join('')}
+       </select>
+      </div>
+      <div class="field-wrap">
+       <span class="field-label">クリアランプ</span>
+       <select class="clear-select" aria-label="クリアランプ" data-key="${esc(key)}">
+        ${CLEARS.map(c=>`<option${clear===c?' selected':''}>${c}</option>`).join('')}
+       </select>
+      </div>
+     </div>`;
+    }).join('')}</div>
+  </section>`)
+  .join('') ||
+  (songs.length
+   ?'<div class="empty">該当曲なし</div>'
+   :'<div class="empty">曲データがありません。「曲データ更新」を押してください。</div>');
+
+ document.querySelectorAll('.group-title').forEach(
+  b=>b.onclick=()=>b.parentElement.classList.toggle('closed')
+ );
+ document.querySelectorAll('.option-select').forEach(
+  s=>s.onchange=()=>{
+   options[s.dataset.key]=s.value;
+   save();
+   render();
+  }
+ );
+ document.querySelectorAll('.clear-select').forEach(
+  s=>s.onchange=()=>{
+   clears[s.dataset.key]=s.value;
+   save();
+   render();
+  }
+ );
+
+ $('#summary').innerHTML=
+  `<span class="badge">全 ${list.length}譜面</span>`+
+  CLEARS.map(c=>
+   `<span class="badge"><span class="lamp-dot ${clearDotClass(c)}"></span>${c}: ${list.filter(s=>(clears[optKey(s)]||'未設定')===c).length}</span>`
+  ).join('');
 }
+
 function switchMode(m){mode=m;save();render()}
 function exportData(){
- const blob=new Blob([JSON.stringify({options,exportedAt:new Date().toISOString()},null,2)],{type:'application/json'});
+ const blob=new Blob([JSON.stringify({options,clears,exportedAt:new Date().toISOString()},null,2)],{type:'application/json'});
  const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='IIDX_SP12_options.json';a.click();URL.revokeObjectURL(a.href);
 }
 $('#normalBtn').onclick=()=>switchMode('normal');$('#hardBtn').onclick=()=>switchMode('hard');
 $('#search').oninput=render;$('#optionFilter').onchange=render;$('#refreshBtn').onclick=()=>load(true);
 $('#exportBtn').onclick=exportData;$('#importBtn').onclick=()=>$('#importFile').click();
-$('#importFile').onchange=async e=>{try{const d=JSON.parse(await e.target.files[0].text());options=d.options||{};save();render();status('バックアップを読み込みました')}catch(x){status('バックアップを読み込めませんでした',true)}};
-$('#resetBtn').onclick=()=>{if(confirm('すべてのオプションを未設定に戻しますか？')){options={};save();render()}};
+$('#importFile').onchange=async e=>{try{const d=JSON.parse(await e.target.files[0].text());options=d.options||{};clears=d.clears||{};save();render();status('バックアップを読み込みました')}catch(x){status('バックアップを読み込めませんでした',true)}};
+$('#resetBtn').onclick=()=>{if(confirm('すべてのオプションとクリアランプを未設定に戻しますか？')){options={};clears={};save();render()}};
 $('#optionFilter').innerHTML='<option value="">全オプション</option>'+OPTIONS.map(o=>`<option>${o}</option>`).join('');
 ['iidx_sp12_only_sheet_cache_v3','iidx_sp12_only_sheet_cache_v4','iidx_sp12_only_sheet_cache_v5','iidx_sp12_only_sheet_cache_v6'].forEach(k=>localStorage.removeItem(k));
 render();load(false);
