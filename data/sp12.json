@@ -1,0 +1,5208 @@
+{
+  "updatedAt": "2026-08-06T00:00:00+09:00",
+  "sourceUrl": "https://iidx-difficulty-table-checker.nomadblacky.dev/table/12_normal",
+  "data": [
+    {
+      "title": "#CMFLG",
+      "chart": "ANOTHER",
+      "ver": "30",
+      "normal": "地力D",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "#MAGiCVLGiRL_TRVP_B3VTZ",
+      "chart": "ANOTHER",
+      "ver": "24",
+      "normal": "地力B",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "-65℃",
+      "chart": "ANOTHER",
+      "ver": "28",
+      "normal": "地力A+",
+      "hard": "地力A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "199024club -Re:BounceKiller-",
+      "chart": "ANOTHER",
+      "ver": "23",
+      "normal": "個人差B",
+      "hard": "個人差B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "2 Beasts Unchained",
+      "chart": "ANOTHER",
+      "ver": "29",
+      "normal": "個人差B+",
+      "hard": "地力A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "24h Endurance Race",
+      "chart": "ANOTHER",
+      "ver": "30",
+      "normal": "地力B",
+      "hard": "個人差B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "255",
+      "chart": "ANOTHER",
+      "ver": "25",
+      "normal": "地力A",
+      "hard": "個人差A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "3y3s",
+      "chart": "ANOTHER",
+      "ver": "16",
+      "normal": "個人差B+",
+      "hard": "地力S+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "[ ]DENTITY",
+      "chart": "ANOTHER",
+      "ver": "30",
+      "normal": "地力A+",
+      "hard": "地力A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "A",
+      "chart": "ANOTHER",
+      "ver": "7",
+      "normal": "地力F",
+      "hard": "地力F",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "A MINSTREL ～ ver. short-scape ～",
+      "chart": "LEGGENDARIA",
+      "ver": "19",
+      "normal": "地力B",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "AA",
+      "chart": "ANOTHER",
+      "ver": "11",
+      "normal": "地力D",
+      "hard": "地力D",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "AA -rebuild-",
+      "chart": "ANOTHER",
+      "ver": "25",
+      "normal": "地力B",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "ABSOLUTE EVIL",
+      "chart": "ANOTHER",
+      "ver": "29",
+      "normal": "地力A",
+      "hard": "地力A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "ACT0",
+      "chart": "ANOTHER",
+      "ver": "31",
+      "normal": "地力D",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Adularia",
+      "chart": "ANOTHER",
+      "ver": "21",
+      "normal": "個人差D",
+      "hard": "個人差D",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Aftermath",
+      "chart": "ANOTHER",
+      "ver": "29",
+      "normal": "地力C",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "AIR RAID FROM THA UNDAGROUND",
+      "chart": "LEGGENDARIA",
+      "ver": "17",
+      "normal": "個人差B+",
+      "hard": "個人差B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "AKASHIC BREAK",
+      "chart": "ANOTHER",
+      "ver": "27",
+      "normal": "地力C",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "ALBA -黎明-",
+      "chart": "LEGGENDARIA",
+      "ver": "21",
+      "normal": "地力B+",
+      "hard": "個人差B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "ALBIDA",
+      "chart": "ANOTHER",
+      "ver": "18",
+      "normal": "地力D",
+      "hard": "地力D",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Almagest",
+      "chart": "ANOTHER",
+      "ver": "17",
+      "normal": "地力A+",
+      "hard": "地力S",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "ALTERNATOR",
+      "chart": "ANOTHER",
+      "ver": "29",
+      "normal": "地力A",
+      "hard": "地力A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Always We Trust In You",
+      "chart": "ANOTHER",
+      "ver": "30",
+      "normal": "地力C",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Amazing Mirage",
+      "chart": "LEGGENDARIA",
+      "ver": "24",
+      "normal": "地力C",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Ambivalent Vermilia",
+      "chart": "ANOTHER",
+      "ver": "31",
+      "normal": "地力A+",
+      "hard": "地力S",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "ANCHOR",
+      "chart": "ANOTHER",
+      "ver": "25",
+      "normal": "地力B+",
+      "hard": "地力A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Ancient Scapes",
+      "chart": "LEGGENDARIA",
+      "ver": "21",
+      "normal": "地力A+",
+      "hard": "地力A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Ancient Scapes",
+      "chart": "ANOTHER",
+      "ver": "21",
+      "normal": "地力C",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Angel's Ladder",
+      "chart": "ANOTHER",
+      "ver": "29",
+      "normal": "地力B",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Anisakis -somatic mutation type\"Forza\"-",
+      "chart": "LEGGENDARIA",
+      "ver": "15",
+      "normal": "地力A+",
+      "hard": "地力A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Antigravity",
+      "chart": "ANOTHER",
+      "ver": "25",
+      "normal": "地力B+",
+      "hard": "個人差B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "AO-1",
+      "chart": "ANOTHER",
+      "ver": "23",
+      "normal": "個人差C",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Apocalypse",
+      "chart": "ANOTHER",
+      "ver": "24",
+      "normal": "地力E",
+      "hard": "地力E",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Arabian Rave Night",
+      "chart": "LEGGENDARIA",
+      "ver": "16",
+      "normal": "地力C",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Arca",
+      "chart": "ANOTHER",
+      "ver": "25",
+      "normal": "地力E",
+      "hard": "地力E",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Arkadia",
+      "chart": "ANOTHER",
+      "ver": "29",
+      "normal": "地力B",
+      "hard": "地力B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Artist",
+      "chart": "ANOTHER",
+      "ver": "27",
+      "normal": "地力A",
+      "hard": "地力A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "ASIAN VIRTUAL REALITIES (MELTING TOGETHER IN DAZZLING DARKNESS)",
+      "chart": "ANOTHER",
+      "ver": "28",
+      "normal": "地力B",
+      "hard": "地力B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "ATHER",
+      "chart": "LEGGENDARIA",
+      "ver": "21",
+      "normal": "地力D",
+      "hard": "個人差D",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "B.O.D.Y.",
+      "chart": "ANOTHER",
+      "ver": "30",
+      "normal": "個人差D",
+      "hard": "個人差D",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "B4U(BEMANI FOR YOU MIX)",
+      "chart": "LEGGENDARIA",
+      "ver": "16",
+      "normal": "地力A+",
+      "hard": "地力A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Bad Encryption",
+      "chart": "ANOTHER",
+      "ver": "30",
+      "normal": "地力A+",
+      "hard": "地力S",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Bad Maniacs",
+      "chart": "ANOTHER",
+      "ver": "17",
+      "normal": "地力A",
+      "hard": "地力A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Be quiet",
+      "chart": "LEGGENDARIA",
+      "ver": "11",
+      "normal": "個人差B",
+      "hard": "個人差A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "BEAT PRISONER",
+      "chart": "ANOTHER",
+      "ver": "27",
+      "normal": "地力A",
+      "hard": "地力A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Beat Radiance",
+      "chart": "LEGGENDARIA",
+      "ver": "22",
+      "normal": "地力D",
+      "hard": "地力D",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Beyond Evolution",
+      "chart": "ANOTHER",
+      "ver": "30",
+      "normal": "地力S+",
+      "hard": "地力S+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "BIGWAVERS",
+      "chart": "ANOTHER",
+      "ver": "30",
+      "normal": "地力B",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "BIGソムタム",
+      "chart": "ANOTHER",
+      "ver": "28",
+      "normal": "地力D",
+      "hard": "地力E",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Binary Black Hole",
+      "chart": "ANOTHER",
+      "ver": "29",
+      "normal": "地力S",
+      "hard": "地力S",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "BITTER CHOCOLATE STRIKER",
+      "chart": "ANOTHER",
+      "ver": "16",
+      "normal": "地力B",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "BLACK or WHITE?",
+      "chart": "ANOTHER",
+      "ver": "28",
+      "normal": "地力A",
+      "hard": "地力A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "BLACK.by X-Cross Fade",
+      "chart": "ANOTHER",
+      "ver": "19",
+      "normal": "個人差A",
+      "hard": "個人差A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "BLAZING_LAZER",
+      "chart": "ANOTHER",
+      "ver": "31",
+      "normal": "地力D",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "BLUE DRAGON(雷龍RemixIIDX)",
+      "chart": "ANOTHER",
+      "ver": "21",
+      "normal": "地力B",
+      "hard": "地力B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "BLUE MIRAGE",
+      "chart": "ANOTHER",
+      "ver": "22",
+      "normal": "個人差D",
+      "hard": "個人差B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Blue Rain",
+      "chart": "LEGGENDARIA",
+      "ver": "15",
+      "normal": "地力A",
+      "hard": "地力A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Blue Spring Express",
+      "chart": "ANOTHER",
+      "ver": "23",
+      "normal": "地力A+",
+      "hard": "地力A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Boomy and The Boost",
+      "chart": "ANOTHER",
+      "ver": "25",
+      "normal": "個人差B",
+      "hard": "地力A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Bring The Fire",
+      "chart": "ANOTHER",
+      "ver": "32",
+      "normal": "地力D",
+      "hard": "地力D",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "BroGamer",
+      "chart": "LEGGENDARIA",
+      "ver": "24",
+      "normal": "個人差A+",
+      "hard": "地力S",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Broken",
+      "chart": "ANOTHER",
+      "ver": "18",
+      "normal": "地力D",
+      "hard": "地力D",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Broken Sword",
+      "chart": "ANOTHER",
+      "ver": "22",
+      "normal": "地力B",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Burning Flame",
+      "chart": "LEGGENDARIA",
+      "ver": "28",
+      "normal": "地力B",
+      "hard": "地力B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "CADENZA",
+      "chart": "ANOTHER",
+      "ver": "31",
+      "normal": "地力A+",
+      "hard": "地力A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Candy Galy",
+      "chart": "ANOTHER",
+      "ver": "14",
+      "normal": "地力B",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Carmina",
+      "chart": "ANOTHER",
+      "ver": "26",
+      "normal": "地力S",
+      "hard": "地力S",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Carry Me Away",
+      "chart": "ANOTHER",
+      "ver": "26",
+      "normal": "地力E",
+      "hard": "地力D",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Catch Our Fire!",
+      "chart": "ANOTHER",
+      "ver": "26",
+      "normal": "地力D",
+      "hard": "地力D",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Caterpillar",
+      "chart": "ANOTHER",
+      "ver": "24",
+      "normal": "個人差E",
+      "hard": "個人差D",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Chaotoxin",
+      "chart": "ANOTHER",
+      "ver": "30",
+      "normal": "地力C",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "CHRONO DIVER -NORNIR-",
+      "chart": "LEGGENDARIA",
+      "ver": "22",
+      "normal": "地力A+",
+      "hard": "地力A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Chrono Diver -PENDULUMs-",
+      "chart": "ANOTHER",
+      "ver": "22",
+      "normal": "地力S",
+      "hard": "地力S+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "cinder",
+      "chart": "ANOTHER",
+      "ver": "22",
+      "normal": "地力B",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Close the World feat.a☆ru",
+      "chart": "LEGGENDARIA",
+      "ver": "21",
+      "normal": "地力A",
+      "hard": "地力A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Close the World feat.a☆ru",
+      "chart": "ANOTHER",
+      "ver": "21",
+      "normal": "地力B",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "CODE:0",
+      "chart": "LEGGENDARIA",
+      "ver": "26",
+      "normal": "地力A+",
+      "hard": "個人差A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "CODE:1 [revision1.0.1]",
+      "chart": "ANOTHER",
+      "ver": "23",
+      "normal": "地力B",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Colorful Cookie",
+      "chart": "ANOTHER",
+      "ver": "16",
+      "normal": "地力B",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Colors (radio edit)",
+      "chart": "ANOTHER",
+      "ver": "6",
+      "normal": "地力E",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Concertino in Blue",
+      "chart": "ANOTHER",
+      "ver": "13",
+      "normal": "地力E",
+      "hard": "地力D",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Confiserie",
+      "chart": "ANOTHER",
+      "ver": "20",
+      "normal": "地力S",
+      "hard": "地力S",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "CONTRACT",
+      "chart": "LEGGENDARIA",
+      "ver": "13",
+      "normal": "地力A+",
+      "hard": "地力A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Cosmic Cat",
+      "chart": "LEGGENDARIA",
+      "ver": "22",
+      "normal": "地力C",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "COSMIC RAY",
+      "chart": "ANOTHER",
+      "ver": "28",
+      "normal": "地力A",
+      "hard": "地力A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "COSMIC V3LOCITY",
+      "chart": "ANOTHER",
+      "ver": "32",
+      "normal": "地力C",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "CUE CUE RESCUE",
+      "chart": "LEGGENDARIA",
+      "ver": "30",
+      "normal": "個人差S+",
+      "hard": "個人差S+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Cult Invitation",
+      "chart": "ANOTHER",
+      "ver": "31",
+      "normal": "個人差B+",
+      "hard": "個人差A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Dahlia",
+      "chart": "ANOTHER",
+      "ver": "31",
+      "normal": "地力D",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Dances with Snow Fairies",
+      "chart": "LEGGENDARIA",
+      "ver": "18",
+      "normal": "地力S",
+      "hard": "地力S",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Dances with Snow Fairies",
+      "chart": "ANOTHER",
+      "ver": "18",
+      "normal": "地力B",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Dans la nuit de l'eternite",
+      "chart": "ANOTHER",
+      "ver": "27",
+      "normal": "地力A+",
+      "hard": "地力S",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "DARK LEGACY",
+      "chart": "ANOTHER",
+      "ver": "21",
+      "normal": "地力C",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "dAuntl3ss",
+      "chart": "ANOTHER",
+      "ver": "26",
+      "normal": "地力C",
+      "hard": "地力D",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "DAY DREAM",
+      "chart": "ANOTHER",
+      "ver": "20",
+      "normal": "地力C",
+      "hard": "個人差B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "DEADHEAT",
+      "chart": "ANOTHER",
+      "ver": "25",
+      "normal": "地力B+",
+      "hard": "地力B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "DEATH†ZIGOQ ～怒りの高速爆走野郎～",
+      "chart": "LEGGENDARIA",
+      "ver": "25",
+      "normal": "地力S+",
+      "hard": "地力S+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "DEATH†ZIGOQ ～怒りの高速爆走野郎～",
+      "chart": "ANOTHER",
+      "ver": "25",
+      "normal": "地力A",
+      "hard": "地力A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Demon March",
+      "chart": "ANOTHER",
+      "ver": "31",
+      "normal": "地力A",
+      "hard": "地力A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Despair of ELFERIA",
+      "chart": "ANOTHER",
+      "ver": "22",
+      "normal": "地力A",
+      "hard": "地力A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "destination",
+      "chart": "ANOTHER",
+      "ver": "32",
+      "normal": "地力B",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Devil's Gear",
+      "chart": "ANOTHER",
+      "ver": "23",
+      "normal": "地力A",
+      "hard": "地力A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Devilz Staircase",
+      "chart": "ANOTHER",
+      "ver": "20",
+      "normal": "地力B",
+      "hard": "地力B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "DIAMOND CROSSING",
+      "chart": "ANOTHER",
+      "ver": "23",
+      "normal": "個人差B",
+      "hard": "個人差A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "DIAVOLO",
+      "chart": "ANOTHER",
+      "ver": "19",
+      "normal": "個人差S",
+      "hard": "個人差S",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "dica dica",
+      "chart": "ANOTHER",
+      "ver": "30",
+      "normal": "個人差E",
+      "hard": "個人差D",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "DIVINE JUDGEMENT",
+      "chart": "ANOTHER",
+      "ver": "32",
+      "normal": "地力C",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "DOMINION",
+      "chart": "ANOTHER",
+      "ver": "17",
+      "normal": "地力C",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Don't believe the hype",
+      "chart": "ANOTHER",
+      "ver": "29",
+      "normal": "個人差B+",
+      "hard": "個人差A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "DORNWALD ～Junge～",
+      "chart": "ANOTHER",
+      "ver": "24",
+      "normal": "地力A",
+      "hard": "地力A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Double Dribble",
+      "chart": "ANOTHER",
+      "ver": "27",
+      "normal": "地力D",
+      "hard": "地力D",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Dr. Chemical & Killing Machine",
+      "chart": "ANOTHER",
+      "ver": "26",
+      "normal": "地力C",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Drastic Dramatic",
+      "chart": "ANOTHER",
+      "ver": "26",
+      "normal": "地力D",
+      "hard": "地力D",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Drop Syndicate",
+      "chart": "ANOTHER",
+      "ver": "32",
+      "normal": "地力B+",
+      "hard": "地力B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "DropZ-Line-",
+      "chart": "ANOTHER",
+      "ver": "25",
+      "normal": "地力B",
+      "hard": "地力B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "DRUNK MONKY",
+      "chart": "ANOTHER",
+      "ver": "26",
+      "normal": "地力D",
+      "hard": "地力D",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "DUAL STRIKER",
+      "chart": "ANOTHER",
+      "ver": "28",
+      "normal": "地力B",
+      "hard": "地力B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "DUE TOMORROW",
+      "chart": "ANOTHER",
+      "ver": "13",
+      "normal": "個人差F",
+      "hard": "個人差D",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Dynamite",
+      "chart": "ANOTHER",
+      "ver": "23",
+      "normal": "地力A",
+      "hard": "個人差A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "EBONY & IVORY",
+      "chart": "LEGGENDARIA",
+      "ver": "22",
+      "normal": "地力A+",
+      "hard": "地力S",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "EBONY & IVORY",
+      "chart": "ANOTHER",
+      "ver": "22",
+      "normal": "地力C",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "ECHIDNA",
+      "chart": "ANOTHER",
+      "ver": "24",
+      "normal": "個人差A",
+      "hard": "個人差A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Elektrick U-Phoria",
+      "chart": "LEGGENDARIA",
+      "ver": "21",
+      "normal": "地力A",
+      "hard": "地力A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Elemental Creation",
+      "chart": "ANOTHER",
+      "ver": "20",
+      "normal": "地力S",
+      "hard": "地力S",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "EMERALDAS",
+      "chart": "ANOTHER",
+      "ver": "25",
+      "normal": "地力S",
+      "hard": "地力S",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Empire of Fury",
+      "chart": "ANOTHER",
+      "ver": "28",
+      "normal": "地力B+",
+      "hard": "地力A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "encounter",
+      "chart": "ANOTHER",
+      "ver": "25",
+      "normal": "地力E",
+      "hard": "地力E",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "entelecheia",
+      "chart": "ANOTHER",
+      "ver": "22",
+      "normal": "地力B",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "eRAseRmOToRpHAntOM",
+      "chart": "ANOTHER",
+      "ver": "17",
+      "normal": "個人差E",
+      "hard": "個人差E",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "EROICA",
+      "chart": "ANOTHER",
+      "ver": "27",
+      "normal": "個人差A+",
+      "hard": "地力S+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "EVANESCENT",
+      "chart": "ANOTHER",
+      "ver": "26",
+      "normal": "地力D",
+      "hard": "地力D",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Evans",
+      "chart": "ANOTHER",
+      "ver": "17",
+      "normal": "地力C",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Everlasting Message",
+      "chart": "ANOTHER",
+      "ver": "27",
+      "normal": "地力S",
+      "hard": "地力S",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "EX-MASSIVE FIGHTER",
+      "chart": "ANOTHER",
+      "ver": "32",
+      "normal": "地力C",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "EXUSIA",
+      "chart": "ANOTHER",
+      "ver": "17",
+      "normal": "地力A",
+      "hard": "地力B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "F",
+      "chart": "ANOTHER",
+      "ver": "19",
+      "normal": "地力E",
+      "hard": "地力E",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "FAKE TIME",
+      "chart": "ANOTHER",
+      "ver": "11",
+      "normal": "個人差C",
+      "hard": "個人差D",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "fallen leaves -IIDX edition-",
+      "chart": "ANOTHER",
+      "ver": "22",
+      "normal": "地力B+",
+      "hard": "地力A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "FANTASTIC THREE",
+      "chart": "ANOTHER",
+      "ver": "22",
+      "normal": "地力C",
+      "hard": "個人差C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Fascination MAXX",
+      "chart": "ANOTHER",
+      "ver": "14",
+      "normal": "個人差E",
+      "hard": "個人差A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Feel The Beat",
+      "chart": "ANOTHER",
+      "ver": "21",
+      "normal": "地力D",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Feel The Beat",
+      "chart": "LEGGENDARIA",
+      "ver": "21",
+      "normal": "地力A",
+      "hard": "地力S+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Fegrix",
+      "chart": "ANOTHER",
+      "ver": "29",
+      "normal": "地力D",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "fffff",
+      "chart": "ANOTHER",
+      "ver": "19",
+      "normal": "地力D",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Fire Beat",
+      "chart": "ANOTHER",
+      "ver": "28",
+      "normal": "個人差E",
+      "hard": "個人差E",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "FIRE FIRE",
+      "chart": "ANOTHER",
+      "ver": "14",
+      "normal": "地力D",
+      "hard": "地力D",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Flashes",
+      "chart": "ANOTHER",
+      "ver": "22",
+      "normal": "個人差C",
+      "hard": "地力A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Flying Castle",
+      "chart": "ANOTHER",
+      "ver": "29",
+      "normal": "地力B",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "four pieces of heaven",
+      "chart": "LEGGENDARIA",
+      "ver": "15",
+      "normal": "地力A",
+      "hard": "地力A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "frequent",
+      "chart": "ANOTHER",
+      "ver": "31",
+      "normal": "地力D",
+      "hard": "地力D",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Friction[!]Function",
+      "chart": "ANOTHER",
+      "ver": "27",
+      "normal": "地力C",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "FUZIN RIZIN",
+      "chart": "ANOTHER",
+      "ver": "24",
+      "normal": "地力C",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "G59",
+      "chart": "ANOTHER",
+      "ver": "17",
+      "normal": "地力A",
+      "hard": "地力B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "GAIA",
+      "chart": "ANOTHER",
+      "ver": "20",
+      "normal": "地力D",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "GAME ON",
+      "chart": "ANOTHER",
+      "ver": "31",
+      "normal": "個人差D",
+      "hard": "個人差C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Ganymede",
+      "chart": "LEGGENDARIA",
+      "ver": "13",
+      "normal": "地力A",
+      "hard": "地力A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "GENE",
+      "chart": "ANOTHER",
+      "ver": "26",
+      "normal": "地力B",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Ghost Pulse",
+      "chart": "ANOTHER",
+      "ver": "31",
+      "normal": "地力C",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "gigadelic",
+      "chart": "ANOTHER",
+      "ver": "11",
+      "normal": "地力E",
+      "hard": "地力F",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "gigadelic",
+      "chart": "SP☆12",
+      "ver": "11",
+      "normal": "地力E",
+      "hard": "地力F",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "GiGaGaHell",
+      "chart": "ANOTHER",
+      "ver": "29",
+      "normal": "個人差B",
+      "hard": "個人差A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "glacia",
+      "chart": "ANOTHER",
+      "ver": "30",
+      "normal": "地力E",
+      "hard": "地力E",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Glitch N Ride",
+      "chart": "ANOTHER",
+      "ver": "31",
+      "normal": "地力A+",
+      "hard": "個人差A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Go Ahead!!",
+      "chart": "ANOTHER",
+      "ver": "24",
+      "normal": "地力S",
+      "hard": "地力S+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Go Beyond!!",
+      "chart": "ANOTHER",
+      "ver": "16",
+      "normal": "地力D",
+      "hard": "地力S+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "GO OVER WITH GLARE -ROOTAGE 26-",
+      "chart": "ANOTHER",
+      "ver": "26",
+      "normal": "地力S",
+      "hard": "地力S",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Godspeed",
+      "chart": "ANOTHER",
+      "ver": "23",
+      "normal": "地力C",
+      "hard": "地力B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "GOLDEN CROSS",
+      "chart": "ANOTHER",
+      "ver": "17",
+      "normal": "地力C",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Grand Chariot",
+      "chart": "ANOTHER",
+      "ver": "23",
+      "normal": "地力B+",
+      "hard": "地力B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Gravigazer",
+      "chart": "ANOTHER",
+      "ver": "22",
+      "normal": "地力C",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "GRAVITON",
+      "chart": "ANOTHER",
+      "ver": "29",
+      "normal": "地力B+",
+      "hard": "地力B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "GRID KNIGHT",
+      "chart": "LEGGENDARIA",
+      "ver": "14",
+      "normal": "個人差F",
+      "hard": "地力E",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "GUILTY",
+      "chart": "LEGGENDARIA",
+      "ver": "22",
+      "normal": "地力B",
+      "hard": "地力B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "GuNGNiR",
+      "chart": "ANOTHER",
+      "ver": "24",
+      "normal": "地力A",
+      "hard": "地力A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "GuNGNiR",
+      "chart": "LEGGENDARIA",
+      "ver": "24",
+      "normal": "地力S+",
+      "hard": "地力S+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "HADES",
+      "chart": "ANOTHER",
+      "ver": "24",
+      "normal": "地力A",
+      "hard": "地力B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "HAERETICUS",
+      "chart": "ANOTHER",
+      "ver": "19",
+      "normal": "地力A",
+      "hard": "地力A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "HARD BRAIN",
+      "chart": "ANOTHER",
+      "ver": "26",
+      "normal": "地力B",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "hard-wired",
+      "chart": "ANOTHER",
+      "ver": "29",
+      "normal": "地力S",
+      "hard": "地力S",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Hat Surprise (Season 2)",
+      "chart": "ANOTHER",
+      "ver": "30",
+      "normal": "地力E",
+      "hard": "地力E",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Here We Go Now",
+      "chart": "ANOTHER",
+      "ver": "32",
+      "normal": "地力C",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Highcharge Divolt",
+      "chart": "ANOTHER",
+      "ver": "23",
+      "normal": "地力D",
+      "hard": "地力D",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Hollywood Galaxy",
+      "chart": "ANOTHER",
+      "ver": "20",
+      "normal": "個人差B",
+      "hard": "地力A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "HYENA",
+      "chart": "LEGGENDARIA",
+      "ver": "21",
+      "normal": "個人差S+",
+      "hard": "個人差S+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "I",
+      "chart": "ANOTHER",
+      "ver": "30",
+      "normal": "地力B",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "ICARUS",
+      "chart": "LEGGENDARIA",
+      "ver": "15",
+      "normal": "地力S",
+      "hard": "地力S+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "ICARUS",
+      "chart": "ANOTHER",
+      "ver": "15",
+      "normal": "個人差F",
+      "hard": "個人差E",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Idola",
+      "chart": "ANOTHER",
+      "ver": "21",
+      "normal": "地力C",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Ignis†Irae",
+      "chart": "ANOTHER",
+      "ver": "28",
+      "normal": "地力A+",
+      "hard": "地力S",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Illegal Function Call",
+      "chart": "LEGGENDARIA",
+      "ver": "20",
+      "normal": "地力S+",
+      "hard": "地力S+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Illusionary Waterlily",
+      "chart": "ANOTHER",
+      "ver": "25",
+      "normal": "地力B",
+      "hard": "地力B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "IMPLANTATION",
+      "chart": "ANOTHER",
+      "ver": "22",
+      "normal": "個人差C",
+      "hard": "個人差C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Inferno of Fomalhaut",
+      "chart": "ANOTHER",
+      "ver": "27",
+      "normal": "個人差B",
+      "hard": "個人差B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Initiation",
+      "chart": "ANOTHER",
+      "ver": "25",
+      "normal": "地力A+",
+      "hard": "地力A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "innocent revolver",
+      "chart": "ANOTHER",
+      "ver": "28",
+      "normal": "地力C",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Innocent Walls",
+      "chart": "SP☆12",
+      "ver": "10",
+      "normal": "個人差F",
+      "hard": "個人差F",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Innocent Walls",
+      "chart": "ANOTHER",
+      "ver": "10",
+      "normal": "個人差F",
+      "hard": "個人差E",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "INSOMNIA",
+      "chart": "ANOTHER",
+      "ver": "21",
+      "normal": "地力B",
+      "hard": "地力B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Invitation from Mr.C",
+      "chart": "ANOTHER",
+      "ver": "22",
+      "normal": "地力C",
+      "hard": "個人差C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "invoker",
+      "chart": "ANOTHER",
+      "ver": "21",
+      "normal": "地力E",
+      "hard": "地力E",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "invoker",
+      "chart": "LEGGENDARIA",
+      "ver": "21",
+      "normal": "個人差A",
+      "hard": "地力A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "IX",
+      "chart": "ANOTHER",
+      "ver": "21",
+      "normal": "地力S",
+      "hard": "地力S",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "JOMANDA",
+      "chart": "ANOTHER",
+      "ver": "20",
+      "normal": "地力B+",
+      "hard": "個人差B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "JUSTICE/GUILTY feat. Nana Takahashi & 709sec.",
+      "chart": "ANOTHER",
+      "ver": "31",
+      "normal": "地力E",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "KAISER PHOENIX",
+      "chart": "LEGGENDARIA",
+      "ver": "21",
+      "normal": "地力S",
+      "hard": "地力S+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "KAISER PHOENIX",
+      "chart": "ANOTHER",
+      "ver": "21",
+      "normal": "地力A",
+      "hard": "地力A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "KAMAITACHI",
+      "chart": "LEGGENDARIA",
+      "ver": "14",
+      "normal": "地力S+",
+      "hard": "地力S+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "KILL EACH OTHER",
+      "chart": "ANOTHER",
+      "ver": "26",
+      "normal": "地力B",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "KING",
+      "chart": "LEGGENDARIA",
+      "ver": "30",
+      "normal": "地力E",
+      "hard": "地力D",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Konzert V",
+      "chart": "ANOTHER",
+      "ver": "23",
+      "normal": "地力C",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "kors k's How to make OTOGE CORE 「LONG」",
+      "chart": "ANOTHER",
+      "ver": "30",
+      "normal": "地力B+",
+      "hard": "地力A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Kung-fu Empire",
+      "chart": "LEGGENDARIA",
+      "ver": "16",
+      "normal": "地力D",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "L.F.O",
+      "chart": "ANOTHER",
+      "ver": "26",
+      "normal": "地力C",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "LASER CRUSTER",
+      "chart": "ANOTHER",
+      "ver": "14",
+      "normal": "地力E",
+      "hard": "地力E",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "LASER CRUSTER (IGNITE REMIX)",
+      "chart": "ANOTHER",
+      "ver": "27",
+      "normal": "地力B",
+      "hard": "地力B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Last Dance",
+      "chart": "ANOTHER",
+      "ver": "21",
+      "normal": "地力C",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Lethal Weapon",
+      "chart": "ANOTHER",
+      "ver": "26",
+      "normal": "地力C",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Level 2",
+      "chart": "ANOTHER",
+      "ver": "27",
+      "normal": "個人差D",
+      "hard": "個人差B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Level 3",
+      "chart": "ANOTHER",
+      "ver": "28",
+      "normal": "個人差A",
+      "hard": "個人差A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Level 4",
+      "chart": "ANOTHER",
+      "ver": "30",
+      "normal": "個人差A",
+      "hard": "個人差A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Level 5",
+      "chart": "ANOTHER",
+      "ver": "31",
+      "normal": "個人差A+",
+      "hard": "個人差S",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Level One",
+      "chart": "ANOTHER",
+      "ver": "26",
+      "normal": "個人差B+",
+      "hard": "個人差A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Liberation",
+      "chart": "ANOTHER",
+      "ver": "20",
+      "normal": "地力E",
+      "hard": "地力D",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Life Is A Game ft.DD\"ナカタ\"Metal",
+      "chart": "ANOTHER",
+      "ver": "25",
+      "normal": "地力A",
+      "hard": "地力A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "LIGHTNING STRIKES",
+      "chart": "LEGGENDARIA",
+      "ver": "27",
+      "normal": "地力A+",
+      "hard": "地力A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "LIGHTNING STRIKES",
+      "chart": "ANOTHER",
+      "ver": "27",
+      "normal": "地力E",
+      "hard": "地力E",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Lightspeed",
+      "chart": "ANOTHER",
+      "ver": "32",
+      "normal": "地力B",
+      "hard": "地力B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Little Little Princess",
+      "chart": "LEGGENDARIA",
+      "ver": "12",
+      "normal": "地力B",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Little Star",
+      "chart": "ANOTHER",
+      "ver": "20",
+      "normal": "地力E",
+      "hard": "地力E",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "LIVE DRIVING!! feat. 花たん",
+      "chart": "ANOTHER",
+      "ver": "29",
+      "normal": "地力C",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "LOCUS OF THE TRAVEL",
+      "chart": "ANOTHER",
+      "ver": "28",
+      "normal": "地力A",
+      "hard": "地力A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Lords Of The Roundtable",
+      "chart": "ANOTHER",
+      "ver": "27",
+      "normal": "個人差A+",
+      "hard": "個人差A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Lost Souls",
+      "chart": "LEGGENDARIA",
+      "ver": "27",
+      "normal": "地力S",
+      "hard": "地力S",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "LOST TECHNOLOGIE",
+      "chart": "ANOTHER",
+      "ver": "26",
+      "normal": "地力C",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "LOUDER ROLLING THUNDER",
+      "chart": "ANOTHER",
+      "ver": "30",
+      "normal": "地力A+",
+      "hard": "地力A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "M4K3 1T B0UNC3",
+      "chart": "ANOTHER",
+      "ver": "23",
+      "normal": "地力B",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Macho Monky",
+      "chart": "ANOTHER",
+      "ver": "26",
+      "normal": "地力B+",
+      "hard": "地力A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "MAD ATTACK",
+      "chart": "LEGGENDARIA",
+      "ver": "21",
+      "normal": "個人差D",
+      "hard": "個人差B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Mare Nectaris",
+      "chart": "ANOTHER",
+      "ver": "24",
+      "normal": "地力S+",
+      "hard": "地力S+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Marie Antoinette",
+      "chart": "LEGGENDARIA",
+      "ver": "16",
+      "normal": "個人差B",
+      "hard": "個人差B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Matt Silver",
+      "chart": "ANOTHER",
+      "ver": "27",
+      "normal": "地力D",
+      "hard": "地力D",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "MAX 300",
+      "chart": "ANOTHER",
+      "ver": "7",
+      "normal": "地力B",
+      "hard": "個人差B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "MAX 360",
+      "chart": "ANOTHER",
+      "ver": "30",
+      "normal": "地力B",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "MAXIMUM CHEAT GIRL",
+      "chart": "ANOTHER",
+      "ver": "31",
+      "normal": "地力B",
+      "hard": "地力B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "MEGAERA",
+      "chart": "ANOTHER",
+      "ver": "28",
+      "normal": "地力S",
+      "hard": "地力S",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Megalara Garuda",
+      "chart": "ANOTHER",
+      "ver": "27",
+      "normal": "地力D",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Meissa",
+      "chart": "ANOTHER",
+      "ver": "30",
+      "normal": "地力D",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "MENDES",
+      "chart": "ANOTHER",
+      "ver": "15",
+      "normal": "地力A",
+      "hard": "地力A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Mid-Corner (Magic Maker)",
+      "chart": "ANOTHER",
+      "ver": "32",
+      "normal": "個人差S+",
+      "hard": "個人差S+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Million Dollar",
+      "chart": "ANOTHER",
+      "ver": "31",
+      "normal": "地力C",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Miracle 5ympho X",
+      "chart": "LEGGENDARIA",
+      "ver": "21",
+      "normal": "個人差B+",
+      "hard": "個人差A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Monopole.",
+      "chart": "ANOTHER",
+      "ver": "22",
+      "normal": "地力B",
+      "hard": "地力B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "moon_child",
+      "chart": "ANOTHER",
+      "ver": "9",
+      "normal": "地力E",
+      "hard": "地力E",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "mosaic",
+      "chart": "ANOTHER",
+      "ver": "17",
+      "normal": "個人差E",
+      "hard": "個人差F",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "n/a",
+      "chart": "ANOTHER",
+      "ver": "29",
+      "normal": "地力S+",
+      "hard": "地力S+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "NEO GENERATOR SEVEN",
+      "chart": "ANOTHER",
+      "ver": "22",
+      "normal": "地力C",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "neu",
+      "chart": "ANOTHER",
+      "ver": "20",
+      "normal": "地力B",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "New Castle Legions",
+      "chart": "ANOTHER",
+      "ver": "18",
+      "normal": "個人差D",
+      "hard": "個人差C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "NEW GENERATION -もう、お前しか見えない-",
+      "chart": "LEGGENDARIA",
+      "ver": "15",
+      "normal": "地力B+",
+      "hard": "地力A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Nightmare before oversleep",
+      "chart": "ANOTHER",
+      "ver": "23",
+      "normal": "地力C",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "NINJA IS DEAD IIDX ver.",
+      "chart": "ANOTHER",
+      "ver": "23",
+      "normal": "地力E",
+      "hard": "地力E",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "NITROUS CANNON",
+      "chart": "ANOTHER",
+      "ver": "25",
+      "normal": "地力B",
+      "hard": "地力B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "NNRT",
+      "chart": "ANOTHER",
+      "ver": "19",
+      "normal": "地力C",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "No Border",
+      "chart": "ANOTHER",
+      "ver": "30",
+      "normal": "地力D",
+      "hard": "地力D",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "NOIXIA",
+      "chart": "ANOTHER",
+      "ver": "32",
+      "normal": "地力A",
+      "hard": "地力A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Nothing but Theory",
+      "chart": "LEGGENDARIA",
+      "ver": "25",
+      "normal": "個人差S+",
+      "hard": "個人差S+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "NZM",
+      "chart": "ANOTHER",
+      "ver": "23",
+      "normal": "地力A+",
+      "hard": "個人差A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "O/D*20",
+      "chart": "LEGGENDARIA",
+      "ver": "25",
+      "normal": "地力B+",
+      "hard": "地力A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "ONE AND ONLY",
+      "chart": "ANOTHER",
+      "ver": "30",
+      "normal": "地力D",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "One for All",
+      "chart": "ANOTHER",
+      "ver": "29",
+      "normal": "地力B",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "One More Lovely",
+      "chart": "ANOTHER",
+      "ver": "10",
+      "normal": "地力B+",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "one or eight",
+      "chart": "ANOTHER",
+      "ver": "9",
+      "normal": "個人差F",
+      "hard": "個人差E",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "ONIGOROSHI",
+      "chart": "ANOTHER",
+      "ver": "26",
+      "normal": "個人差D",
+      "hard": "個人差C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "oratio",
+      "chart": "ANOTHER",
+      "ver": "15",
+      "normal": "地力D",
+      "hard": "地力D",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "ORCA",
+      "chart": "ANOTHER",
+      "ver": "27",
+      "normal": "地力B+",
+      "hard": "地力B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "OTENAMI Hurricane",
+      "chart": "ANOTHER",
+      "ver": "24",
+      "normal": "地力B",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Ou Legends",
+      "chart": "ANOTHER",
+      "ver": "30",
+      "normal": "地力C",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Out of Control",
+      "chart": "ANOTHER",
+      "ver": "31",
+      "normal": "地力D",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Override",
+      "chart": "LEGGENDARIA",
+      "ver": "27",
+      "normal": "地力S",
+      "hard": "地力S",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Painful Fate",
+      "chart": "ANOTHER",
+      "ver": "26",
+      "normal": "地力A",
+      "hard": "地力A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Papilio ulysses",
+      "chart": "ANOTHER",
+      "ver": "25",
+      "normal": "個人差C",
+      "hard": "個人差B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "PARADISE LOST",
+      "chart": "ANOTHER",
+      "ver": "18",
+      "normal": "地力A+",
+      "hard": "地力A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "PARANOiA ～HADES～",
+      "chart": "ANOTHER",
+      "ver": "15",
+      "normal": "個人差C",
+      "hard": "個人差B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Parvati",
+      "chart": "ANOTHER",
+      "ver": "28",
+      "normal": "地力D",
+      "hard": "地力D",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Peaktime Booster",
+      "chart": "ANOTHER",
+      "ver": "30",
+      "normal": "個人差B",
+      "hard": "個人差B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "perditus†paradisus",
+      "chart": "ANOTHER",
+      "ver": "18",
+      "normal": "地力S",
+      "hard": "地力S",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Persephone",
+      "chart": "ANOTHER",
+      "ver": "25",
+      "normal": "地力D",
+      "hard": "地力D",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Phoenix",
+      "chart": "LEGGENDARIA",
+      "ver": "19",
+      "normal": "地力S",
+      "hard": "地力S",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Plan 8",
+      "chart": "ANOTHER",
+      "ver": "20",
+      "normal": "個人差S",
+      "hard": "個人差S",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "PLASMA SOUL NIGHT feat. Nana Takahashi / 709sec.",
+      "chart": "ANOTHER",
+      "ver": "29",
+      "normal": "地力B+",
+      "hard": "地力B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "PLEASE DON'T GO",
+      "chart": "ANOTHER",
+      "ver": "8",
+      "normal": "個人差D",
+      "hard": "個人差D",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "POSSESSION",
+      "chart": "ANOTHER",
+      "ver": "23",
+      "normal": "地力D",
+      "hard": "個人差D",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Primitive Vibes",
+      "chart": "ANOTHER",
+      "ver": "27",
+      "normal": "地力F",
+      "hard": "地力F",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Proof of the existence",
+      "chart": "ANOTHER",
+      "ver": "20",
+      "normal": "地力B",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "PUNISHER",
+      "chart": "ANOTHER",
+      "ver": "21",
+      "normal": "地力D",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Purple Perplex",
+      "chart": "ANOTHER",
+      "ver": "29",
+      "normal": "個人差B+",
+      "hard": "個人差A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Push on Beats!～音ゲの国のeX-ストリーマー～",
+      "chart": "ANOTHER",
+      "ver": "29",
+      "normal": "地力C",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Quakes",
+      "chart": "ANOTHER",
+      "ver": "24",
+      "normal": "地力A+",
+      "hard": "地力A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "QUANTUM TELEPORTATION",
+      "chart": "LEGGENDARIA",
+      "ver": "19",
+      "normal": "地力B",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "quaver♪",
+      "chart": "ANOTHER",
+      "ver": "19",
+      "normal": "地力B",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "quell～the seventh slave～",
+      "chart": "ANOTHER",
+      "ver": "17",
+      "normal": "地力A",
+      "hard": "地力A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "ra'am",
+      "chart": "ANOTHER",
+      "ver": "21",
+      "normal": "地力B",
+      "hard": "個人差B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "rage against usual",
+      "chart": "ANOTHER",
+      "ver": "12",
+      "normal": "地力C",
+      "hard": "個人差B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "RAGE feat.H14 of LEONAIR",
+      "chart": "ANOTHER",
+      "ver": "29",
+      "normal": "個人差S",
+      "hard": "個人差S",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "RAIN",
+      "chart": "ANOTHER",
+      "ver": "24",
+      "normal": "地力C",
+      "hard": "地力D",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Rampage",
+      "chart": "ANOTHER",
+      "ver": "25",
+      "normal": "地力D",
+      "hard": "地力D",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Raspberry Railgun",
+      "chart": "ANOTHER",
+      "ver": "25",
+      "normal": "地力E",
+      "hard": "地力E",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Rave Cannon",
+      "chart": "ANOTHER",
+      "ver": "24",
+      "normal": "地力D",
+      "hard": "地力D",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Rave Patroller",
+      "chart": "ANOTHER",
+      "ver": "27",
+      "normal": "地力C",
+      "hard": "地力D",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Rave*it!! Rave*it!!",
+      "chart": "ANOTHER",
+      "ver": "22",
+      "normal": "個人差D",
+      "hard": "個人差A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "RED ZONE",
+      "chart": "LEGGENDARIA",
+      "ver": "11",
+      "normal": "地力E",
+      "hard": "地力E",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Red. by Full Metal Jacket",
+      "chart": "ANOTHER",
+      "ver": "17",
+      "normal": "個人差C",
+      "hard": "個人差B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Red. by Jack Trance",
+      "chart": "ANOTHER",
+      "ver": "26",
+      "normal": "個人差A",
+      "hard": "個人差A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Reflux",
+      "chart": "ANOTHER",
+      "ver": "22",
+      "normal": "個人差A",
+      "hard": "個人差A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "refrain",
+      "chart": "ANOTHER",
+      "ver": "23",
+      "normal": "地力B",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Resonant",
+      "chart": "ANOTHER",
+      "ver": "31",
+      "normal": "地力B+",
+      "hard": "地力A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "reunion",
+      "chart": "ANOTHER",
+      "ver": "18",
+      "normal": "地力B",
+      "hard": "地力A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "REVOLVER",
+      "chart": "LEGGENDARIA",
+      "ver": "25",
+      "normal": "地力A+",
+      "hard": "個人差A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "RINNE",
+      "chart": "ANOTHER",
+      "ver": "30",
+      "normal": "地力C",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Ristaccia",
+      "chart": "ANOTHER",
+      "ver": "15",
+      "normal": "地力F",
+      "hard": "地力F",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Roar of Chronos",
+      "chart": "ANOTHER",
+      "ver": "32",
+      "normal": "地力C",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "rommmo",
+      "chart": "ANOTHER",
+      "ver": "28",
+      "normal": "地力C",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "ruin of opals",
+      "chart": "ANOTHER",
+      "ver": "26",
+      "normal": "地力B",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "sakura storm",
+      "chart": "ANOTHER",
+      "ver": "18",
+      "normal": "未分類",
+      "hard": "個人差F",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "SAMURAI-Scramble",
+      "chart": "LEGGENDARIA",
+      "ver": "24",
+      "normal": "個人差S",
+      "hard": "個人差S",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Satellite Burst",
+      "chart": "ANOTHER",
+      "ver": "32",
+      "normal": "地力A+",
+      "hard": "地力A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Saturn",
+      "chart": "LEGGENDARIA",
+      "ver": "20",
+      "normal": "地力A+",
+      "hard": "地力S",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "SAY BAY",
+      "chart": "ANOTHER",
+      "ver": "24",
+      "normal": "地力C",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Say YEEEAHH",
+      "chart": "ANOTHER",
+      "ver": "22",
+      "normal": "地力D",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "SCREAM SQUAD",
+      "chart": "ANOTHER",
+      "ver": "12",
+      "normal": "個人差F",
+      "hard": "個人差F",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "SCREW // owo // SCREW",
+      "chart": "ANOTHER",
+      "ver": "27",
+      "normal": "個人差A",
+      "hard": "個人差A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Scripted Connection⇒ A mix",
+      "chart": "LEGGENDARIA",
+      "ver": "12",
+      "normal": "個人差B+",
+      "hard": "地力A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Scripted Connection⇒ A mix",
+      "chart": "ANOTHER",
+      "ver": "12",
+      "normal": "地力D",
+      "hard": "個人差D",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Scripted Connection⇒ H mix",
+      "chart": "LEGGENDARIA",
+      "ver": "12",
+      "normal": "地力D",
+      "hard": "地力D",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Secrets",
+      "chart": "LEGGENDARIA",
+      "ver": "16",
+      "normal": "地力A",
+      "hard": "地力A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Sense 2007",
+      "chart": "ANOTHER",
+      "ver": "14",
+      "normal": "個人差D",
+      "hard": "個人差C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Session 9 -Chronicles-",
+      "chart": "ANOTHER",
+      "ver": "18",
+      "normal": "地力B",
+      "hard": "地力B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Seven Times Four",
+      "chart": "ANOTHER",
+      "ver": "31",
+      "normal": "地力C",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Shooting Fireball",
+      "chart": "ANOTHER",
+      "ver": "22",
+      "normal": "地力B+",
+      "hard": "地力B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Sigmund",
+      "chart": "LEGGENDARIA",
+      "ver": "21",
+      "normal": "地力S+",
+      "hard": "地力S+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Sigmund",
+      "chart": "ANOTHER",
+      "ver": "21",
+      "normal": "地力S",
+      "hard": "地力S",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Silver Bullet",
+      "chart": "ANOTHER",
+      "ver": "29",
+      "normal": "地力D",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Sinus Iridum",
+      "chart": "ANOTHER",
+      "ver": "28",
+      "normal": "地力S",
+      "hard": "地力S+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Sirius",
+      "chart": "ANOTHER",
+      "ver": "31",
+      "normal": "地力E",
+      "hard": "地力E",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Sky High",
+      "chart": "ANOTHER",
+      "ver": "24",
+      "normal": "地力B",
+      "hard": "地力B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Slipstream",
+      "chart": "ANOTHER",
+      "ver": "25",
+      "normal": "地力B",
+      "hard": "地力B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Smalt #28598F",
+      "chart": "ANOTHER",
+      "ver": "29",
+      "normal": "地力B",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Smashing Wedge",
+      "chart": "ANOTHER",
+      "ver": "27",
+      "normal": "地力A+",
+      "hard": "地力A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Snake Stick",
+      "chart": "ANOTHER",
+      "ver": "19",
+      "normal": "個人差B",
+      "hard": "個人差A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Snakey Kung-fu",
+      "chart": "ANOTHER",
+      "ver": "24",
+      "normal": "地力B+",
+      "hard": "個人差B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "snow storm",
+      "chart": "LEGGENDARIA",
+      "ver": "14",
+      "normal": "地力F",
+      "hard": "地力F",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Sol Cosine Job 2",
+      "chart": "ANOTHER",
+      "ver": "20",
+      "normal": "地力C",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "SOLAR ECLIPSE",
+      "chart": "ANOTHER",
+      "ver": "31",
+      "normal": "地力A+",
+      "hard": "個人差A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "SOLID STATE SQUAD",
+      "chart": "LEGGENDARIA",
+      "ver": "17",
+      "normal": "地力A",
+      "hard": "地力A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "SOLID STATE SQUAD",
+      "chart": "ANOTHER",
+      "ver": "17",
+      "normal": "地力D",
+      "hard": "地力D",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "SOLID STATE SQUAD -RISEN RELIC REMIX-",
+      "chart": "ANOTHER",
+      "ver": "28",
+      "normal": "地力C",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "SOLID WYVERN",
+      "chart": "LEGGENDARIA",
+      "ver": "29",
+      "normal": "地力A+",
+      "hard": "地力A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Somnidiscotheque",
+      "chart": "ANOTHER",
+      "ver": "30",
+      "normal": "地力S+",
+      "hard": "地力S+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Sounds Of Summer",
+      "chart": "ANOTHER",
+      "ver": "22",
+      "normal": "地力C",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "SpaceLand☆TOYBOX",
+      "chart": "ANOTHER",
+      "ver": "22",
+      "normal": "地力D",
+      "hard": "地力D",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "SPECIAL SUMMER CAMPAIGN!",
+      "chart": "ANOTHER",
+      "ver": "18",
+      "normal": "地力F",
+      "hard": "地力F",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "spiral galaxy",
+      "chart": "LEGGENDARIA",
+      "ver": "11",
+      "normal": "地力C",
+      "hard": "地力D",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "STARLIGHT DANCEHALL",
+      "chart": "LEGGENDARIA",
+      "ver": "23",
+      "normal": "地力B+",
+      "hard": "地力B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Steel Edge",
+      "chart": "ANOTHER",
+      "ver": "24",
+      "normal": "個人差F",
+      "hard": "地力E",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "STEEL NEEDLE",
+      "chart": "LEGGENDARIA",
+      "ver": "15",
+      "normal": "個人差B+",
+      "hard": "地力S",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Stereo Beasts",
+      "chart": "ANOTHER",
+      "ver": "31",
+      "normal": "地力D",
+      "hard": "地力D",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "StrayedCatz",
+      "chart": "ANOTHER",
+      "ver": "23",
+      "normal": "地力B+",
+      "hard": "地力B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "STULTI",
+      "chart": "ANOTHER",
+      "ver": "20",
+      "normal": "個人差B",
+      "hard": "地力A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Summerlights(IIDX Edition)",
+      "chart": "ANOTHER",
+      "ver": "24",
+      "normal": "地力E",
+      "hard": "地力D",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Super Freak",
+      "chart": "ANOTHER",
+      "ver": "30",
+      "normal": "地力C",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Super Rush",
+      "chart": "ANOTHER",
+      "ver": "24",
+      "normal": "地力B",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "suspicions",
+      "chart": "ANOTHER",
+      "ver": "30",
+      "normal": "地力A",
+      "hard": "地力A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Sword of Vengeance",
+      "chart": "ANOTHER",
+      "ver": "31",
+      "normal": "地力C",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Symmetry",
+      "chart": "ANOTHER",
+      "ver": "22",
+      "normal": "地力E",
+      "hard": "地力E",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "SYNC-ANTHEM",
+      "chart": "ANOTHER",
+      "ver": "20",
+      "normal": "地力B+",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "T-REX vs Velociraptor (In the Far east euphoria)",
+      "chart": "ANOTHER",
+      "ver": "27",
+      "normal": "地力B",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "TECHNO Style Essentials",
+      "chart": "ANOTHER",
+      "ver": "27",
+      "normal": "地力C",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "TECHNOPHOBIA",
+      "chart": "ANOTHER",
+      "ver": "30",
+      "normal": "個人差B+",
+      "hard": "地力A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "THANK YOU FOR PLAYING",
+      "chart": "LEGGENDARIA",
+      "ver": "16",
+      "normal": "地力C",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "THE BRAVE MUST DIE",
+      "chart": "ANOTHER",
+      "ver": "27",
+      "normal": "地力A",
+      "hard": "地力A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "The Chase",
+      "chart": "ANOTHER",
+      "ver": "25",
+      "normal": "個人差A",
+      "hard": "個人差A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "The Clown of 24stairs",
+      "chart": "ANOTHER",
+      "ver": "30",
+      "normal": "地力A+",
+      "hard": "地力A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "THE DAY OF JUBILATIONS",
+      "chart": "ANOTHER",
+      "ver": "26",
+      "normal": "地力C",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "THE DEEP STRIKER",
+      "chart": "LEGGENDARIA",
+      "ver": "15",
+      "normal": "地力B",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "THE F∀UST",
+      "chart": "ANOTHER",
+      "ver": "27",
+      "normal": "地力A+",
+      "hard": "地力A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "The Last Apocalypse",
+      "chart": "ANOTHER",
+      "ver": "31",
+      "normal": "地力B",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "The Least 100sec",
+      "chart": "ANOTHER",
+      "ver": "22",
+      "normal": "地力D",
+      "hard": "地力D",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "The Limbo",
+      "chart": "LEGGENDARIA",
+      "ver": "19",
+      "normal": "地力S+",
+      "hard": "地力S+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "The Limbo",
+      "chart": "ANOTHER",
+      "ver": "19",
+      "normal": "地力B+",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "The Onlyonez",
+      "chart": "ANOTHER",
+      "ver": "31",
+      "normal": "地力E",
+      "hard": "個人差F",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "THE PEERLESS UNDER HEAVEN",
+      "chart": "ANOTHER",
+      "ver": "28",
+      "normal": "個人差A",
+      "hard": "個人差A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "The Rebellion of Sequencer",
+      "chart": "ANOTHER",
+      "ver": "26",
+      "normal": "地力A",
+      "hard": "地力A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "The Sampling Paradise",
+      "chart": "ANOTHER",
+      "ver": "19",
+      "normal": "地力D",
+      "hard": "地力D",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Thor's Hammer",
+      "chart": "ANOTHER",
+      "ver": "20",
+      "normal": "個人差A",
+      "hard": "個人差S",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "thunder HOUSE NATION Remix",
+      "chart": "LEGGENDARIA",
+      "ver": "16",
+      "normal": "地力C",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Thunderbolt",
+      "chart": "ANOTHER",
+      "ver": "19",
+      "normal": "地力D",
+      "hard": "地力D",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "TIEFSEE",
+      "chart": "ANOTHER",
+      "ver": "22",
+      "normal": "地力D",
+      "hard": "地力D",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Tiempo Loco",
+      "chart": "ANOTHER",
+      "ver": "28",
+      "normal": "地力A+",
+      "hard": "地力A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Time to Air",
+      "chart": "LEGGENDARIA",
+      "ver": "15",
+      "normal": "個人差A+",
+      "hard": "個人差A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Timepiece phase II",
+      "chart": "ANOTHER",
+      "ver": "20",
+      "normal": "地力B",
+      "hard": "地力B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Timepiece phase II (CN Ver.)",
+      "chart": "ANOTHER",
+      "ver": "20",
+      "normal": "個人差A+",
+      "hard": "個人差S",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "TITANS RETURN",
+      "chart": "LEGGENDARIA",
+      "ver": "19",
+      "normal": "個人差A",
+      "hard": "個人差A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Todestrieb",
+      "chart": "ANOTHER",
+      "ver": "19",
+      "normal": "地力E",
+      "hard": "地力D",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "TOGAKUSHI",
+      "chart": "ANOTHER",
+      "ver": "24",
+      "normal": "個人差D",
+      "hard": "個人差C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "TOMAHAWK",
+      "chart": "ANOTHER",
+      "ver": "29",
+      "normal": "個人差A",
+      "hard": "個人差A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "TOXIC VIBRATION",
+      "chart": "ANOTHER",
+      "ver": "22",
+      "normal": "地力B+",
+      "hard": "地力B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "TRANOID",
+      "chart": "LEGGENDARIA",
+      "ver": "14",
+      "normal": "地力S",
+      "hard": "地力S",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Trill auf G",
+      "chart": "ANOTHER",
+      "ver": "26",
+      "normal": "地力D",
+      "hard": "地力B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Triple Counter",
+      "chart": "ANOTHER",
+      "ver": "23",
+      "normal": "地力A",
+      "hard": "地力A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Triple Cross",
+      "chart": "ANOTHER",
+      "ver": "29",
+      "normal": "地力B",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "TRIUMPH",
+      "chart": "ANOTHER",
+      "ver": "27",
+      "normal": "地力A",
+      "hard": "地力A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "TROOPERS",
+      "chart": "ANOTHER",
+      "ver": "15",
+      "normal": "個人差F",
+      "hard": "個人差E",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "True Blue",
+      "chart": "ANOTHER",
+      "ver": "20",
+      "normal": "地力D",
+      "hard": "地力D",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Twelfth Style",
+      "chart": "LEGGENDARIA",
+      "ver": "12",
+      "normal": "地力B+",
+      "hard": "地力B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "u gotta beat",
+      "chart": "ANOTHER",
+      "ver": "32",
+      "normal": "地力B",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Ubertreffen",
+      "chart": "LEGGENDARIA",
+      "ver": "15",
+      "normal": "地力B",
+      "hard": "地力B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Umbral",
+      "chart": "LEGGENDARIA",
+      "ver": "24",
+      "normal": "地力D",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Unbelief",
+      "chart": "ANOTHER",
+      "ver": "26",
+      "normal": "地力B+",
+      "hard": "地力A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "V",
+      "chart": "ANOTHER",
+      "ver": "5",
+      "normal": "地力D",
+      "hard": "地力D",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Valanga",
+      "chart": "ANOTHER",
+      "ver": "20",
+      "normal": "地力B",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "VANESSA",
+      "chart": "ANOTHER",
+      "ver": "14",
+      "normal": "地力E",
+      "hard": "地力D",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "VANESSA",
+      "chart": "LEGGENDARIA",
+      "ver": "14",
+      "normal": "地力A+",
+      "hard": "地力S",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Venom",
+      "chart": "ANOTHER",
+      "ver": "24",
+      "normal": "地力E",
+      "hard": "地力E",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Verflucht",
+      "chart": "ANOTHER",
+      "ver": "21",
+      "normal": "地力A",
+      "hard": "地力A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Verflucht",
+      "chart": "LEGGENDARIA",
+      "ver": "21",
+      "normal": "地力S+",
+      "hard": "地力S+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Vermilion Carol",
+      "chart": "ANOTHER",
+      "ver": "31",
+      "normal": "地力B",
+      "hard": "地力B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Vinculum stellarum",
+      "chart": "ANOTHER",
+      "ver": "27",
+      "normal": "地力C",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Violet Pulse",
+      "chart": "LEGGENDARIA",
+      "ver": "23",
+      "normal": "地力A",
+      "hard": "地力A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Viridian",
+      "chart": "ANOTHER",
+      "ver": "28",
+      "normal": "地力C",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Visterhv",
+      "chart": "ANOTHER",
+      "ver": "26",
+      "normal": "地力B+",
+      "hard": "地力B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Vitrum",
+      "chart": "ANOTHER",
+      "ver": "28",
+      "normal": "地力B",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "VOID",
+      "chart": "ANOTHER",
+      "ver": "30",
+      "normal": "地力A+",
+      "hard": "個人差A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "VOLAQUAS",
+      "chart": "ANOTHER",
+      "ver": "30",
+      "normal": "地力A",
+      "hard": "地力A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "voltississimo",
+      "chart": "ANOTHER",
+      "ver": "26",
+      "normal": "地力A+",
+      "hard": "地力A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "VOX UP",
+      "chart": "ANOTHER",
+      "ver": "21",
+      "normal": "個人差C",
+      "hard": "個人差A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Vulnerability",
+      "chart": "ANOTHER",
+      "ver": "31",
+      "normal": "地力A+",
+      "hard": "地力A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Watch Out Pt.2",
+      "chart": "ANOTHER",
+      "ver": "18",
+      "normal": "個人差C",
+      "hard": "個人差B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "waxing and wanding",
+      "chart": "LEGGENDARIA",
+      "ver": "13",
+      "normal": "地力A",
+      "hard": "地力A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "We're so Happy (P*Light Remix) IIDX ver.",
+      "chart": "ANOTHER",
+      "ver": "22",
+      "normal": "地力C",
+      "hard": "地力B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Welcome",
+      "chart": "LEGGENDARIA",
+      "ver": "23",
+      "normal": "地力B",
+      "hard": "地力B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "WHA",
+      "chart": "ANOTHER",
+      "ver": "29",
+      "normal": "個人差A+",
+      "hard": "個人差A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "WONDER WALKER",
+      "chart": "ANOTHER",
+      "ver": "19",
+      "normal": "地力C",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "X",
+      "chart": "ANOTHER",
+      "ver": "23",
+      "normal": "地力B",
+      "hard": "地力B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "X-DEN",
+      "chart": "ANOTHER",
+      "ver": "26",
+      "normal": "地力S",
+      "hard": "地力S+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Xb10r",
+      "chart": "ANOTHER",
+      "ver": "31",
+      "normal": "地力B+",
+      "hard": "地力B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Xerulean",
+      "chart": "ANOTHER",
+      "ver": "30",
+      "normal": "地力S",
+      "hard": "地力S",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Xlo",
+      "chart": "ANOTHER",
+      "ver": "26",
+      "normal": "地力B",
+      "hard": "地力A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Xperanza",
+      "chart": "ANOTHER",
+      "ver": "25",
+      "normal": "地力B",
+      "hard": "地力B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Y&Co. is dead or alive",
+      "chart": "ANOTHER",
+      "ver": "16",
+      "normal": "個人差C",
+      "hard": "個人差A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "YAKSHA",
+      "chart": "ANOTHER",
+      "ver": "19",
+      "normal": "地力B+",
+      "hard": "地力B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "yellow head joe",
+      "chart": "LEGGENDARIA",
+      "ver": "19",
+      "normal": "地力C",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Ypsilon",
+      "chart": "LEGGENDARIA",
+      "ver": "27",
+      "normal": "地力C",
+      "hard": "地力D",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "ZEPHYRANTHES",
+      "chart": "LEGGENDARIA",
+      "ver": "23",
+      "normal": "地力A",
+      "hard": "地力A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Zirkfied",
+      "chart": "ANOTHER",
+      "ver": "20",
+      "normal": "個人差A",
+      "hard": "地力A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "ZZ",
+      "chart": "ANOTHER",
+      "ver": "22",
+      "normal": "個人差D",
+      "hard": "地力D",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "ΕΛΠΙΣ",
+      "chart": "ANOTHER",
+      "ver": "20",
+      "normal": "地力E",
+      "hard": "地力E",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "ΕΛΠΙΣ",
+      "chart": "LEGGENDARIA",
+      "ver": "20",
+      "normal": "地力B",
+      "hard": "地力B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "†渚の小悪魔ラヴリィ～レイディオ†(IIDX EDIT)",
+      "chart": "ANOTHER",
+      "ver": "20",
+      "normal": "地力B+",
+      "hard": "地力B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "∀",
+      "chart": "ANOTHER",
+      "ver": "28",
+      "normal": "地力A+",
+      "hard": "地力A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "〆",
+      "chart": "ANOTHER",
+      "ver": "24",
+      "normal": "地力D",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "《PL|RAYER》",
+      "chart": "ANOTHER",
+      "ver": "31",
+      "normal": "地力E",
+      "hard": "地力E",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "お米の美味しい炊き方、そしてお米を食べることによるその効果。",
+      "chart": "LEGGENDARIA",
+      "ver": "20",
+      "normal": "地力S",
+      "hard": "地力S",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "お菓子の王国",
+      "chart": "ANOTHER",
+      "ver": "26",
+      "normal": "地力A",
+      "hard": "地力A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "がっつり陰キャ!? 怪盗いいんちょの億劫^^;",
+      "chart": "ANOTHER",
+      "ver": "27",
+      "normal": "地力A+",
+      "hard": "地力A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "それは花火のような恋",
+      "chart": "ANOTHER",
+      "ver": "22",
+      "normal": "地力C",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "ぞうしょく！？マイデンティティ",
+      "chart": "ANOTHER",
+      "ver": "30",
+      "normal": "地力B+",
+      "hard": "地力B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "たまゆら",
+      "chart": "ANOTHER",
+      "ver": "20",
+      "normal": "地力B",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "めいさいアイドル☆あいむちゃん♪",
+      "chart": "ANOTHER",
+      "ver": "23",
+      "normal": "地力C",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "アストライアの双皿",
+      "chart": "ANOTHER",
+      "ver": "20",
+      "normal": "個人差C",
+      "hard": "個人差C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "イザナミノナゲキ",
+      "chart": "ANOTHER",
+      "ver": "24",
+      "normal": "地力C",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "カゴノトリ～弐式～",
+      "chart": "ANOTHER",
+      "ver": "13",
+      "normal": "地力D",
+      "hard": "地力E",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "カジノファイヤーことみちゃん",
+      "chart": "LEGGENDARIA",
+      "ver": "20",
+      "normal": "個人差B+",
+      "hard": "地力S",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "キャトられ恋はモ～モク",
+      "chart": "ANOTHER",
+      "ver": "20",
+      "normal": "地力B+",
+      "hard": "地力A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "シムルグの目醒め",
+      "chart": "ANOTHER",
+      "ver": "25",
+      "normal": "地力A+",
+      "hard": "地力A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "シュレーディンガーの猫",
+      "chart": "ANOTHER",
+      "ver": "20",
+      "normal": "地力C",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "スパークリング☆彡ハイパーチューン！！",
+      "chart": "ANOTHER",
+      "ver": "32",
+      "normal": "地力F",
+      "hard": "地力F",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "スーパー戦湯ババンバーン",
+      "chart": "ANOTHER",
+      "ver": "28",
+      "normal": "個人差D",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "ディスコルディア",
+      "chart": "ANOTHER",
+      "ver": "28",
+      "normal": "個人差A+",
+      "hard": "地力S+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "トリカゴノ鳳凰",
+      "chart": "ANOTHER",
+      "ver": "20",
+      "normal": "地力C",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "ハイテックトキオ",
+      "chart": "LEGGENDARIA",
+      "ver": "29",
+      "normal": "個人差D",
+      "hard": "個人差C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "バッド・スイーツ、バッド・ドリーム",
+      "chart": "ANOTHER",
+      "ver": "28",
+      "normal": "個人差B+",
+      "hard": "個人差A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "ピアノ協奏曲第1番”蠍火” (BlackY Remix)",
+      "chart": "ANOTHER",
+      "ver": "27",
+      "normal": "地力A",
+      "hard": "地力A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "ピアノ協奏曲第１番”蠍火”",
+      "chart": "ANOTHER",
+      "ver": "11",
+      "normal": "個人差B+",
+      "hard": "個人差B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "ピアノ独奏無言歌 \"灰燼\"",
+      "chart": "ANOTHER",
+      "ver": "29",
+      "normal": "個人差A",
+      "hard": "個人差A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "フォニイ",
+      "chart": "LEGGENDARIA",
+      "ver": "31",
+      "normal": "個人差S+",
+      "hard": "個人差S+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "ミラージュ・レジデンス",
+      "chart": "LEGGENDARIA",
+      "ver": "15",
+      "normal": "個人差C",
+      "hard": "個人差B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "リリーゼと炎龍レーヴァテイン",
+      "chart": "ANOTHER",
+      "ver": "22",
+      "normal": "地力B",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "ワルツ第17番 ト短調”大犬のワルツ”",
+      "chart": "ANOTHER",
+      "ver": "17",
+      "normal": "個人差E",
+      "hard": "個人差C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "不沈艦CANDY",
+      "chart": "ANOTHER",
+      "ver": "16",
+      "normal": "地力B",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "世界の果てに約束の凱歌を -ReUnion-",
+      "chart": "ANOTHER",
+      "ver": "28",
+      "normal": "地力A",
+      "hard": "地力A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "九尾狐夜行",
+      "chart": "ANOTHER",
+      "ver": "24",
+      "normal": "地力D",
+      "hard": "地力D",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "二人ノ廃城幽踊宴",
+      "chart": "ANOTHER",
+      "ver": "28",
+      "normal": "地力A",
+      "hard": "地力A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "今宵、ロマンス横丁。",
+      "chart": "ANOTHER",
+      "ver": "31",
+      "normal": "地力B+",
+      "hard": "地力A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "仮想空間の旅人たち",
+      "chart": "LEGGENDARIA",
+      "ver": "20",
+      "normal": "地力A",
+      "hard": "地力B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "伐折羅-vajra-",
+      "chart": "ANOTHER",
+      "ver": "28",
+      "normal": "地力A",
+      "hard": "地力A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "儚キ戀ノ幻想譚",
+      "chart": "ANOTHER",
+      "ver": "30",
+      "normal": "地力B",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "共鳴遊戯の華",
+      "chart": "ANOTHER",
+      "ver": "22",
+      "normal": "地力S",
+      "hard": "地力S",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "冥",
+      "chart": "ANOTHER",
+      "ver": "12",
+      "normal": "地力A",
+      "hard": "地力S+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "刃図羅",
+      "chart": "ANOTHER",
+      "ver": "24",
+      "normal": "地力D",
+      "hard": "地力D",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "千年ノ理",
+      "chart": "LEGGENDARIA",
+      "ver": "22",
+      "normal": "地力S",
+      "hard": "地力A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "千年ノ理",
+      "chart": "ANOTHER",
+      "ver": "22",
+      "normal": "地力E",
+      "hard": "地力F",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "卑弥呼",
+      "chart": "ANOTHER",
+      "ver": "16",
+      "normal": "地力S+",
+      "hard": "地力S+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "即席！脳直★ミュージックシステム",
+      "chart": "ANOTHER",
+      "ver": "20",
+      "normal": "地力D",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "君のハートにロックオン",
+      "chart": "LEGGENDARIA",
+      "ver": "19",
+      "normal": "地力A",
+      "hard": "地力A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "嘆きの樹",
+      "chart": "ANOTHER",
+      "ver": "13",
+      "normal": "地力S",
+      "hard": "地力S",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "夏色DIARY - L.E.D.-G STYLE MIX -",
+      "chart": "ANOTHER",
+      "ver": "22",
+      "normal": "地力C",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "天使のカンタータ -Cantata of Angels-",
+      "chart": "ANOTHER",
+      "ver": "32",
+      "normal": "個人差S+",
+      "hard": "個人差S+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "天空の夜明け",
+      "chart": "ANOTHER",
+      "ver": "19",
+      "normal": "地力A",
+      "hard": "地力A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "天邪鬼",
+      "chart": "ANOTHER",
+      "ver": "29",
+      "normal": "地力D",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "子供の落書き帳",
+      "chart": "ANOTHER",
+      "ver": "19",
+      "normal": "地力C",
+      "hard": "地力B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "少年A",
+      "chart": "ANOTHER",
+      "ver": "15",
+      "normal": "地力E",
+      "hard": "地力D",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "少年は空を辿る",
+      "chart": "ANOTHER",
+      "ver": "22",
+      "normal": "地力B",
+      "hard": "地力B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "廿",
+      "chart": "LEGGENDARIA",
+      "ver": "21",
+      "normal": "地力B",
+      "hard": "個人差B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "恋する☆宇宙戦争っ！！",
+      "chart": "LEGGENDARIA",
+      "ver": "19",
+      "normal": "地力A+",
+      "hard": "地力A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "恋する☆宇宙戦争っ！！",
+      "chart": "ANOTHER",
+      "ver": "19",
+      "normal": "地力D",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "恋愛＝精度×認識力",
+      "chart": "ANOTHER",
+      "ver": "30",
+      "normal": "地力B",
+      "hard": "個人差A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "惑星鉄道",
+      "chart": "ANOTHER",
+      "ver": "31",
+      "normal": "地力S+",
+      "hard": "地力S+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "抱きしめてモナムール",
+      "chart": "ANOTHER",
+      "ver": "26",
+      "normal": "地力B+",
+      "hard": "地力B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "摩天楼",
+      "chart": "ANOTHER",
+      "ver": "31",
+      "normal": "個人差C",
+      "hard": "個人差C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "新宝島",
+      "chart": "LEGGENDARIA",
+      "ver": "28",
+      "normal": "個人差S+",
+      "hard": "個人差S+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "旋律のドグマ～Miserables～",
+      "chart": "ANOTHER",
+      "ver": "21",
+      "normal": "地力C",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "最小三倍完全数",
+      "chart": "ANOTHER",
+      "ver": "26",
+      "normal": "地力D",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "未完成ノ蒸氣驅動乙女",
+      "chart": "ANOTHER",
+      "ver": "31",
+      "normal": "地力B",
+      "hard": "地力B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "東京神話",
+      "chart": "ANOTHER",
+      "ver": "25",
+      "normal": "地力B+",
+      "hard": "地力A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "栄冠のカンパネラ",
+      "chart": "ANOTHER",
+      "ver": "30",
+      "normal": "地力S",
+      "hard": "地力S",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "桜",
+      "chart": "ANOTHER",
+      "ver": "8",
+      "normal": "個人差E",
+      "hard": "個人差E",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "残像ニ繋ガレタ追憶ノHIDEAWAY",
+      "chart": "ANOTHER",
+      "ver": "31",
+      "normal": "地力F",
+      "hard": "地力F",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "水鏡の異界",
+      "chart": "ANOTHER",
+      "ver": "28",
+      "normal": "個人差B",
+      "hard": "個人差B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "津軽雪",
+      "chart": "ANOTHER",
+      "ver": "24",
+      "normal": "地力B+",
+      "hard": "地力A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "海神",
+      "chart": "LEGGENDARIA",
+      "ver": "21",
+      "normal": "地力B+",
+      "hard": "個人差B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "海神",
+      "chart": "ANOTHER",
+      "ver": "21",
+      "normal": "個人差D",
+      "hard": "個人差D",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "深淵に捧ぐレクイエム",
+      "chart": "ANOTHER",
+      "ver": "27",
+      "normal": "地力C",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "火影",
+      "chart": "ANOTHER",
+      "ver": "24",
+      "normal": "個人差C",
+      "hard": "個人差B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "灼熱 Lost Summer Dayz",
+      "chart": "ANOTHER",
+      "ver": "32",
+      "normal": "地力E",
+      "hard": "個人差B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "灼熱 Pt.2 Long Train Running",
+      "chart": "ANOTHER",
+      "ver": "23",
+      "normal": "個人差S",
+      "hard": "個人差S",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "灼熱Beach Side Bunny",
+      "chart": "ANOTHER",
+      "ver": "18",
+      "normal": "個人差S",
+      "hard": "個人差S",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "灼熱Beach Side Bunny (かめりあ's \"Summertime D'n'B\" Remix)",
+      "chart": "ANOTHER",
+      "ver": "31",
+      "normal": "個人差B",
+      "hard": "個人差B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "烽火連天の刃",
+      "chart": "ANOTHER",
+      "ver": "29",
+      "normal": "地力A",
+      "hard": "個人差B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "烽火連天の刃",
+      "chart": "LEGGENDARIA",
+      "ver": "29",
+      "normal": "個人差S+",
+      "hard": "個人差S+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "焔極OVERKILL",
+      "chart": "ANOTHER",
+      "ver": "24",
+      "normal": "地力S",
+      "hard": "地力S",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "煉獄のエルフェリア",
+      "chart": "ANOTHER",
+      "ver": "21",
+      "normal": "地力A+",
+      "hard": "地力S",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "狂イ咲ケ焔ノ華",
+      "chart": "ANOTHER",
+      "ver": "20",
+      "normal": "地力D",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "疾風迅雷",
+      "chart": "LEGGENDARIA",
+      "ver": "21",
+      "normal": "地力S+",
+      "hard": "地力S+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "疾風迅雷",
+      "chart": "ANOTHER",
+      "ver": "21",
+      "normal": "地力C",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "真 地獄超特急 -HELL or HELL-",
+      "chart": "ANOTHER",
+      "ver": "23",
+      "normal": "個人差A",
+      "hard": "個人差A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "神のシナリオ",
+      "chart": "ANOTHER",
+      "ver": "30",
+      "normal": "地力D",
+      "hard": "個人差D",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "神謳 -RESONANCE-",
+      "chart": "ANOTHER",
+      "ver": "25",
+      "normal": "地力B",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "禊",
+      "chart": "ANOTHER",
+      "ver": "29",
+      "normal": "地力C",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "童話回廊",
+      "chart": "ANOTHER",
+      "ver": "24",
+      "normal": "地力B",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "紅牡丹",
+      "chart": "ANOTHER",
+      "ver": "22",
+      "normal": "地力E",
+      "hard": "地力E",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "紫陽花 -AZISAI-",
+      "chart": "LEGGENDARIA",
+      "ver": "23",
+      "normal": "地力A",
+      "hard": "個人差A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "紫陽花 -AZISAI-",
+      "chart": "ANOTHER",
+      "ver": "23",
+      "normal": "地力D",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "終焔のClaudia",
+      "chart": "ANOTHER",
+      "ver": "31",
+      "normal": "地力E",
+      "hard": "地力D",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "聖人の塔",
+      "chart": "ANOTHER",
+      "ver": "19",
+      "normal": "地力D",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "華爛漫 -Flowers-",
+      "chart": "LEGGENDARIA",
+      "ver": "15",
+      "normal": "地力C",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "華蝶風雪",
+      "chart": "LEGGENDARIA",
+      "ver": "13",
+      "normal": "地力D",
+      "hard": "地力D",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "華麗なる大犬円舞曲",
+      "chart": "ANOTHER",
+      "ver": "27",
+      "normal": "地力A",
+      "hard": "地力A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "蛇神",
+      "chart": "LEGGENDARIA",
+      "ver": "19",
+      "normal": "個人差S+",
+      "hard": "個人差S+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "表裏一体！？怪盗いいんちょの悩み",
+      "chart": "LEGGENDARIA",
+      "ver": "22",
+      "normal": "地力S",
+      "hard": "地力S",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "表裏一体！？怪盗いいんちょの悩み",
+      "chart": "ANOTHER",
+      "ver": "22",
+      "normal": "地力D",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "超青少年ノ為ノ超多幸ナ超古典的超舞曲",
+      "chart": "LEGGENDARIA",
+      "ver": "22",
+      "normal": "地力A+",
+      "hard": "地力A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "轟け！恋のビーンボール！！",
+      "chart": "ANOTHER",
+      "ver": "21",
+      "normal": "地力B",
+      "hard": "地力B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "逆月",
+      "chart": "ANOTHER",
+      "ver": "29",
+      "normal": "個人差C",
+      "hard": "地力B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "金野火織の金色提言",
+      "chart": "ANOTHER",
+      "ver": "26",
+      "normal": "地力A",
+      "hard": "地力A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "閠槞彁の願い",
+      "chart": "ANOTHER",
+      "ver": "28",
+      "normal": "地力A",
+      "hard": "地力A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "雪上断火",
+      "chart": "ANOTHER",
+      "ver": "29",
+      "normal": "個人差C",
+      "hard": "個人差B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "雪月花",
+      "chart": "ANOTHER",
+      "ver": "10",
+      "normal": "個人差F",
+      "hard": "個人差F",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "電人、暁に斃れる。",
+      "chart": "ANOTHER",
+      "ver": "14",
+      "normal": "地力D",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "電光",
+      "chart": "ANOTHER",
+      "ver": "31",
+      "normal": "地力C",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "電腦都市",
+      "chart": "ANOTHER",
+      "ver": "31",
+      "normal": "地力B",
+      "hard": "地力B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "音楽",
+      "chart": "ANOTHER",
+      "ver": "20",
+      "normal": "個人差B+",
+      "hard": "個人差A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "駅猫のワルツ",
+      "chart": "ANOTHER",
+      "ver": "23",
+      "normal": "地力S",
+      "hard": "地力S",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "魅惑のYUMMYスイーツ",
+      "chart": "ANOTHER",
+      "ver": "27",
+      "normal": "地力B",
+      "hard": "地力B+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "魔法のかくれんぼ",
+      "chart": "ANOTHER",
+      "ver": "28",
+      "normal": "個人差E",
+      "hard": "個人差C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "黒髪乱れし修羅となりて",
+      "chart": "ANOTHER",
+      "ver": "18",
+      "normal": "地力E",
+      "hard": "地力E",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "龍と少女とデコヒーレンス",
+      "chart": "LEGGENDARIA",
+      "ver": "20",
+      "normal": "地力B",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "龍王の霊廟(Mausoleum Of The Primal Dragon)",
+      "chart": "LEGGENDARIA",
+      "ver": "26",
+      "normal": "地力C",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    }
+  ]
+}

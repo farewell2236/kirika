@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>IIDX SP☆12 OPTION MANAGER</title>
+<style>
+:root{--bg:#070a11;--panel:#111827;--panel2:#182235;--line:#2d3a50;--text:#eef5ff;--muted:#98a8bc;--cyan:#25d9ff;--orange:#ff9c2b;--danger:#ff8492}
+*{box-sizing:border-box}
+body{margin:0;background:linear-gradient(145deg,#05070c,#111a2b);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans JP",sans-serif}
+header{position:sticky;top:0;z-index:10;padding:14px;background:rgba(7,10,17,.96);border-bottom:1px solid var(--line);backdrop-filter:blur(10px)}
+h1{font-size:18px;margin:0 0 10px;color:var(--cyan)}
+.controls{display:grid;grid-template-columns:repeat(4,minmax(120px,1fr));gap:8px}
+button,input,select{min-height:42px;padding:9px 10px;border:1px solid #35455e;border-radius:8px;background:#111a29;color:var(--text);font-size:14px}
+button{font-weight:700;cursor:pointer}.mode.active{background:#073c4b;border-color:var(--cyan)}
+#status{margin-top:9px;color:var(--muted);font-size:13px;line-height:1.45}#status.error{color:var(--danger)}
+main{max-width:1100px;margin:auto;padding:14px}.summary{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:12px}
+.badge{padding:6px 10px;border:1px solid var(--line);border-radius:999px;background:var(--panel);font-size:12px}
+.group{margin-bottom:10px;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--panel)}
+.group-title{width:100%;display:flex;justify-content:space-between;border:0;border-radius:0;background:linear-gradient(90deg,#182235,#101725);padding:12px 14px}
+.group-title strong{color:var(--orange)}.group.closed .rows{display:none}
+.row{display:grid;grid-template-columns:60px minmax(210px,1fr) 140px;gap:10px;align-items:center;padding:9px 12px;border-top:1px solid #202c40}
+.row:hover{background:#152033}.ver{color:var(--muted);font-size:12px}.title{font-weight:650;overflow-wrap:anywhere}.option-select{width:100%}
+.empty{text-align:center;padding:55px 10px;color:var(--muted)}
+@media(max-width:700px){.controls{grid-template-columns:1fr 1fr}.controls input{grid-column:1/-1}.row{grid-template-columns:42px minmax(0,1fr) 112px;padding:9px 8px;gap:7px}h1{font-size:16px}}
+</style>
+</head>
+<body>
+<header>
+<h1>IIDX SP☆12 OPTION MANAGER</h1>
+<div class="controls">
+<button id="normalBtn" class="mode active">ノマゲ難易度表</button>
+<button id="hardBtn" class="mode">ハード難易度表</button>
+<input id="search" type="search" placeholder="曲名検索">
+<select id="optionFilter"></select>
+<button id="refreshBtn">曲データ更新</button>
+<button id="exportBtn">バックアップ保存</button>
+<button id="importBtn">バックアップ読込</button>
+<button id="resetBtn">オプション初期化</button>
+</div>
+<div id="status">SP☆12専用データを準備中…</div>
+</header>
+<main><div id="summary" class="summary"></div><div id="app" class="empty">準備中です</div></main>
+<footer style="max-width:1100px;margin:auto;padding:0 14px 20px;color:var(--muted);font-size:12px">楽曲データ参照元：sp12.iidx.app（SP☆12のみ）</footer>
+<input id="importFile" type="file" accept=".json,application/json" hidden>
+<script>
+const DATA_URL='./data/sp12.json';
+const CACHE_KEY='iidx_sp12_only_sheet_cache_v5';
+const OPT_KEY='iidx_sp12_options_v3';
+const MODE_KEY='iidx_sp12_mode_v3';
+const OPTIONS=['未設定','正規','MIRROR','RANDOM','R-RANDOM','S-RANDOM','H-RANDOM'];
+const ORDER=['未定','地力S+','個人差S+','地力S','個人差S','地力A+','個人差A+','地力A','個人差A','地力B+','個人差B+','地力B','個人差B','地力C','個人差C','地力D','個人差D','地力E','個人差E','地力F','個人差F','未分類'];
+const $=s=>document.querySelector(s);
+const clean=s=>String(s??'').replace(/\s+/g,' ').trim();
+const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+let mode=localStorage.getItem(MODE_KEY)||'normal';
+let options=JSON.parse(localStorage.getItem(OPT_KEY)||'{}');
+let songs=JSON.parse(localStorage.getItem(CACHE_KEY)||'[]');
+
+function status(t,e=false){$('#status').className=e?'error':'';$('#status').textContent=t}
+function save(){localStorage.setItem(OPT_KEY,JSON.stringify(options));localStorage.setItem(MODE_KEY,mode)}
+function optKey(s){return mode+'::'+s.title+'::'+(s.chart||'')}
+function getOpt(s){return options[optKey(s)]||'未設定'}
+function normalizeRank(v){
+  const s=clean(v);
+  if(!s||s==='null'||s==='-')return '未分類';
+  if(ORDER.includes(s))return s;
+  const m=s.match(/(個人差|地力)?\s*([A-FS])(\+)?/i);
+  if(m)return (m[1]||'地力')+m[2].toUpperCase()+(m[3]||'');
+  return '未分類';
+}
+function pick(o,names){for(const n of names)if(o&&o[n]!=null)return o[n];return null}
+function transform(raw){
+ const arr=Array.isArray(raw)?raw:(raw.sheets||raw.data||[]);
+ const rows=arr.map(x=>{
+   const title=clean(pick(x,['title','music_title','name','song_name']));
+   const ver=clean(pick(x,['version','ver','series']))||'-';
+   const normal=normalizeRank(pick(x,['n_clear_string','normal_string','normal','normal_rank']));
+   const hard=normalizeRank(pick(x,['hard_string','hard','hard_rank']));
+   return {title,chart:'SP☆12',ver,normal,hard,level:12,source:'sp12.iidx.app'};
+ }).filter(x=>x.title&&x.level===12);
+ const seen=new Set();
+ return rows.filter(x=>{const key=x.title+'\0'+x.ver;if(seen.has(key))return false;seen.add(key);return true});
+}
+async function fetchSheetData(){
+ const r=await fetch(DATA_URL+'?t='+Date.now(),{cache:'no-store'});
+ if(!r.ok)throw new Error('data/sp12.json HTTP '+r.status);
+ const data=await r.json();
+ const parsed=transform(data);
+ if(parsed.length<100)throw new Error('data/sp12.jsonの曲数が不足（'+parsed.length+'件）');
+ return {parsed,url:DATA_URL,updatedAt:data.updatedAt||''};
+}
+async function load(force=false){
+ if(songs.length&&!force){render();status(`保存済みのSP☆12データを表示中：${songs.length}譜面`);return}
+ status('GitHub上のSP☆12データを読み込み中…');
+ try{
+  const {parsed,url,updatedAt}=await fetchSheetData();
+  songs=parsed;
+  localStorage.setItem(CACHE_KEY,JSON.stringify(songs));
+  render();
+  status(`取得完了：SP☆12 ${songs.length}譜面${updatedAt?'（更新 '+updatedAt+'）':''}`);
+ }catch(e){
+  render();
+  status('SP☆12データの読み込みに失敗しました：'+e.message+'。同梱データを読み込めませんでした。ページを再読み込みしてください。',true);
+ }
+}
+function currentList(){
+ return songs.map(s=>({...s,rank:mode==='normal'?s.normal:s.hard}));
+}
+function render(){
+ $('#normalBtn').classList.toggle('active',mode==='normal');$('#hardBtn').classList.toggle('active',mode==='hard');
+ const list=currentList(),q=clean($('#search').value).toLowerCase(),f=$('#optionFilter').value;
+ const shown=list.filter(s=>(!q||s.title.toLowerCase().includes(q))&&(!f||getOpt(s)===f));
+ const groups=new Map(ORDER.map(r=>[r,[]]));shown.forEach(s=>(groups.get(s.rank)||groups.get('未分類')).push(s));
+ $('#app').className='';
+ $('#app').innerHTML=[...groups].filter(([,a])=>a.length).map(([rank,a])=>`<section class="group">
+ <button class="group-title"><strong>${esc(rank)}</strong><span>${a.length}譜面 ▾</span></button>
+ <div class="rows">${a.sort((x,y)=>x.title.localeCompare(y.title,'ja')).map(s=>`<div class="row">
+ <span class="ver">${esc(s.ver)}</span><span class="title">${esc(s.title)}${s.chart?` <small>${esc(s.chart)}</small>`:''}</span>
+ <select class="option-select" data-key="${esc(optKey(s))}">${OPTIONS.map(o=>`<option${getOpt(s)===o?' selected':''}>${o}</option>`).join('')}</select>
+ </div>`).join('')}</div></section>`).join('')||(songs.length?'<div class="empty">該当曲なし</div>':'<div class="empty">曲データがありません。「曲データ更新」を押してください。</div>');
+ document.querySelectorAll('.group-title').forEach(b=>b.onclick=()=>b.parentElement.classList.toggle('closed'));
+ document.querySelectorAll('.option-select').forEach(s=>s.onchange=()=>{options[s.dataset.key]=s.value;save();render()});
+ $('#summary').innerHTML=`<span class="badge">全 ${list.length}譜面</span>`+OPTIONS.map(o=>`<span class="badge">${o}: ${list.filter(s=>getOpt(s)===o).length}</span>`).join('');
+}
+function switchMode(m){mode=m;save();render()}
+function exportData(){
+ const blob=new Blob([JSON.stringify({options,exportedAt:new Date().toISOString()},null,2)],{type:'application/json'});
+ const a=document.createElement('a');a.href=URL.createObjectURL(blob);a.download='IIDX_SP12_options.json';a.click();URL.revokeObjectURL(a.href);
+}
+$('#normalBtn').onclick=()=>switchMode('normal');$('#hardBtn').onclick=()=>switchMode('hard');
+$('#search').oninput=render;$('#optionFilter').onchange=render;$('#refreshBtn').onclick=()=>load(true);
+$('#exportBtn').onclick=exportData;$('#importBtn').onclick=()=>$('#importFile').click();
+$('#importFile').onchange=async e=>{try{const d=JSON.parse(await e.target.files[0].text());options=d.options||{};save();render();status('バックアップを読み込みました')}catch(x){status('バックアップを読み込めませんでした',true)}};
+$('#resetBtn').onclick=()=>{if(confirm('すべてのオプションを未設定に戻しますか？')){options={};save();render()}};
+$('#optionFilter').innerHTML='<option value="">全オプション</option>'+OPTIONS.map(o=>`<option>${o}</option>`).join('');
+render();load(false);
+</script>
+</body>
+</html>

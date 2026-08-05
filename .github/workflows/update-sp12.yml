@@ -1,0 +1,40 @@
+name: Update SP12 data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '15 18 * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-sp12-data
+  cancel-in-progress: true
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 2
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Fetch SP12 data
+        timeout-minutes: 1
+        run: python -u scripts/update_songs.py
+      - name: Commit updated data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/sp12.json
+          if git diff --cached --quiet; then
+            echo "No data changes"
+            exit 0
+          fi
+          git commit -m "Update SP12 data"
+          git pull --rebase origin main
+          git push origin HEAD:main
