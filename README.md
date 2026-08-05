@@ -1,23 +1,15 @@
 # IIDX SP☆12 OPTION MANAGER
 
-GitHub Pages用の静的サイトです。
+GitHub Pages用です。`sp12.iidx.app` がGitHub Actionsの通常HTTP通信を403で拒否するため、更新処理は次の順で取得を試します。
 
-## データ仕様
+1. requests
+2. curl_cffiによるChrome偽装
+3. Playwright Chromiumでページを実際に開き、内部JSONを取得
 
-- 曲一覧の母集団：`sp12.iidx.app` の有効なSP☆12譜面全件
-- ノマゲ／ハード分類：atwikiの各地力表から取得
-- 地力表に掲載されていない譜面：`未分類`
-- 地力表で「未定」の譜面：`未分類`
-- 表記差などで照合できなかった譜面：`未分類`
+曲一覧はSP☆12全件を母集団にし、地力表に掲載されていない譜面・未定・照合不能は「未分類」にまとめます。
 
-## 更新
+## 初回更新
 
-GitHubの **Actions → Update SP12 data → Run workflow** を実行してください。
-成功すると `data/sp12.json` と `data/update-report.json` が更新されます。
+Actions → Update SP12 data → Run workflow
 
-公開URL：`https://farewell2236.github.io/kirika/`
-
-
-## 403対策
-
-GitHub Actionsから拒否されるAPIは使用せず、公開されている参考表ページのHTML内に埋め込まれた初期データを解析します。
+Chromiumのインストールがあるため、初回は数分かかることがあります。

@@ -250,26 +250,129 @@ def extract_master_from_page(text: str, page_url: str) -> list[dict]:
     return rows
 
 
+
+def fetch_master_with_browser(url: str) -> list[dict]:
+    """Chromiumでページを開き、HTMLと内部JSONレスポンスから譜面を抽出する。"""
+    from playwright.sync_api import sync_playwright
+
+    payloads: list[object] = []
+    html_text = ""
+    with sync_playwright() as pw:
+        browser = pw.chromium.launch(headless=True, args=["--disable-dev-shm-usage", "--no-sandbox"])
+        context = browser.new_context(
+            locale="ja-JP",
+            timezone_id="Asia/Tokyo",
+            user_agent=(
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                "AppleWebKit/537.36 (KHTML, like Gecko) "
+                "Chrome/124.0.0.0 Safari/537.36"
+            ),
+            extra_http_headers={
+                "Accept-Language": "ja,en-US;q=0.9,en;q=0.8",
+                "Referer": "https://sp12.iidx.app/",
+            },
+        )
+        page = context.new_page()
+
+        def on_response(response):
+            try:
+                ctype = (response.headers.get("content-type") or "").lower()
+                if "json" in ctype or "/api/" in response.url or "sheets" in response.url:
+                    body = response.body()
+                    if len(body) > 20:
+                        payloads.append(json.loads(body.decode("utf-8", errors="replace")))
+            except Exception:
+                pass
+
+        page.on("response", on_response)
+        response = page.goto(url, wait_until="domcontentloaded", timeout=60000)
+        if response and response.status >= 400:
+            raise RuntimeError(f"browser HTTP {response.status}: {url}")
+        try:
+            page.wait_for_load_state("networkidle", timeout=45000)
+        except Exception:
+            page.wait_for_timeout(8000)
+        html_text = page.content()
+        browser.close()
+
+    rows: list[dict] = []
+    seen: set[str] = set()
+    for payload in payloads:
+        for value in walk_json(payload):
+            if not isinstance(value, dict):
+                continue
+            row = master_row(value)
+            if not row or row["masterKey"] in seen:
+                continue
+            keys = set(value)
+            nested = value.get("sheet") if isinstance(value.get("sheet"), dict) else {}
+            looks_like_sheet = bool(
+                keys & {"n_clear", "n_clear_string", "hard", "hard_string", "difficulty", "difficulty_id", "notes", "sheet_id"}
+                or set(nested) & {"difficulty", "difficulty_id", "notes", "note_count"}
+                or row["wikiUrl"]
+            )
+            if looks_like_sheet:
+                seen.add(row["masterKey"])
+                rows.append(row)
+
+    for row in extract_master_from_page(html_text, url):
+        if row["masterKey"] not in seen:
+            seen.add(row["masterKey"])
+            rows.append(row)
+    return rows
+
+
 def fetch_master() -> tuple[list[dict], str]:
-    """403になるAPIを使わず、公開ページの埋め込みデータを読む。"""
+    """通常取得、Chrome偽装、実ブラウザの順に試す。"""
     errors: list[str] = []
     best: tuple[list[dict], str] = ([], "")
     for url in MASTER_PAGE_URLS:
+        # 1) 通常のrequests
         try:
             text = fetch_text(url)
             rows = extract_master_from_page(text, url)
-            print(f"master page candidate: {url} -> {len(rows)} charts")
+            print(f"requests candidate: {url} -> {len(rows)} charts")
             if len(rows) > len(best[0]):
                 best = (rows, url)
             if len(rows) >= MIN_MASTER:
                 return rows, url
-            errors.append(f"{url}: extracted only {len(rows)} charts")
         except Exception as exc:
-            errors.append(f"{url}: {exc}")
+            errors.append(f"requests {url}: {exc}")
+
+        # 2) curl_cffiでChromeのTLS/HTTP指紋を再現
+        try:
+            from curl_cffi import requests as curl_requests
+            response = curl_requests.get(
+                url,
+                impersonate="chrome124",
+                headers={"Accept-Language": "ja,en-US;q=0.9,en;q=0.8"},
+                timeout=35,
+            )
+            response.raise_for_status()
+            rows = extract_master_from_page(response.text, url)
+            print(f"curl_cffi candidate: {url} -> {len(rows)} charts")
+            if len(rows) > len(best[0]):
+                best = (rows, url)
+            if len(rows) >= MIN_MASTER:
+                return rows, url
+        except Exception as exc:
+            errors.append(f"curl_cffi {url}: {exc}")
+
+        # 3) Playwright Chromiumで実際にページと内部APIを読み込む
+        try:
+            rows = fetch_master_with_browser(url)
+            print(f"browser candidate: {url} -> {len(rows)} charts")
+            if len(rows) > len(best[0]):
+                best = (rows, url)
+            if len(rows) >= MIN_MASTER:
+                return rows, url
+            errors.append(f"browser {url}: extracted only {len(rows)} charts")
+        except Exception as exc:
+            errors.append(f"browser {url}: {exc}")
+
     if len(best[0]) >= MIN_MASTER:
         return best
-    raise RuntimeError("all public master pages failed / " + " / ".join(errors))
-
+    raise RuntimeError("all master methods failed / " + " / ".join(errors))
 
 def table_header_indexes(table: Tag) -> dict[str, int] | None:
     for row in table.find_all("tr")[:3]:
