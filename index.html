@@ -23,13 +23,9 @@ main{max-width:1100px;margin:auto;padding:14px}.summary{display:flex;gap:7px;fle
 .row:hover{background:#152033}.ver{color:var(--muted);font-size:12px}.title{font-weight:650;overflow-wrap:anywhere}.option-select,.clear-select{width:100%}
 .empty{text-align:center;padding:55px 10px;color:var(--muted)}
 
-.row.failed{background:#5f6368;color:#fff}
-.row.assist{background:#7e57c2;color:#fff}
-.row.easy{background:#2e7d32;color:#fff}
-.row.clear{background:#4dd0e1;color:#000}
-.row.hard{background:#c62828;color:#fff}
-.row.exhard{background:#fdd835;color:#000}
-.row.fullcombo{background:#fb8c00;color:#000}
+.row[style*="color:#000000"] .ver{color:#222!important}
+.row[style*="color:#000000"] select{color:#eef5ff}
+.row[style*="color:#ffffff"] .ver{color:#e2e8f0!important}
 
 @media(max-width:700px){.controls{grid-template-columns:1fr 1fr}.controls input{grid-column:1/-1}.row{grid-template-columns:42px minmax(0,1fr);padding:9px 8px;gap:7px}.option-select,.clear-select{grid-column:2}h1{font-size:16px}}
 </style>
@@ -120,18 +116,17 @@ async function load(force=false){
   }
  }
 }
-
-function clearClass(v){
- switch(v){
-  case 'FAILED': return 'failed';
-  case 'ASSIST': return 'assist';
-  case 'EASY': return 'easy';
-  case 'CLEAR': return 'clear';
-  case 'HARD': return 'hard';
-  case 'EX HARD': return 'exhard';
-  case 'FULLCOMBO': return 'fullcombo';
-  default:return '';
- }
+function clearRowStyle(v){
+ const styles={
+  'FAILED':'background:#5f6368 !important;color:#ffffff !important;',
+  'ASSIST':'background:#7e57c2 !important;color:#ffffff !important;',
+  'EASY':'background:#2e7d32 !important;color:#ffffff !important;',
+  'CLEAR':'background:#4dd0e1 !important;color:#000000 !important;',
+  'HARD':'background:#c62828 !important;color:#ffffff !important;',
+  'EX HARD':'background:#fdd835 !important;color:#000000 !important;',
+  'FULLCOMBO':'background:#fb8c00 !important;color:#000000 !important;'
+ };
+ return styles[v]||'';
 }
 
 function currentList(){
@@ -145,7 +140,7 @@ function render(){
  $('#app').className='';
  $('#app').innerHTML=[...groups].filter(([,a])=>a.length).map(([rank,a])=>`<section class="group">
  <button class="group-title"><strong>${esc(rank)}</strong><span>${a.length}譜面 ▾</span></button>
- <div class="rows">${a.sort((x,y)=>x.title.localeCompare(y.title,'ja')).map(s=>`<div class="row ${clearClass(clears[optKey(s)]||'未設定')}">
+ <div class="rows">${a.sort((x,y)=>x.title.localeCompare(y.title,'ja')).map(s=>`<div class="row" style="${clearRowStyle(clears[optKey(s)]||'未設定')}">
  <span class="ver">${esc(s.ver)}</span><span class="title">${esc(s.title)}</span>
  <select class="option-select" aria-label="オプション" data-key="${esc(optKey(s))}">${OPTIONS.map(o=>`<option${getOpt(s)===o?' selected':''}>${o}</option>`).join('')}</select>
  <select class="clear-select" aria-label="クリアランプ" data-key="${esc(optKey(s))}">${CLEARS.map(c=>`<option${(clears[optKey(s)]||'未設定')===c?' selected':''}>${c}</option>`).join('')}</select>
@@ -153,10 +148,10 @@ function render(){
  document.querySelectorAll('.group-title').forEach(b=>b.onclick=()=>b.parentElement.classList.toggle('closed'));
  document.querySelectorAll('.option-select').forEach(s=>s.onchange=()=>{options[s.dataset.key]=s.value;save();render()});
   document.querySelectorAll('.clear-select').forEach(s=>s.onchange=()=>{
-clears[s.dataset.key]=s.value;
-save();
-render();
-});
+   clears[s.dataset.key]=s.value;
+   save();
+   render();
+  });
  $('#summary').innerHTML=`<span class="badge">全 ${list.length}譜面</span>`+OPTIONS.map(o=>`<span class="badge">${o}: ${list.filter(s=>getOpt(s)===o).length}</span>`).join('');
 }
 function switchMode(m){mode=m;save();render()}
