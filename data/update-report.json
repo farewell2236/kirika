@@ -1,2580 +1,520 @@
 {
-  "updatedAt": "2026-08-05T18:42:25+00:00",
-  "masterUrl": "https://sp12.iidx.app/sheets/2891-1732/clear",
-  "normal": {
-    "url": "https://w.atwiki.jp/bemani2sp11/pages/19.html",
-    "mode": "normal",
-    "parsedCount": 582,
-    "parsedTables": 21
-  },
-  "hard": {
-    "url": "https://w.atwiki.jp/bemani2sp11/pages/18.html",
-    "mode": "hard",
-    "parsedCount": 582,
-    "parsedTables": 20
-  },
-  "merge": {
-    "masterCount": 669,
-    "rankCounts": {
-      "normal": {
-        "個人差A+": 14,
-        "地力C": 67,
-        "地力B": 72,
-        "未分類": 209,
-        "地力D": 62,
-        "地力E": 32,
-        "個人差B+": 11,
-        "地力B+": 32,
-        "個人差E": 7,
-        "地力A+": 26,
-        "個人差A": 10,
-        "地力F": 6,
-        "地力S": 22,
-        "個人差S": 6,
-        "個人差C": 14,
-        "地力A": 44,
-        "個人差B": 14,
-        "個人差D": 9,
-        "個人差S+": 5,
-        "個人差F": 1,
-        "地力S+": 6
-      },
-      "hard": {
-        "個人差A+": 18,
-        "地力B+": 48,
-        "未分類": 209,
-        "地力D": 42,
-        "地力E": 23,
-        "地力A": 44,
-        "地力A+": 30,
-        "個人差C": 11,
-        "地力B": 58,
-        "地力S+": 15,
-        "地力F": 7,
-        "地力S": 24,
-        "個人差S+": 8,
-        "個人差B+": 6,
-        "個人差B": 12,
-        "地力C": 72,
-        "個人差E": 5,
-        "個人差S": 15,
-        "個人差D": 6,
-        "個人差A": 16
-      }
+  "updatedAt": "2026-08-05T18:49:16+00:00",
+  "pageReports": [
+    {
+      "pageUrl": "https://sp12.iidx.app/sheets/2891-1732/clear",
+      "capturedJsonResponses": 4,
+      "responseUrls": [
+        "https://ep1.adtrafficquality.google/getconfig/sodar?sv=200&tid=gda&tv=r20260804&st=env&sjk=7261626841712405",
+        "https://sp12.iidx.app/api/v1/abilities?type=n_clear",
+        "https://sp12.iidx.app/api/v1/sheets",
+        "https://syndication.twitter.com/settings?session_id=d5f68d29fbda521cfb3b91a1f75ceacb2cf4304a"
+      ],
+      "extractedCount": 669,
+      "normalClassified": 621,
+      "hardClassified": 621
     },
-    "normalUnclassifiedCount": 209,
-    "hardUnclassifiedCount": 209,
-    "normalUnclassified": [
-      {
-        "title": "QUANTUM TELEPORTATION†",
-        "chart": "ANOTHER",
-        "ver": "19",
-        "match": "unlisted"
-      },
-      {
-        "title": "Blue Rain†",
-        "chart": "ANOTHER",
-        "ver": "15",
-        "match": "unlisted"
-      },
-      {
-        "title": "Kung-fu Empire†",
-        "chart": "ANOTHER",
-        "ver": "16",
-        "match": "unlisted"
-      },
-      {
-        "title": "仮想空間の旅人たち†",
-        "chart": "ANOTHER",
-        "ver": "20",
-        "match": "unlisted"
-      },
-      {
-        "title": "Ubertreffen†",
-        "chart": "ANOTHER",
-        "ver": "15",
-        "match": "unlisted"
-      },
-      {
-        "title": "spiral galaxy†",
-        "chart": "ANOTHER",
-        "ver": "11",
-        "match": "unlisted"
-      },
-      {
-        "title": "KAMAITACHI†",
-        "chart": "ANOTHER",
-        "ver": "14",
-        "match": "unlisted"
-      },
-      {
-        "title": "waxing and wanding†",
-        "chart": "ANOTHER",
-        "ver": "13",
-        "match": "unlisted"
-      },
-      {
-        "title": "Twelfth Style†",
-        "chart": "ANOTHER",
-        "ver": "12",
-        "match": "unlisted"
-      },
-      {
-        "title": "Little Little Princess†",
-        "chart": "ANOTHER",
-        "ver": "12",
-        "match": "unlisted"
-      },
-      {
-        "title": "Innocent Walls[H]",
-        "chart": "ANOTHER",
-        "ver": "10",
-        "match": "unlisted"
-      },
-      {
-        "title": "gigadelic[H]",
-        "chart": "ANOTHER",
-        "ver": "11",
-        "match": "unlisted"
-      },
-      {
-        "title": "gigadelic[A]",
-        "chart": "ANOTHER",
-        "ver": "11",
-        "match": "unlisted"
-      },
-      {
-        "title": "RIZING-GAMERS.",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "旋律のドグマ ～Misérables～",
-        "chart": "ANOTHER",
-        "ver": "21",
-        "match": "unlisted"
-      },
-      {
-        "title": "Innocent Walls[A]",
-        "chart": "ANOTHER",
-        "ver": "10",
-        "match": "unlisted"
-      },
-      {
-        "title": "Verflucht†",
-        "chart": "ANOTHER",
-        "ver": "21",
-        "match": "unlisted"
-      },
-      {
-        "title": "GRID KNIGHT†",
-        "chart": "ANOTHER",
-        "ver": "14",
-        "match": "unlisted"
-      },
-      {
-        "title": "Feel The Beat†",
-        "chart": "ANOTHER",
-        "ver": "21",
-        "match": "unlisted"
-      },
-      {
-        "title": "EBONY & IVORY†",
-        "chart": "ANOTHER",
-        "ver": "22",
-        "match": "unlisted"
-      },
-      {
-        "title": "SOLID STATE SQUAD†",
-        "chart": "ANOTHER",
-        "ver": "17",
-        "match": "unlisted"
-      },
-      {
-        "title": "CHRONO DIVER -NORNIR-†",
-        "chart": "ANOTHER",
-        "ver": "22",
-        "match": "unlisted"
-      },
-      {
-        "title": "VANESSA†",
-        "chart": "ANOTHER",
-        "ver": "14",
-        "match": "unlisted"
-      },
-      {
-        "title": "ICARUS†",
-        "chart": "ANOTHER",
-        "ver": "15",
-        "match": "unlisted"
-      },
-      {
-        "title": "STARLIGHT DANCEHALL†",
-        "chart": "ANOTHER",
-        "ver": "23",
-        "match": "unlisted"
-      },
-      {
-        "title": "Cosmic Cat†",
-        "chart": "ANOTHER",
-        "ver": "22",
-        "match": "unlisted"
-      },
-      {
-        "title": "CODE:1 [revision1.0.1]",
-        "chart": "ANOTHER",
-        "ver": "23",
-        "match": "unlisted"
-      },
-      {
-        "title": "焱影",
-        "chart": "ANOTHER",
-        "ver": "24",
-        "match": "unlisted"
-      },
-      {
-        "title": "天使のカンタータ -Cantata of Angels-",
-        "chart": "ANOTHER",
-        "ver": "32",
-        "match": "title+ver+chart"
-      },
-      {
-        "title": "Beat Radiance†",
-        "chart": "ANOTHER",
-        "ver": "22",
-        "match": "unlisted"
-      },
-      {
-        "title": "THANK YOU FOR PLAYING†",
-        "chart": "ANOTHER",
-        "ver": "16",
-        "match": "unlisted"
-      },
-      {
-        "title": "THE DEEP STRIKER†",
-        "chart": "ANOTHER",
-        "ver": "15",
-        "match": "unlisted"
-      },
-      {
-        "title": "龍と少女とデコヒーレンス†",
-        "chart": "ANOTHER",
-        "ver": "20",
-        "match": "unlisted"
-      },
-      {
-        "title": "RED ZONE†",
-        "chart": "ANOTHER",
-        "ver": "11",
-        "match": "unlisted"
-      },
-      {
-        "title": "廿†",
-        "chart": "ANOTHER",
-        "ver": "21",
-        "match": "unlisted"
-      },
-      {
-        "title": "Amazing Mirage†",
-        "chart": "ANOTHER",
-        "ver": "24",
-        "match": "unlisted"
-      },
-      {
-        "title": "Sigmund†",
-        "chart": "ANOTHER",
-        "ver": "21",
-        "match": "unlisted"
-      },
-      {
-        "title": "KAISER PHOENIX†",
-        "chart": "ANOTHER",
-        "ver": "21",
-        "match": "unlisted"
-      },
-      {
-        "title": "Welcome†",
-        "chart": "ANOTHER",
-        "ver": "23",
-        "match": "unlisted"
-      },
-      {
-        "title": "B4U(BEMANI FOR YOU MIX)†",
-        "chart": "ANOTHER",
-        "ver": "16",
-        "match": "unlisted"
-      },
-      {
-        "title": "snow storm†",
-        "chart": "ANOTHER",
-        "ver": "14",
-        "match": "unlisted"
-      },
-      {
-        "title": "疾風迅雷†",
-        "chart": "ANOTHER",
-        "ver": "21",
-        "match": "unlisted"
-      },
-      {
-        "title": "Close the World feat.a☆ru†",
-        "chart": "ANOTHER",
-        "ver": "21",
-        "match": "unlisted"
-      },
-      {
-        "title": "Ancient Scapes†",
-        "chart": "ANOTHER",
-        "ver": "21",
-        "match": "unlisted"
-      },
-      {
-        "title": "TITANS RETURN†",
-        "chart": "ANOTHER",
-        "ver": "19",
-        "match": "unlisted"
-      },
-      {
-        "title": "AIR RAID FROM THA UNDAGROUND†",
-        "chart": "ANOTHER",
-        "ver": "17",
-        "match": "unlisted"
-      },
-      {
-        "title": "千年ノ理†",
-        "chart": "ANOTHER",
-        "ver": "27",
-        "match": "unlisted"
-      },
-      {
-        "title": "ZEPHYRANTHES†",
-        "chart": "ANOTHER",
-        "ver": "23",
-        "match": "unlisted"
-      },
-      {
-        "title": "Friction[!]Function",
-        "chart": "ANOTHER",
-        "ver": "27",
-        "match": "unlisted"
-      },
-      {
-        "title": "Secrets†",
-        "chart": "ANOTHER",
-        "ver": "16",
-        "match": "unlisted"
-      },
-      {
-        "title": "TRANOID†",
-        "chart": "ANOTHER",
-        "ver": "14",
-        "match": "unlisted"
-      },
-      {
-        "title": "invoker†",
-        "chart": "ANOTHER",
-        "ver": "21",
-        "match": "unlisted"
-      },
-      {
-        "title": "GuNGNiR†",
-        "chart": "ANOTHER",
-        "ver": "24",
-        "match": "unlisted"
-      },
-      {
-        "title": "Arabian Rave Night†",
-        "chart": "ANOTHER",
-        "ver": "16",
-        "match": "unlisted"
-      },
-      {
-        "title": "お米の美味しい炊き方、そしてお米を食べることによるその効果。†",
-        "chart": "ANOTHER",
-        "ver": "20",
-        "match": "unlisted"
-      },
-      {
-        "title": "CONTRACT†",
-        "chart": "ANOTHER",
-        "ver": "13",
-        "match": "unlisted"
-      },
-      {
-        "title": "thunder HOUSE NATION Remix†",
-        "chart": "ANOTHER",
-        "ver": "16",
-        "match": "unlisted"
-      },
-      {
-        "title": "Be quiet†",
-        "chart": "ANOTHER",
-        "ver": "28",
-        "match": "unlisted"
-      },
-      {
-        "title": "Ganymede†",
-        "chart": "ANOTHER",
-        "ver": "13",
-        "match": "unlisted"
-      },
-      {
-        "title": "STEEL NEEDLE†",
-        "chart": "ANOTHER",
-        "ver": "15",
-        "match": "unlisted"
-      },
-      {
-        "title": "ΕΛΠΙΣ†",
-        "chart": "ANOTHER",
-        "ver": "20",
-        "match": "unlisted"
-      },
-      {
-        "title": "Ypsilon†",
-        "chart": "ANOTHER",
-        "ver": "27",
-        "match": "unlisted"
-      },
-      {
-        "title": "Anisakis -somatic mutation type\"Forza\"-†",
-        "chart": "ANOTHER",
-        "ver": "15",
-        "match": "unlisted"
-      },
-      {
-        "title": "SAMURAI-Scramble†",
-        "chart": "ANOTHER",
-        "ver": "24",
-        "match": "unlisted"
-      },
-      {
-        "title": "Astra Blaze",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "君のハートにロックオン†",
-        "chart": "ANOTHER",
-        "ver": "19",
-        "match": "unlisted"
-      },
-      {
-        "title": "BroGamer†",
-        "chart": "ANOTHER",
-        "ver": "24",
-        "match": "unlisted"
-      },
-      {
-        "title": "NEW GENERATION -もう、お前しか見えない-†",
-        "chart": "ANOTHER",
-        "ver": "15",
-        "match": "unlisted"
-      },
-      {
-        "title": "REVOLVER†",
-        "chart": "ANOTHER",
-        "ver": "25",
-        "match": "unlisted"
-      },
-      {
-        "title": "Scripted Connection⇒ A mix†",
-        "chart": "ANOTHER",
-        "ver": "12",
-        "match": "unlisted"
-      },
-      {
-        "title": "Phoenix†",
-        "chart": "ANOTHER",
-        "ver": "29",
-        "match": "unlisted"
-      },
-      {
-        "title": "Time to Air†",
-        "chart": "ANOTHER",
-        "ver": "15",
-        "match": "unlisted"
-      },
-      {
-        "title": "Umbral†",
-        "chart": "ANOTHER",
-        "ver": "24",
-        "match": "unlisted"
-      },
-      {
-        "title": "華爛漫 -Flowers-†",
-        "chart": "ANOTHER",
-        "ver": "15",
-        "match": "unlisted"
-      },
-      {
-        "title": "Illegal Function Call†",
-        "chart": "ANOTHER",
-        "ver": "20",
-        "match": "unlisted"
-      },
-      {
-        "title": "ミラージュ・レジデンス†",
-        "chart": "ANOTHER",
-        "ver": "15",
-        "match": "unlisted"
-      },
-      {
-        "title": "ハイテックトキオ†",
-        "chart": "ANOTHER",
-        "ver": "29",
-        "match": "unlisted"
-      },
-      {
-        "title": "The Limbo†",
-        "chart": "ANOTHER",
-        "ver": "19",
-        "match": "unlisted"
-      },
-      {
-        "title": "Override†",
-        "chart": "ANOTHER",
-        "ver": "27",
-        "match": "unlisted"
-      },
-      {
-        "title": "Elektrick U-Phoria†",
-        "chart": "ANOTHER",
-        "ver": "21",
-        "match": "unlisted"
-      },
-      {
-        "title": "four pieces of heaven†",
-        "chart": "ANOTHER",
-        "ver": "15",
-        "match": "unlisted"
-      },
-      {
-        "title": "Marie Antoinette†",
-        "chart": "ANOTHER",
-        "ver": "16",
-        "match": "unlisted"
-      },
-      {
-        "title": "[ ]DENTITY",
-        "chart": "ANOTHER",
-        "ver": "30",
-        "match": "unlisted"
-      },
-      {
-        "title": "龍王の霊廟(Mausoleum Of The Primal Dragon)†",
-        "chart": "ANOTHER",
-        "ver": "26",
-        "match": "unlisted"
-      },
-      {
-        "title": "Burning Flame†",
-        "chart": "ANOTHER",
-        "ver": "28",
-        "match": "unlisted"
-      },
-      {
-        "title": "Dances with Snow Fairies†",
-        "chart": "ANOTHER",
-        "ver": "18",
-        "match": "unlisted"
-      },
-      {
-        "title": "Violet Pulse†",
-        "chart": "ANOTHER",
-        "ver": "23",
-        "match": "unlisted"
-      },
-      {
-        "title": "ATHER†",
-        "chart": "ANOTHER",
-        "ver": "21",
-        "match": "unlisted"
-      },
-      {
-        "title": "VOID",
-        "chart": "ANOTHER",
-        "ver": "30",
-        "match": "unlisted"
-      },
-      {
-        "title": "CODE:0†",
-        "chart": "ANOTHER",
-        "ver": "26",
-        "match": "unlisted"
-      },
-      {
-        "title": "恋する☆宇宙戦争っ！！†",
-        "chart": "ANOTHER",
-        "ver": "19",
-        "match": "unlisted"
-      },
-      {
-        "title": "表裏一体！？怪盗いいんちょの悩み†",
-        "chart": "ANOTHER",
-        "ver": "22",
-        "match": "unlisted"
-      },
-      {
-        "title": "O/D*20†",
-        "chart": "ANOTHER",
-        "ver": "25",
-        "match": "unlisted"
-      },
-      {
-        "title": "Miracle 5ympho X†",
-        "chart": "ANOTHER",
-        "ver": "21",
-        "match": "unlisted"
-      },
-      {
-        "title": "KING†",
-        "chart": "ANOTHER",
-        "ver": "30",
-        "match": "unlisted"
-      },
-      {
-        "title": "Saturn†",
-        "chart": "ANOTHER",
-        "ver": "20",
-        "match": "unlisted"
-      },
-      {
-        "title": "華蝶風雪†",
-        "chart": "ANOTHER",
-        "ver": "13",
-        "match": "unlisted"
-      },
-      {
-        "title": "SOLID WYVERN†",
-        "chart": "ANOTHER",
-        "ver": "29",
-        "match": "unlisted"
-      },
-      {
-        "title": "HYENA†",
-        "chart": "ANOTHER",
-        "ver": "21",
-        "match": "unlisted"
-      },
-      {
-        "title": "yellow head joe†",
-        "chart": "ANOTHER",
-        "ver": "19",
-        "match": "unlisted"
-      },
-      {
-        "title": "超青少年ノ為ノ超多幸ナ超古典的超舞曲†",
-        "chart": "ANOTHER",
-        "ver": "22",
-        "match": "unlisted"
-      },
-      {
-        "title": "GUILTY†",
-        "chart": "ANOTHER",
-        "ver": "22",
-        "match": "unlisted"
-      },
-      {
-        "title": "MAD ATTACK†",
-        "chart": "ANOTHER",
-        "ver": "21",
-        "match": "unlisted"
-      },
-      {
-        "title": "Lost Souls†",
-        "chart": "ANOTHER",
-        "ver": "27",
-        "match": "unlisted"
-      },
-      {
-        "title": "海神†",
-        "chart": "ANOTHER",
-        "ver": "21",
-        "match": "unlisted"
-      },
-      {
-        "title": "DEATH†ZIGOQ ～怒りの高速爆走野郎～†",
-        "chart": "ANOTHER",
-        "ver": "25",
-        "match": "unlisted"
-      },
-      {
-        "title": "Scripted Connection⇒ H mix†",
-        "chart": "ANOTHER",
-        "ver": "12",
-        "match": "unlisted"
-      },
-      {
-        "title": "ALBA -黎明-†",
-        "chart": "ANOTHER",
-        "ver": "21",
-        "match": "unlisted"
-      },
-      {
-        "title": "カジノファイヤーことみちゃん†",
-        "chart": "ANOTHER",
-        "ver": "20",
-        "match": "unlisted"
-      },
-      {
-        "title": "灼熱Lost Summer Dayz",
-        "chart": "ANOTHER",
-        "ver": "32",
-        "match": "unlisted"
-      },
-      {
-        "title": "A MINSTREL ～ ver. short-scape ～†",
-        "chart": "ANOTHER",
-        "ver": "19",
-        "match": "unlisted"
-      },
-      {
-        "title": "CUE CUE RESCUE†",
-        "chart": "ANOTHER",
-        "ver": "30",
-        "match": "unlisted"
-      },
-      {
-        "title": "Nothing but Theory†",
-        "chart": "ANOTHER",
-        "ver": "25",
-        "match": "unlisted"
-      },
-      {
-        "title": "烽火連天の刃†",
-        "chart": "ANOTHER",
-        "ver": "29",
-        "match": "unlisted"
-      },
-      {
-        "title": "Mid-Corner (Magic Maker)",
-        "chart": "ANOTHER",
-        "ver": "32",
-        "match": "title+ver+chart"
-      },
-      {
-        "title": "フォニイ†",
-        "chart": "ANOTHER",
-        "ver": "31",
-        "match": "unlisted"
-      },
-      {
-        "title": "新宝島†",
-        "chart": "ANOTHER",
-        "ver": "28",
-        "match": "unlisted"
-      },
-      {
-        "title": "蛇神†",
-        "chart": "ANOTHER",
-        "ver": "19",
-        "match": "unlisted"
-      },
-      {
-        "title": "1116",
-        "chart": "ANOTHER",
-        "ver": "32",
-        "match": "unlisted"
-      },
-      {
-        "title": "FlyAway",
-        "chart": "ANOTHER",
-        "ver": "32",
-        "match": "unlisted"
-      },
-      {
-        "title": "hora de verdad",
-        "chart": "ANOTHER",
-        "ver": "32",
-        "match": "unlisted"
-      },
-      {
-        "title": "Without Heaven",
-        "chart": "ANOTHER",
-        "ver": "32",
-        "match": "unlisted"
-      },
-      {
-        "title": "Caldwell 99†",
-        "chart": "ANOTHER",
-        "ver": "30",
-        "match": "unlisted"
-      },
-      {
-        "title": "Bow shock!!†",
-        "chart": "ANOTHER",
-        "ver": "27",
-        "match": "unlisted"
-      },
-      {
-        "title": "Cross Fire",
-        "chart": "ANOTHER",
-        "ver": "32",
-        "match": "unlisted"
-      },
-      {
-        "title": "グッバイ宣言†",
-        "chart": "ANOTHER",
-        "ver": "29",
-        "match": "unlisted"
-      },
-      {
-        "title": "神っぽいな†",
-        "chart": "ANOTHER",
-        "ver": "30",
-        "match": "unlisted"
-      },
-      {
-        "title": "MARLIN",
-        "chart": "ANOTHER",
-        "ver": "32",
-        "match": "unlisted"
-      },
-      {
-        "title": "God Mind",
-        "chart": "ANOTHER",
-        "ver": "32",
-        "match": "unlisted"
-      },
-      {
-        "title": "SμG@R RU$#",
-        "chart": "ANOTHER",
-        "ver": "32",
-        "match": "unlisted"
-      },
-      {
-        "title": "#The_Relentless†",
-        "chart": "ANOTHER",
-        "ver": "22",
-        "match": "unlisted"
-      },
-      {
-        "title": "アラビアン ハイパー ナイト",
-        "chart": "ANOTHER",
-        "ver": "32",
-        "match": "unlisted"
-      },
-      {
-        "title": "Uaigh Gealai",
-        "chart": "ANOTHER",
-        "ver": "32",
-        "match": "unlisted"
-      },
-      {
-        "title": "Aqvion",
-        "chart": "ANOTHER",
-        "ver": "32",
-        "match": "unlisted"
-      },
-      {
-        "title": "SISYPHUS",
-        "chart": "ANOTHER",
-        "ver": "32",
-        "match": "unlisted"
-      },
-      {
-        "title": "Skratch Education Lv-1",
-        "chart": "ANOTHER",
-        "ver": "32",
-        "match": "unlisted"
-      },
-      {
-        "title": "XHRONOXAPSULΞ",
-        "chart": "ANOTHER",
-        "ver": "32",
-        "match": "unlisted"
-      },
-      {
-        "title": "スキッテイエェエエェ!!!!",
-        "chart": "ANOTHER",
-        "ver": "32",
-        "match": "unlisted"
-      },
-      {
-        "title": "紫陽花 -AZISAI-†",
-        "chart": "ANOTHER",
-        "ver": "23",
-        "match": "unlisted"
-      },
-      {
-        "title": "Begin",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "⁽⁽ଘ( ˙꒳˙ )ଓ⁾⁾ beyond reason",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "Lisa-RICCIA†",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "King of Tribe",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "EYE OF THE HEAVEN",
-        "chart": "ANOTHER",
-        "ver": "32",
-        "match": "unlisted"
-      },
-      {
-        "title": "garden†",
-        "chart": "ANOTHER",
-        "ver": "12",
-        "match": "unlisted"
-      },
-      {
-        "title": "ChaserXX†",
-        "chart": "ANOTHER",
-        "ver": "25",
-        "match": "unlisted"
-      },
-      {
-        "title": "uen",
-        "chart": "ANOTHER",
-        "ver": "32",
-        "match": "unlisted"
-      },
-      {
-        "title": "INAZUMA†",
-        "chart": "ANOTHER",
-        "ver": "12",
-        "match": "unlisted"
-      },
-      {
-        "title": "Flamingo",
-        "chart": "ANOTHER",
-        "ver": "32",
-        "match": "unlisted"
-      },
-      {
-        "title": "聖人の塔†",
-        "chart": "ANOTHER",
-        "ver": "19",
-        "match": "unlisted"
-      },
-      {
-        "title": "LIGHTNING STRIKES†",
-        "chart": "ANOTHER",
-        "ver": "27",
-        "match": "unlisted"
-      },
-      {
-        "title": "≡+≡†",
-        "chart": "ANOTHER",
-        "ver": "30",
-        "match": "unlisted"
-      },
-      {
-        "title": "POLKAMANIA†",
-        "chart": "ANOTHER",
-        "ver": "28",
-        "match": "unlisted"
-      },
-      {
-        "title": "chaplet -IIDX re:build-",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "RALLY '25",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "Makin' It",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "ビビッド ☆+*。キラキライム",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "From Human Blood",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "Space Battleship S4TO",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "Regina vespaE",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "2 Be Continued",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "Memoria Obscura",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "ιgniЯRuina",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "Lisa-RICCIA",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "Super Duper Racers†",
-        "chart": "ANOTHER",
-        "ver": "23",
-        "match": "unlisted"
-      },
-      {
-        "title": "Plazma†",
-        "chart": "ANOTHER",
-        "ver": "32",
-        "match": "unlisted"
-      },
-      {
-        "title": "ミュージック・アワー†",
-        "chart": "ANOTHER",
-        "ver": "29",
-        "match": "unlisted"
-      },
-      {
-        "title": "Submerge Serenade†",
-        "chart": "ANOTHER",
-        "ver": "31",
-        "match": "unlisted"
-      },
-      {
-        "title": "Ember Lights†",
-        "chart": "ANOTHER",
-        "ver": "26",
-        "match": "unlisted"
-      },
-      {
-        "title": "クレッシェンド",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "FiZZλ_POT!0N",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "CaptivAte～浄化～†",
-        "chart": "ANOTHER",
-        "ver": "12",
-        "match": "unlisted"
-      },
-      {
-        "title": "Pinky Happy Crazy",
-        "chart": "ANOTHER",
-        "ver": "32",
-        "match": "unlisted"
-      },
-      {
-        "title": "Flashes†",
-        "chart": "ANOTHER",
-        "ver": "22",
-        "match": "unlisted"
-      },
-      {
-        "title": "色を喪った街",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "HyperTwist",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "fixer",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "Do it!! Do it!!†",
-        "chart": "ANOTHER",
-        "ver": "15",
-        "match": "unlisted"
-      },
-      {
-        "title": "CoMAAAAAAA†",
-        "chart": "ANOTHER",
-        "ver": "26",
-        "match": "unlisted"
-      },
-      {
-        "title": "INHERITANCE†",
-        "chart": "ANOTHER",
-        "ver": "31",
-        "match": "unlisted"
-      },
-      {
-        "title": "PERFECT GREAT!!",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "UNDO THE NIGHT",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "Amor∞Fati",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "HEROES",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "ちょえちょえまぎか†",
-        "chart": "ANOTHER",
-        "ver": "30",
-        "match": "unlisted"
-      },
-      {
-        "title": "ラブコメトキドキシリアス",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "ベンガル vs. アムール Battle",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "ZED†",
-        "chart": "ANOTHER",
-        "ver": "20",
-        "match": "unlisted"
-      },
-      {
-        "title": "RUINA",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "BitRacer",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "GENE†",
-        "chart": "ANOTHER",
-        "ver": "26",
-        "match": "unlisted"
-      },
-      {
-        "title": "THE BLACK KNIGHT†",
-        "chart": "ANOTHER",
-        "ver": "18",
-        "match": "unlisted"
-      },
-      {
-        "title": "Dusk Endir",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "OMEGA",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "Mighty Beat Monsterz",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "THUNDERSTRIKE",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "Gimme a Big Beat(青龍 Remix)",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "Rise'n Beauty†",
-        "chart": "ANOTHER",
-        "ver": "10",
-        "match": "unlisted"
-      },
-      {
-        "title": "Any％",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "Smintheus",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "断罪のミメシス",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "Limelight",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "Dolphin Kick",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "Urban Constellations†",
-        "chart": "ANOTHER",
-        "ver": "26",
-        "match": "unlisted"
-      },
-      {
-        "title": "寝起きヤシの木†",
-        "chart": "ANOTHER",
-        "ver": "31",
-        "match": "unlisted"
-      },
-      {
-        "title": "かわいいだけじゃだめですか？†",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "Digitized Ocean",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "super double play sessions",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "Disco Killer Music Lover",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      }
-    ],
-    "hardUnclassified": [
-      {
-        "title": "QUANTUM TELEPORTATION†",
-        "chart": "ANOTHER",
-        "ver": "19",
-        "match": "unlisted"
-      },
-      {
-        "title": "Blue Rain†",
-        "chart": "ANOTHER",
-        "ver": "15",
-        "match": "unlisted"
-      },
-      {
-        "title": "Kung-fu Empire†",
-        "chart": "ANOTHER",
-        "ver": "16",
-        "match": "unlisted"
-      },
-      {
-        "title": "仮想空間の旅人たち†",
-        "chart": "ANOTHER",
-        "ver": "20",
-        "match": "unlisted"
-      },
-      {
-        "title": "Ubertreffen†",
-        "chart": "ANOTHER",
-        "ver": "15",
-        "match": "unlisted"
-      },
-      {
-        "title": "spiral galaxy†",
-        "chart": "ANOTHER",
-        "ver": "11",
-        "match": "unlisted"
-      },
-      {
-        "title": "KAMAITACHI†",
-        "chart": "ANOTHER",
-        "ver": "14",
-        "match": "unlisted"
-      },
-      {
-        "title": "waxing and wanding†",
-        "chart": "ANOTHER",
-        "ver": "13",
-        "match": "unlisted"
-      },
-      {
-        "title": "Twelfth Style†",
-        "chart": "ANOTHER",
-        "ver": "12",
-        "match": "unlisted"
-      },
-      {
-        "title": "Little Little Princess†",
-        "chart": "ANOTHER",
-        "ver": "12",
-        "match": "unlisted"
-      },
-      {
-        "title": "Innocent Walls[H]",
-        "chart": "ANOTHER",
-        "ver": "10",
-        "match": "unlisted"
-      },
-      {
-        "title": "gigadelic[H]",
-        "chart": "ANOTHER",
-        "ver": "11",
-        "match": "unlisted"
-      },
-      {
-        "title": "gigadelic[A]",
-        "chart": "ANOTHER",
-        "ver": "11",
-        "match": "unlisted"
-      },
-      {
-        "title": "RIZING-GAMERS.",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "旋律のドグマ ～Misérables～",
-        "chart": "ANOTHER",
-        "ver": "21",
-        "match": "unlisted"
-      },
-      {
-        "title": "Innocent Walls[A]",
-        "chart": "ANOTHER",
-        "ver": "10",
-        "match": "unlisted"
-      },
-      {
-        "title": "Verflucht†",
-        "chart": "ANOTHER",
-        "ver": "21",
-        "match": "unlisted"
-      },
-      {
-        "title": "GRID KNIGHT†",
-        "chart": "ANOTHER",
-        "ver": "14",
-        "match": "unlisted"
-      },
-      {
-        "title": "Feel The Beat†",
-        "chart": "ANOTHER",
-        "ver": "21",
-        "match": "unlisted"
-      },
-      {
-        "title": "EBONY & IVORY†",
-        "chart": "ANOTHER",
-        "ver": "22",
-        "match": "unlisted"
-      },
-      {
-        "title": "SOLID STATE SQUAD†",
-        "chart": "ANOTHER",
-        "ver": "17",
-        "match": "unlisted"
-      },
-      {
-        "title": "CHRONO DIVER -NORNIR-†",
-        "chart": "ANOTHER",
-        "ver": "22",
-        "match": "unlisted"
-      },
-      {
-        "title": "VANESSA†",
-        "chart": "ANOTHER",
-        "ver": "14",
-        "match": "unlisted"
-      },
-      {
-        "title": "ICARUS†",
-        "chart": "ANOTHER",
-        "ver": "15",
-        "match": "unlisted"
-      },
-      {
-        "title": "STARLIGHT DANCEHALL†",
-        "chart": "ANOTHER",
-        "ver": "23",
-        "match": "unlisted"
-      },
-      {
-        "title": "Cosmic Cat†",
-        "chart": "ANOTHER",
-        "ver": "22",
-        "match": "unlisted"
-      },
-      {
-        "title": "CODE:1 [revision1.0.1]",
-        "chart": "ANOTHER",
-        "ver": "23",
-        "match": "unlisted"
-      },
-      {
-        "title": "焱影",
-        "chart": "ANOTHER",
-        "ver": "24",
-        "match": "unlisted"
-      },
-      {
-        "title": "天使のカンタータ -Cantata of Angels-",
-        "chart": "ANOTHER",
-        "ver": "32",
-        "match": "title+ver+chart"
-      },
-      {
-        "title": "Beat Radiance†",
-        "chart": "ANOTHER",
-        "ver": "22",
-        "match": "unlisted"
-      },
-      {
-        "title": "THANK YOU FOR PLAYING†",
-        "chart": "ANOTHER",
-        "ver": "16",
-        "match": "unlisted"
-      },
-      {
-        "title": "THE DEEP STRIKER†",
-        "chart": "ANOTHER",
-        "ver": "15",
-        "match": "unlisted"
-      },
-      {
-        "title": "龍と少女とデコヒーレンス†",
-        "chart": "ANOTHER",
-        "ver": "20",
-        "match": "unlisted"
-      },
-      {
-        "title": "RED ZONE†",
-        "chart": "ANOTHER",
-        "ver": "11",
-        "match": "unlisted"
-      },
-      {
-        "title": "廿†",
-        "chart": "ANOTHER",
-        "ver": "21",
-        "match": "unlisted"
-      },
-      {
-        "title": "Amazing Mirage†",
-        "chart": "ANOTHER",
-        "ver": "24",
-        "match": "unlisted"
-      },
-      {
-        "title": "Sigmund†",
-        "chart": "ANOTHER",
-        "ver": "21",
-        "match": "unlisted"
-      },
-      {
-        "title": "KAISER PHOENIX†",
-        "chart": "ANOTHER",
-        "ver": "21",
-        "match": "unlisted"
-      },
-      {
-        "title": "Welcome†",
-        "chart": "ANOTHER",
-        "ver": "23",
-        "match": "unlisted"
-      },
-      {
-        "title": "B4U(BEMANI FOR YOU MIX)†",
-        "chart": "ANOTHER",
-        "ver": "16",
-        "match": "unlisted"
-      },
-      {
-        "title": "snow storm†",
-        "chart": "ANOTHER",
-        "ver": "14",
-        "match": "unlisted"
-      },
-      {
-        "title": "疾風迅雷†",
-        "chart": "ANOTHER",
-        "ver": "21",
-        "match": "unlisted"
-      },
-      {
-        "title": "Close the World feat.a☆ru†",
-        "chart": "ANOTHER",
-        "ver": "21",
-        "match": "unlisted"
-      },
-      {
-        "title": "Ancient Scapes†",
-        "chart": "ANOTHER",
-        "ver": "21",
-        "match": "unlisted"
-      },
-      {
-        "title": "TITANS RETURN†",
-        "chart": "ANOTHER",
-        "ver": "19",
-        "match": "unlisted"
-      },
-      {
-        "title": "AIR RAID FROM THA UNDAGROUND†",
-        "chart": "ANOTHER",
-        "ver": "17",
-        "match": "unlisted"
-      },
-      {
-        "title": "千年ノ理†",
-        "chart": "ANOTHER",
-        "ver": "27",
-        "match": "unlisted"
-      },
-      {
-        "title": "ZEPHYRANTHES†",
-        "chart": "ANOTHER",
-        "ver": "23",
-        "match": "unlisted"
-      },
-      {
-        "title": "Friction[!]Function",
-        "chart": "ANOTHER",
-        "ver": "27",
-        "match": "unlisted"
-      },
-      {
-        "title": "Secrets†",
-        "chart": "ANOTHER",
-        "ver": "16",
-        "match": "unlisted"
-      },
-      {
-        "title": "TRANOID†",
-        "chart": "ANOTHER",
-        "ver": "14",
-        "match": "unlisted"
-      },
-      {
-        "title": "invoker†",
-        "chart": "ANOTHER",
-        "ver": "21",
-        "match": "unlisted"
-      },
-      {
-        "title": "GuNGNiR†",
-        "chart": "ANOTHER",
-        "ver": "24",
-        "match": "unlisted"
-      },
-      {
-        "title": "Arabian Rave Night†",
-        "chart": "ANOTHER",
-        "ver": "16",
-        "match": "unlisted"
-      },
-      {
-        "title": "お米の美味しい炊き方、そしてお米を食べることによるその効果。†",
-        "chart": "ANOTHER",
-        "ver": "20",
-        "match": "unlisted"
-      },
-      {
-        "title": "CONTRACT†",
-        "chart": "ANOTHER",
-        "ver": "13",
-        "match": "unlisted"
-      },
-      {
-        "title": "thunder HOUSE NATION Remix†",
-        "chart": "ANOTHER",
-        "ver": "16",
-        "match": "unlisted"
-      },
-      {
-        "title": "Be quiet†",
-        "chart": "ANOTHER",
-        "ver": "28",
-        "match": "unlisted"
-      },
-      {
-        "title": "Ganymede†",
-        "chart": "ANOTHER",
-        "ver": "13",
-        "match": "unlisted"
-      },
-      {
-        "title": "STEEL NEEDLE†",
-        "chart": "ANOTHER",
-        "ver": "15",
-        "match": "unlisted"
-      },
-      {
-        "title": "ΕΛΠΙΣ†",
-        "chart": "ANOTHER",
-        "ver": "20",
-        "match": "unlisted"
-      },
-      {
-        "title": "Ypsilon†",
-        "chart": "ANOTHER",
-        "ver": "27",
-        "match": "unlisted"
-      },
-      {
-        "title": "Anisakis -somatic mutation type\"Forza\"-†",
-        "chart": "ANOTHER",
-        "ver": "15",
-        "match": "unlisted"
-      },
-      {
-        "title": "SAMURAI-Scramble†",
-        "chart": "ANOTHER",
-        "ver": "24",
-        "match": "unlisted"
-      },
-      {
-        "title": "Astra Blaze",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "君のハートにロックオン†",
-        "chart": "ANOTHER",
-        "ver": "19",
-        "match": "unlisted"
-      },
-      {
-        "title": "BroGamer†",
-        "chart": "ANOTHER",
-        "ver": "24",
-        "match": "unlisted"
-      },
-      {
-        "title": "NEW GENERATION -もう、お前しか見えない-†",
-        "chart": "ANOTHER",
-        "ver": "15",
-        "match": "unlisted"
-      },
-      {
-        "title": "REVOLVER†",
-        "chart": "ANOTHER",
-        "ver": "25",
-        "match": "unlisted"
-      },
-      {
-        "title": "Scripted Connection⇒ A mix†",
-        "chart": "ANOTHER",
-        "ver": "12",
-        "match": "unlisted"
-      },
-      {
-        "title": "Phoenix†",
-        "chart": "ANOTHER",
-        "ver": "29",
-        "match": "unlisted"
-      },
-      {
-        "title": "Time to Air†",
-        "chart": "ANOTHER",
-        "ver": "15",
-        "match": "unlisted"
-      },
-      {
-        "title": "Umbral†",
-        "chart": "ANOTHER",
-        "ver": "24",
-        "match": "unlisted"
-      },
-      {
-        "title": "華爛漫 -Flowers-†",
-        "chart": "ANOTHER",
-        "ver": "15",
-        "match": "unlisted"
-      },
-      {
-        "title": "Illegal Function Call†",
-        "chart": "ANOTHER",
-        "ver": "20",
-        "match": "unlisted"
-      },
-      {
-        "title": "ミラージュ・レジデンス†",
-        "chart": "ANOTHER",
-        "ver": "15",
-        "match": "unlisted"
-      },
-      {
-        "title": "ハイテックトキオ†",
-        "chart": "ANOTHER",
-        "ver": "29",
-        "match": "unlisted"
-      },
-      {
-        "title": "The Limbo†",
-        "chart": "ANOTHER",
-        "ver": "19",
-        "match": "unlisted"
-      },
-      {
-        "title": "Override†",
-        "chart": "ANOTHER",
-        "ver": "27",
-        "match": "unlisted"
-      },
-      {
-        "title": "Elektrick U-Phoria†",
-        "chart": "ANOTHER",
-        "ver": "21",
-        "match": "unlisted"
-      },
-      {
-        "title": "four pieces of heaven†",
-        "chart": "ANOTHER",
-        "ver": "15",
-        "match": "unlisted"
-      },
-      {
-        "title": "Marie Antoinette†",
-        "chart": "ANOTHER",
-        "ver": "16",
-        "match": "unlisted"
-      },
-      {
-        "title": "[ ]DENTITY",
-        "chart": "ANOTHER",
-        "ver": "30",
-        "match": "unlisted"
-      },
-      {
-        "title": "龍王の霊廟(Mausoleum Of The Primal Dragon)†",
-        "chart": "ANOTHER",
-        "ver": "26",
-        "match": "unlisted"
-      },
-      {
-        "title": "Burning Flame†",
-        "chart": "ANOTHER",
-        "ver": "28",
-        "match": "unlisted"
-      },
-      {
-        "title": "Dances with Snow Fairies†",
-        "chart": "ANOTHER",
-        "ver": "18",
-        "match": "unlisted"
-      },
-      {
-        "title": "Violet Pulse†",
-        "chart": "ANOTHER",
-        "ver": "23",
-        "match": "unlisted"
-      },
-      {
-        "title": "ATHER†",
-        "chart": "ANOTHER",
-        "ver": "21",
-        "match": "unlisted"
-      },
-      {
-        "title": "VOID",
-        "chart": "ANOTHER",
-        "ver": "30",
-        "match": "unlisted"
-      },
-      {
-        "title": "CODE:0†",
-        "chart": "ANOTHER",
-        "ver": "26",
-        "match": "unlisted"
-      },
-      {
-        "title": "恋する☆宇宙戦争っ！！†",
-        "chart": "ANOTHER",
-        "ver": "19",
-        "match": "unlisted"
-      },
-      {
-        "title": "表裏一体！？怪盗いいんちょの悩み†",
-        "chart": "ANOTHER",
-        "ver": "22",
-        "match": "unlisted"
-      },
-      {
-        "title": "O/D*20†",
-        "chart": "ANOTHER",
-        "ver": "25",
-        "match": "unlisted"
-      },
-      {
-        "title": "Miracle 5ympho X†",
-        "chart": "ANOTHER",
-        "ver": "21",
-        "match": "unlisted"
-      },
-      {
-        "title": "KING†",
-        "chart": "ANOTHER",
-        "ver": "30",
-        "match": "unlisted"
-      },
-      {
-        "title": "Saturn†",
-        "chart": "ANOTHER",
-        "ver": "20",
-        "match": "unlisted"
-      },
-      {
-        "title": "華蝶風雪†",
-        "chart": "ANOTHER",
-        "ver": "13",
-        "match": "unlisted"
-      },
-      {
-        "title": "SOLID WYVERN†",
-        "chart": "ANOTHER",
-        "ver": "29",
-        "match": "unlisted"
-      },
-      {
-        "title": "HYENA†",
-        "chart": "ANOTHER",
-        "ver": "21",
-        "match": "unlisted"
-      },
-      {
-        "title": "yellow head joe†",
-        "chart": "ANOTHER",
-        "ver": "19",
-        "match": "unlisted"
-      },
-      {
-        "title": "超青少年ノ為ノ超多幸ナ超古典的超舞曲†",
-        "chart": "ANOTHER",
-        "ver": "22",
-        "match": "unlisted"
-      },
-      {
-        "title": "GUILTY†",
-        "chart": "ANOTHER",
-        "ver": "22",
-        "match": "unlisted"
-      },
-      {
-        "title": "MAD ATTACK†",
-        "chart": "ANOTHER",
-        "ver": "21",
-        "match": "unlisted"
-      },
-      {
-        "title": "Lost Souls†",
-        "chart": "ANOTHER",
-        "ver": "27",
-        "match": "unlisted"
-      },
-      {
-        "title": "海神†",
-        "chart": "ANOTHER",
-        "ver": "21",
-        "match": "unlisted"
-      },
-      {
-        "title": "DEATH†ZIGOQ ～怒りの高速爆走野郎～†",
-        "chart": "ANOTHER",
-        "ver": "25",
-        "match": "unlisted"
-      },
-      {
-        "title": "Scripted Connection⇒ H mix†",
-        "chart": "ANOTHER",
-        "ver": "12",
-        "match": "unlisted"
-      },
-      {
-        "title": "ALBA -黎明-†",
-        "chart": "ANOTHER",
-        "ver": "21",
-        "match": "unlisted"
-      },
-      {
-        "title": "カジノファイヤーことみちゃん†",
-        "chart": "ANOTHER",
-        "ver": "20",
-        "match": "unlisted"
-      },
-      {
-        "title": "灼熱Lost Summer Dayz",
-        "chart": "ANOTHER",
-        "ver": "32",
-        "match": "unlisted"
-      },
-      {
-        "title": "A MINSTREL ～ ver. short-scape ～†",
-        "chart": "ANOTHER",
-        "ver": "19",
-        "match": "unlisted"
-      },
-      {
-        "title": "CUE CUE RESCUE†",
-        "chart": "ANOTHER",
-        "ver": "30",
-        "match": "unlisted"
-      },
-      {
-        "title": "Nothing but Theory†",
-        "chart": "ANOTHER",
-        "ver": "25",
-        "match": "unlisted"
-      },
-      {
-        "title": "烽火連天の刃†",
-        "chart": "ANOTHER",
-        "ver": "29",
-        "match": "unlisted"
-      },
-      {
-        "title": "Mid-Corner (Magic Maker)",
-        "chart": "ANOTHER",
-        "ver": "32",
-        "match": "title+ver+chart"
-      },
-      {
-        "title": "フォニイ†",
-        "chart": "ANOTHER",
-        "ver": "31",
-        "match": "unlisted"
-      },
-      {
-        "title": "新宝島†",
-        "chart": "ANOTHER",
-        "ver": "28",
-        "match": "unlisted"
-      },
-      {
-        "title": "蛇神†",
-        "chart": "ANOTHER",
-        "ver": "19",
-        "match": "unlisted"
-      },
-      {
-        "title": "1116",
-        "chart": "ANOTHER",
-        "ver": "32",
-        "match": "unlisted"
-      },
-      {
-        "title": "FlyAway",
-        "chart": "ANOTHER",
-        "ver": "32",
-        "match": "unlisted"
-      },
-      {
-        "title": "hora de verdad",
-        "chart": "ANOTHER",
-        "ver": "32",
-        "match": "unlisted"
-      },
-      {
-        "title": "Without Heaven",
-        "chart": "ANOTHER",
-        "ver": "32",
-        "match": "unlisted"
-      },
-      {
-        "title": "Caldwell 99†",
-        "chart": "ANOTHER",
-        "ver": "30",
-        "match": "unlisted"
-      },
-      {
-        "title": "Bow shock!!†",
-        "chart": "ANOTHER",
-        "ver": "27",
-        "match": "unlisted"
-      },
-      {
-        "title": "Cross Fire",
-        "chart": "ANOTHER",
-        "ver": "32",
-        "match": "unlisted"
-      },
-      {
-        "title": "グッバイ宣言†",
-        "chart": "ANOTHER",
-        "ver": "29",
-        "match": "unlisted"
-      },
-      {
-        "title": "神っぽいな†",
-        "chart": "ANOTHER",
-        "ver": "30",
-        "match": "unlisted"
-      },
-      {
-        "title": "MARLIN",
-        "chart": "ANOTHER",
-        "ver": "32",
-        "match": "unlisted"
-      },
-      {
-        "title": "God Mind",
-        "chart": "ANOTHER",
-        "ver": "32",
-        "match": "unlisted"
-      },
-      {
-        "title": "SμG@R RU$#",
-        "chart": "ANOTHER",
-        "ver": "32",
-        "match": "unlisted"
-      },
-      {
-        "title": "#The_Relentless†",
-        "chart": "ANOTHER",
-        "ver": "22",
-        "match": "unlisted"
-      },
-      {
-        "title": "アラビアン ハイパー ナイト",
-        "chart": "ANOTHER",
-        "ver": "32",
-        "match": "unlisted"
-      },
-      {
-        "title": "Uaigh Gealai",
-        "chart": "ANOTHER",
-        "ver": "32",
-        "match": "unlisted"
-      },
-      {
-        "title": "Aqvion",
-        "chart": "ANOTHER",
-        "ver": "32",
-        "match": "unlisted"
-      },
-      {
-        "title": "SISYPHUS",
-        "chart": "ANOTHER",
-        "ver": "32",
-        "match": "unlisted"
-      },
-      {
-        "title": "Skratch Education Lv-1",
-        "chart": "ANOTHER",
-        "ver": "32",
-        "match": "unlisted"
-      },
-      {
-        "title": "XHRONOXAPSULΞ",
-        "chart": "ANOTHER",
-        "ver": "32",
-        "match": "unlisted"
-      },
-      {
-        "title": "スキッテイエェエエェ!!!!",
-        "chart": "ANOTHER",
-        "ver": "32",
-        "match": "unlisted"
-      },
-      {
-        "title": "紫陽花 -AZISAI-†",
-        "chart": "ANOTHER",
-        "ver": "23",
-        "match": "unlisted"
-      },
-      {
-        "title": "Begin",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "⁽⁽ଘ( ˙꒳˙ )ଓ⁾⁾ beyond reason",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "Lisa-RICCIA†",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "King of Tribe",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "EYE OF THE HEAVEN",
-        "chart": "ANOTHER",
-        "ver": "32",
-        "match": "unlisted"
-      },
-      {
-        "title": "garden†",
-        "chart": "ANOTHER",
-        "ver": "12",
-        "match": "unlisted"
-      },
-      {
-        "title": "ChaserXX†",
-        "chart": "ANOTHER",
-        "ver": "25",
-        "match": "unlisted"
-      },
-      {
-        "title": "uen",
-        "chart": "ANOTHER",
-        "ver": "32",
-        "match": "unlisted"
-      },
-      {
-        "title": "INAZUMA†",
-        "chart": "ANOTHER",
-        "ver": "12",
-        "match": "unlisted"
-      },
-      {
-        "title": "Flamingo",
-        "chart": "ANOTHER",
-        "ver": "32",
-        "match": "unlisted"
-      },
-      {
-        "title": "聖人の塔†",
-        "chart": "ANOTHER",
-        "ver": "19",
-        "match": "unlisted"
-      },
-      {
-        "title": "LIGHTNING STRIKES†",
-        "chart": "ANOTHER",
-        "ver": "27",
-        "match": "unlisted"
-      },
-      {
-        "title": "≡+≡†",
-        "chart": "ANOTHER",
-        "ver": "30",
-        "match": "unlisted"
-      },
-      {
-        "title": "POLKAMANIA†",
-        "chart": "ANOTHER",
-        "ver": "28",
-        "match": "unlisted"
-      },
-      {
-        "title": "chaplet -IIDX re:build-",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "RALLY '25",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "Makin' It",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "ビビッド ☆+*。キラキライム",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "From Human Blood",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "Space Battleship S4TO",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "Regina vespaE",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "2 Be Continued",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "Memoria Obscura",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "ιgniЯRuina",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "Lisa-RICCIA",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "Super Duper Racers†",
-        "chart": "ANOTHER",
-        "ver": "23",
-        "match": "unlisted"
-      },
-      {
-        "title": "Plazma†",
-        "chart": "ANOTHER",
-        "ver": "32",
-        "match": "unlisted"
-      },
-      {
-        "title": "ミュージック・アワー†",
-        "chart": "ANOTHER",
-        "ver": "29",
-        "match": "unlisted"
-      },
-      {
-        "title": "Submerge Serenade†",
-        "chart": "ANOTHER",
-        "ver": "31",
-        "match": "unlisted"
-      },
-      {
-        "title": "Ember Lights†",
-        "chart": "ANOTHER",
-        "ver": "26",
-        "match": "unlisted"
-      },
-      {
-        "title": "クレッシェンド",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "FiZZλ_POT!0N",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "CaptivAte～浄化～†",
-        "chart": "ANOTHER",
-        "ver": "12",
-        "match": "unlisted"
-      },
-      {
-        "title": "Pinky Happy Crazy",
-        "chart": "ANOTHER",
-        "ver": "32",
-        "match": "unlisted"
-      },
-      {
-        "title": "Flashes†",
-        "chart": "ANOTHER",
-        "ver": "22",
-        "match": "unlisted"
-      },
-      {
-        "title": "色を喪った街",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "HyperTwist",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "fixer",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "Do it!! Do it!!†",
-        "chart": "ANOTHER",
-        "ver": "15",
-        "match": "unlisted"
-      },
-      {
-        "title": "CoMAAAAAAA†",
-        "chart": "ANOTHER",
-        "ver": "26",
-        "match": "unlisted"
-      },
-      {
-        "title": "INHERITANCE†",
-        "chart": "ANOTHER",
-        "ver": "31",
-        "match": "unlisted"
-      },
-      {
-        "title": "PERFECT GREAT!!",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "UNDO THE NIGHT",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "Amor∞Fati",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "HEROES",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "ちょえちょえまぎか†",
-        "chart": "ANOTHER",
-        "ver": "30",
-        "match": "unlisted"
-      },
-      {
-        "title": "ラブコメトキドキシリアス",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "ベンガル vs. アムール Battle",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "ZED†",
-        "chart": "ANOTHER",
-        "ver": "20",
-        "match": "unlisted"
-      },
-      {
-        "title": "RUINA",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "BitRacer",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "GENE†",
-        "chart": "ANOTHER",
-        "ver": "26",
-        "match": "unlisted"
-      },
-      {
-        "title": "THE BLACK KNIGHT†",
-        "chart": "ANOTHER",
-        "ver": "18",
-        "match": "unlisted"
-      },
-      {
-        "title": "Dusk Endir",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "OMEGA",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "Mighty Beat Monsterz",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "THUNDERSTRIKE",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "Gimme a Big Beat(青龍 Remix)",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "Rise'n Beauty†",
-        "chart": "ANOTHER",
-        "ver": "10",
-        "match": "unlisted"
-      },
-      {
-        "title": "Any％",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "Smintheus",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "断罪のミメシス",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "Limelight",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "Dolphin Kick",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "Urban Constellations†",
-        "chart": "ANOTHER",
-        "ver": "26",
-        "match": "unlisted"
-      },
-      {
-        "title": "寝起きヤシの木†",
-        "chart": "ANOTHER",
-        "ver": "31",
-        "match": "unlisted"
-      },
-      {
-        "title": "かわいいだけじゃだめですか？†",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "Digitized Ocean",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "super double play sessions",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      },
-      {
-        "title": "Disco Killer Music Lover",
-        "chart": "ANOTHER",
-        "ver": "33",
-        "match": "unlisted"
-      }
-    ]
-  }
+    {
+      "pageUrl": "https://sp12.iidx.app/sheets/2891-1732/hard",
+      "capturedJsonResponses": 4,
+      "responseUrls": [
+        "https://ep1.adtrafficquality.google/getconfig/sodar?sv=200&tid=gda&tv=r20260804&st=env&sjk=7365070217886343",
+        "https://sp12.iidx.app/api/v1/abilities?type=hard",
+        "https://sp12.iidx.app/api/v1/sheets",
+        "https://syndication.twitter.com/settings?session_id=359bc6fe14795311f83b3ab6fe09de558c671c01"
+      ],
+      "extractedCount": 669,
+      "normalClassified": 621,
+      "hardClassified": 621
+    }
+  ],
+  "totalCount": 669,
+  "normalClassifiedCount": 621,
+  "hardClassifiedCount": 621,
+  "normalUnclassifiedCount": 48,
+  "hardUnclassifiedCount": 48,
+  "normalUnclassified": [
+    {
+      "title": "Amor∞Fati",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "Any％",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "Astra Blaze",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "Begin",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "BitRacer",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "CoMAAAAAAA†",
+      "chart": "ANOTHER",
+      "ver": "26"
+    },
+    {
+      "title": "Digitized Ocean",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "Do it!! Do it!!†",
+      "chart": "ANOTHER",
+      "ver": "15"
+    },
+    {
+      "title": "Dolphin Kick",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "Dusk Endir",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "Ember Lights†",
+      "chart": "ANOTHER",
+      "ver": "26"
+    },
+    {
+      "title": "fixer",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "FiZZλ_POT!0N",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "Flashes†",
+      "chart": "ANOTHER",
+      "ver": "22"
+    },
+    {
+      "title": "GENE†",
+      "chart": "ANOTHER",
+      "ver": "26"
+    },
+    {
+      "title": "Gimme a Big Beat(青龍 Remix)",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "HEROES",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "HyperTwist",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "INHERITANCE†",
+      "chart": "ANOTHER",
+      "ver": "31"
+    },
+    {
+      "title": "King of Tribe",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "Limelight",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "Lisa-RICCIA†",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "Mighty Beat Monsterz",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "OMEGA",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "PERFECT GREAT!!",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "Plazma†",
+      "chart": "ANOTHER",
+      "ver": "32"
+    },
+    {
+      "title": "Rise'n Beauty†",
+      "chart": "ANOTHER",
+      "ver": "10"
+    },
+    {
+      "title": "RIZING-GAMERS.",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "RUINA",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "Smintheus",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "Submerge Serenade†",
+      "chart": "ANOTHER",
+      "ver": "31"
+    },
+    {
+      "title": "super double play sessions",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "Super Duper Racers†",
+      "chart": "ANOTHER",
+      "ver": "23"
+    },
+    {
+      "title": "THE BLACK KNIGHT†",
+      "chart": "ANOTHER",
+      "ver": "18"
+    },
+    {
+      "title": "THUNDERSTRIKE",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "UNDO THE NIGHT",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "Urban Constellations†",
+      "chart": "ANOTHER",
+      "ver": "26"
+    },
+    {
+      "title": "ZED†",
+      "chart": "ANOTHER",
+      "ver": "20"
+    },
+    {
+      "title": "⁽⁽ଘ( ˙꒳˙ )ଓ⁾⁾ beyond reason",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "かわいいだけじゃだめですか？†",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "ちょえちょえまぎか†",
+      "chart": "ANOTHER",
+      "ver": "30"
+    },
+    {
+      "title": "クレッシェンド",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "ベンガル vs. アムール Battle",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "ミュージック・アワー†",
+      "chart": "ANOTHER",
+      "ver": "29"
+    },
+    {
+      "title": "ラブコメトキドキシリアス",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "寝起きヤシの木†",
+      "chart": "ANOTHER",
+      "ver": "31"
+    },
+    {
+      "title": "断罪のミメシス",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "色を喪った街",
+      "chart": "ANOTHER",
+      "ver": "33"
+    }
+  ],
+  "hardUnclassified": [
+    {
+      "title": "Amor∞Fati",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "Any％",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "Astra Blaze",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "Begin",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "BitRacer",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "CoMAAAAAAA†",
+      "chart": "ANOTHER",
+      "ver": "26"
+    },
+    {
+      "title": "Digitized Ocean",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "Do it!! Do it!!†",
+      "chart": "ANOTHER",
+      "ver": "15"
+    },
+    {
+      "title": "Dolphin Kick",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "Dusk Endir",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "Ember Lights†",
+      "chart": "ANOTHER",
+      "ver": "26"
+    },
+    {
+      "title": "fixer",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "FiZZλ_POT!0N",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "Flashes†",
+      "chart": "ANOTHER",
+      "ver": "22"
+    },
+    {
+      "title": "GENE†",
+      "chart": "ANOTHER",
+      "ver": "26"
+    },
+    {
+      "title": "Gimme a Big Beat(青龍 Remix)",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "HEROES",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "HyperTwist",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "INHERITANCE†",
+      "chart": "ANOTHER",
+      "ver": "31"
+    },
+    {
+      "title": "King of Tribe",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "Limelight",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "Lisa-RICCIA†",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "Mighty Beat Monsterz",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "OMEGA",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "PERFECT GREAT!!",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "Plazma†",
+      "chart": "ANOTHER",
+      "ver": "32"
+    },
+    {
+      "title": "Rise'n Beauty†",
+      "chart": "ANOTHER",
+      "ver": "10"
+    },
+    {
+      "title": "RIZING-GAMERS.",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "RUINA",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "Smintheus",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "Submerge Serenade†",
+      "chart": "ANOTHER",
+      "ver": "31"
+    },
+    {
+      "title": "super double play sessions",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "Super Duper Racers†",
+      "chart": "ANOTHER",
+      "ver": "23"
+    },
+    {
+      "title": "THE BLACK KNIGHT†",
+      "chart": "ANOTHER",
+      "ver": "18"
+    },
+    {
+      "title": "THUNDERSTRIKE",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "UNDO THE NIGHT",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "Urban Constellations†",
+      "chart": "ANOTHER",
+      "ver": "26"
+    },
+    {
+      "title": "ZED†",
+      "chart": "ANOTHER",
+      "ver": "20"
+    },
+    {
+      "title": "⁽⁽ଘ( ˙꒳˙ )ଓ⁾⁾ beyond reason",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "かわいいだけじゃだめですか？†",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "ちょえちょえまぎか†",
+      "chart": "ANOTHER",
+      "ver": "30"
+    },
+    {
+      "title": "クレッシェンド",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "ベンガル vs. アムール Battle",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "ミュージック・アワー†",
+      "chart": "ANOTHER",
+      "ver": "29"
+    },
+    {
+      "title": "ラブコメトキドキシリアス",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "寝起きヤシの木†",
+      "chart": "ANOTHER",
+      "ver": "31"
+    },
+    {
+      "title": "断罪のミメシス",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "色を喪った街",
+      "chart": "ANOTHER",
+      "ver": "33"
+    }
+  ]
 }
