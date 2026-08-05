@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
-"""sp12.iidx.app の全SP☆12譜面に、atwikiの地力分類を合成する。"""
+"""公開ページの全SP☆12譜面に、atwikiの地力分類を合成する。"""
 from __future__ import annotations
 
+import ast
+import html as html_module
 import json
 import re
 import sys
@@ -14,10 +16,9 @@ from bs4 import BeautifulSoup, Tag
 
 NORMAL_URL = "https://w.atwiki.jp/bemani2sp11/pages/19.html"
 HARD_URL = "https://w.atwiki.jp/bemani2sp11/pages/18.html"
-MASTER_URLS = (
-    "https://sp12.iidx.app/api/v1/sheets",
-    "https://sp12.iidx.app/api/v1/sheets/list",
-    "https://api-sp12.iidx.app/sheets",
+MASTER_PAGE_URLS = (
+    "https://sp12.iidx.app/sheets/2891-1732/clear",
+    "https://sp12.iidx.app/sheets/2891-1732/hard",
 )
 OUTPUT = Path("data/sp12.json")
 REPORT = Path("data/update-report.json")
@@ -90,63 +91,184 @@ def normalize_rank(text: str) -> str:
     return rank if RANK_RE.fullmatch(rank) else "未分類"
 
 
-def extract_array(raw: object) -> list[dict]:
-    if isinstance(raw, list):
-        return [x for x in raw if isinstance(x, dict)]
-    if not isinstance(raw, dict):
-        return []
-    for key in ("sheets", "data", "charts", "items", "results"):
-        value = raw.get(key)
-        if isinstance(value, list):
-            return [x for x in value if isinstance(x, dict)]
-        if isinstance(value, dict):
-            nested = extract_array(value)
-            if nested:
-                return nested
-    return []
+def walk_json(value: object):
+    """JSON内のすべての値を再帰的に走査する。"""
+    yield value
+    if isinstance(value, dict):
+        for child in value.values():
+            yield from walk_json(child)
+    elif isinstance(value, list):
+        for child in value:
+            yield from walk_json(child)
+
+
+def decode_script_payloads(text: str) -> list[object]:
+    """HTML内のJSON/Redux初期値を、形式を決め打ちせず抽出する。"""
+    soup = BeautifulSoup(text, "html.parser")
+    candidates: list[str] = []
+    for script in soup.find_all("script"):
+        body = script.string or script.get_text() or ""
+        body = html_module.unescape(body.strip())
+        if not body:
+            continue
+        candidates.append(body)
+        # window.foo = {...}; / const foo = [...] の右辺候補
+        match = re.search(r"=\s*([\[{].*[\]}])\s*;?\s*$", body, re.S)
+        if match:
+            candidates.append(match.group(1))
+        # JSON.parse("...") 形式
+        for encoded in re.findall(r"JSON\.parse\((['\"])(.*?)\1\)", body, re.S):
+            try:
+                candidates.append(ast.literal_eval(encoded[0] + encoded[1] + encoded[0]))
+            except Exception:
+                pass
+
+    # HTML全体に直接埋め込まれたJSONも候補にする。
+    for marker in ("__NEXT_DATA__", "__INITIAL_STATE__", "preloadedState", "initialState"):
+        if marker in text:
+            candidates.append(html_module.unescape(text))
+            break
+
+    decoded: list[object] = []
+    seen: set[str] = set()
+    for raw in candidates:
+        raw = raw.strip()
+        if not raw or raw in seen:
+            continue
+        seen.add(raw)
+        attempts = [raw]
+        # JSONオブジェクト/配列の範囲を切り出す。
+        for opener, closer in (("{", "}"), ("[", "]")):
+            left, right = raw.find(opener), raw.rfind(closer)
+            if 0 <= left < right:
+                attempts.append(raw[left:right + 1])
+        for candidate in attempts:
+            try:
+                decoded.append(json.loads(candidate))
+                break
+            except Exception:
+                continue
+    return decoded
+
+
+def dict_title(item: dict) -> str:
+    direct = pick(item, "title", "music_title", "name", "song_name")
+    if direct:
+        return clean(direct)
+    for key in ("music", "song", "sheet", "chart"):
+        nested = item.get(key)
+        if isinstance(nested, dict):
+            value = pick(nested, "title", "music_title", "name", "song_name")
+            if value:
+                return clean(value)
+    return ""
+
+
+def master_row(item: dict) -> dict | None:
+    raw_title = dict_title(item)
+    if not raw_title:
+        return None
+    title = normalize_title(raw_title)
+    nested_music = item.get("music") if isinstance(item.get("music"), dict) else {}
+    nested_sheet = item.get("sheet") if isinstance(item.get("sheet"), dict) else {}
+    ver = clean(
+        pick(item, "version", "ver", "series", "version_id", default="")
+        or pick(nested_music, "version", "ver", "series", default="-")
+    ) or "-"
+    difficulty = pick(item, "difficulty", "chart", "play_style", "another", "difficulty_id", default="")
+    if not difficulty:
+        difficulty = pick(nested_sheet, "difficulty", "chart", "difficulty_id", default="")
+    chart = chart_name(difficulty, raw_title)
+    wiki_url = clean(
+        pick(item, "wiki_url", "wikiUrl", "url", "atwiki_url", default="")
+        or pick(nested_music, "wiki_url", "wikiUrl", "url", default="")
+    )
+    row_id = clean(pick(item, "id", "sheet_id", "chart_id", default=""))
+    wiki_key = normalize_wiki_url(wiki_url)
+    return {
+        "masterKey": row_id or (f"url:{wiki_key}\0{chart}" if wiki_key else f"fallback:{title.casefold()}\0{ver}\0{chart}"),
+        "title": title,
+        "chart": chart,
+        "ver": ver,
+        "bpm": clean(pick(item, "bpm", default="") or pick(nested_music, "bpm", default="")),
+        "notes": clean(pick(item, "notes", "note_count", default="") or pick(nested_sheet, "notes", "note_count", default="")),
+        "attr": clean(pick(item, "attributes", "attribute", default="")),
+        "wikiUrl": wiki_url,
+    }
+
+
+def extract_master_from_page(text: str, page_url: str) -> list[dict]:
+    rows: list[dict] = []
+    seen: set[str] = set()
+
+    # 1. scriptに埋め込まれたJSON/初期stateを解析。
+    for payload in decode_script_payloads(text):
+        for value in walk_json(payload):
+            if not isinstance(value, dict):
+                continue
+            row = master_row(value)
+            if not row or row["masterKey"] in seen:
+                continue
+            # UI設定やユーザー名等を曲と誤認しないため、譜面らしい情報を要求。
+            keys = set(value)
+            nested = value.get("sheet") if isinstance(value.get("sheet"), dict) else {}
+            looks_like_sheet = bool(
+                keys & {"n_clear", "n_clear_string", "hard", "hard_string", "difficulty", "difficulty_id", "notes", "sheet_id"}
+                or set(nested) & {"difficulty", "difficulty_id", "notes", "note_count"}
+                or row["wikiUrl"]
+            )
+            if not looks_like_sheet:
+                continue
+            seen.add(row["masterKey"])
+            rows.append(row)
+
+    # 2. サーバー描画された表がある場合のフォールバック。
+    soup = BeautifulSoup(text, "html.parser")
+    for tr in soup.find_all("tr"):
+        cells = tr.find_all(["th", "td"])
+        values = [clean(c.get_text(" ", strip=True)) for c in cells]
+        if len(values) < 2:
+            continue
+        title_index = next((i for i, v in enumerate(values) if i > 0 and v and v not in {"曲名", "タイトル"}), None)
+        if title_index is None:
+            continue
+        ver = values[0]
+        if not re.fullmatch(r"\d{1,2}", ver):
+            continue
+        title_cell = cells[title_index]
+        raw_title = values[title_index]
+        link = title_cell.find("a", href=True)
+        wiki_url = urljoin(page_url, link["href"]) if link else ""
+        row = {
+            "masterKey": f"html:{normalize_title(raw_title).casefold()}\0{ver}\0{chart_name('', raw_title)}",
+            "title": normalize_title(raw_title), "chart": chart_name("", raw_title), "ver": ver,
+            "bpm": "", "notes": "", "attr": "", "wikiUrl": wiki_url,
+        }
+        if row["masterKey"] not in seen:
+            seen.add(row["masterKey"])
+            rows.append(row)
+    return rows
 
 
 def fetch_master() -> tuple[list[dict], str]:
+    """403になるAPIを使わず、公開ページの埋め込みデータを読む。"""
     errors: list[str] = []
-    for url in MASTER_URLS:
+    best: tuple[list[dict], str] = ([], "")
+    for url in MASTER_PAGE_URLS:
         try:
-            response = requests.get(url, headers=headers(), timeout=TIMEOUT)
-            response.raise_for_status()
-            raw = response.json()
-            arr = extract_array(raw)
-            rows: list[dict] = []
-            seen: set[str] = set()
-            for item in arr:
-                raw_title = clean(pick(item, "title", "music_title", "name", "song_name"))
-                if not raw_title:
-                    continue
-                title = normalize_title(raw_title)
-                ver = clean(pick(item, "version", "ver", "series", "version_id", default="-")) or "-"
-                difficulty = pick(item, "difficulty", "chart", "play_style", "another", "difficulty_id")
-                chart = chart_name(difficulty, raw_title)
-                wiki_url = clean(pick(item, "wiki_url", "wikiUrl", "url", "atwiki_url"))
-                wiki_key = normalize_wiki_url(wiki_url)
-                row_id = clean(pick(item, "id", "sheet_id", "chart_id"))
-                key = row_id or (f"url:{wiki_key}\0{chart}" if wiki_key else f"fallback:{title.casefold()}\0{ver}\0{chart}")
-                if key in seen:
-                    continue
-                seen.add(key)
-                rows.append({
-                    "masterKey": key,
-                    "title": title,
-                    "chart": chart,
-                    "ver": ver,
-                    "bpm": clean(pick(item, "bpm")),
-                    "notes": clean(pick(item, "notes", "note_count")),
-                    "attr": clean(pick(item, "attributes", "attribute")),
-                    "wikiUrl": wiki_url,
-                })
-            if len(rows) < MIN_MASTER:
-                raise RuntimeError(f"master count too low: {len(rows)}")
-            return rows, url
+            text = fetch_text(url)
+            rows = extract_master_from_page(text, url)
+            print(f"master page candidate: {url} -> {len(rows)} charts")
+            if len(rows) > len(best[0]):
+                best = (rows, url)
+            if len(rows) >= MIN_MASTER:
+                return rows, url
+            errors.append(f"{url}: extracted only {len(rows)} charts")
         except Exception as exc:
             errors.append(f"{url}: {exc}")
-    raise RuntimeError("all master sources failed / " + " / ".join(errors))
+    if len(best[0]) >= MIN_MASTER:
+        return best
+    raise RuntimeError("all public master pages failed / " + " / ".join(errors))
 
 
 def table_header_indexes(table: Tag) -> dict[str, int] | None:
@@ -274,7 +396,7 @@ def merge(master: list[dict], normal_rows: list[dict], hard_rows: list[dict]) ->
             "normal": normal, "hard": hard, "level": 12,
             "wikiUrl": item["wikiUrl"] or source_row.get("wikiUrl", ""),
             "normalMatch": normal_method, "hardMatch": hard_method,
-            "source": "sp12.iidx.app master + atwiki classifications",
+            "source": "sp12.iidx.app public page + atwiki classifications",
         })
     merged.sort(key=lambda row: (row["title"].casefold(), row["chart"], row["ver"]))
     return merged, {

@@ -16,3 +16,8 @@ GitHubの **Actions → Update SP12 data → Run workflow** を実行してく�
 成功すると `data/sp12.json` と `data/update-report.json` が更新されます。
 
 公開URL：`https://farewell2236.github.io/kirika/`
+
+
+## 403対策
+
+GitHub Actionsから拒否されるAPIは使用せず、公開されている参考表ページのHTML内に埋め込まれた初期データを解析します。
