@@ -1,9 +1,5 @@
 #!/usr/bin/env python3
-"""SP☆12の曲データを更新する。
-
-分類名はtier番号から推測せず、元のatwiki難易度表に表示されている
-見出し（地力A、個人差B+など）をそのまま使用する。
-"""
+"""sp12.iidx.app の全SP☆12譜面に、atwikiの地力分類を合成する。"""
 from __future__ import annotations
 
 import json
@@ -14,177 +10,312 @@ from pathlib import Path
 from urllib.parse import urljoin, urlparse
 
 import requests
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, Tag
 
-NORMAL_PAGE = "https://iidx-difficulty-table-checker.nomadblacky.dev/table/12_normal"
-HARD_PAGE = "https://iidx-difficulty-table-checker.nomadblacky.dev/table/12_hard"
+NORMAL_URL = "https://w.atwiki.jp/bemani2sp11/pages/19.html"
+HARD_URL = "https://w.atwiki.jp/bemani2sp11/pages/18.html"
+MASTER_URLS = (
+    "https://sp12.iidx.app/api/v1/sheets",
+    "https://sp12.iidx.app/api/v1/sheets/list",
+    "https://api-sp12.iidx.app/sheets",
+)
 OUTPUT = Path("data/sp12.json")
-TIMEOUT = (7, 20)
-VALID_RANK = re.compile(r"^(?:未定|地力[0-9A-FS](?:\+)?|個人差[0-9A-FS](?:\+)?)$")
-
-
-def get(url: str) -> str:
-    headers = {"User-Agent": "farewell2236-kirika/2.0 (+GitHub Actions)"}
-    response = requests.get(url, headers=headers, timeout=TIMEOUT)
-    response.raise_for_status()
-    response.encoding = response.apparent_encoding or response.encoding
-    if len(response.text) < 1000:
-        raise RuntimeError(f"response too short: {url} ({len(response.text)} bytes)")
-    return response.text
+REPORT = Path("data/update-report.json")
+TIMEOUT = (8, 25)
+MIN_MASTER = 640
+RANK_RE = re.compile(r"^(地力(?:S\+?|A\+?|B\+?|C|D|E|F)|個人差(?:S\+?|A\+?|B\+?|C|D|E|F))$")
 
 
 def clean(value: object) -> str:
     return re.sub(r"\s+", " ", str(value or "")).strip()
 
 
-def normalize_url(url: str, base: str = "") -> str:
-    absolute = urljoin(base, url)
+def headers() -> dict[str, str]:
+    return {
+        "User-Agent": "Mozilla/5.0 (compatible; farewell2236-kirika/4.0; +https://github.com/farewell2236/kirika)",
+        "Accept-Language": "ja,en;q=0.8",
+        "Accept": "application/json,text/html;q=0.9,*/*;q=0.8",
+    }
+
+
+def fetch_text(url: str) -> str:
+    response = requests.get(url, headers=headers(), timeout=TIMEOUT)
+    response.raise_for_status()
+    response.encoding = response.apparent_encoding or "utf-8"
+    text = response.text
+    if len(text) < 1000:
+        raise RuntimeError(f"response too short: {url} ({len(text)} bytes)")
+    return text
+
+
+def pick(obj: dict, *names: str, default: object = "") -> object:
+    for name in names:
+        if name in obj and obj[name] is not None:
+            return obj[name]
+    return default
+
+
+def normalize_wiki_url(value: str, base: str = "") -> str:
+    if not value:
+        return ""
+    absolute = urljoin(base, value)
     parsed = urlparse(absolute)
-    # ドメイン変更（www19.atwiki.jp → w.atwiki.jp）があってもページパスで照合する
-    path = re.sub(r"/+", "/", parsed.path).rstrip("/")
-    return path.lower()
+    path = re.sub(r"/+", "/", parsed.path).rstrip("/").lower()
+    return path
 
 
-def parse_next_data(html: str) -> dict:
+def normalize_title(value: str) -> str:
+    value = clean(value)
+    value = re.sub(r"\s*\((?:L|LEGGENDARIA)\)\s*$", "", value, flags=re.I)
+    return value
+
+
+def chart_name(value: object, title: str = "") -> str:
+    text = clean(value).upper()
+    if text in {"4", "L", "LEGGENDARIA", "SPL"} or "LEGGENDARIA" in text or re.search(r"\(L\)\s*$", title, re.I):
+        return "LEGGENDARIA"
+    return "ANOTHER"
+
+
+def normalize_rank(text: str) -> str:
+    value = clean(text)
+    # 「未定」は表示上も未分類へ統合する。
+    if not value or "未定" in value:
+        return "未分類"
+    value = re.sub(r"[（(]\s*\d+\s*曲\s*[）)]", "", value).strip()
+    match = re.search(r"(?:地力|個人差)(?:S\+?|A\+?|B\+?|C|D|E|F)", value)
+    if not match:
+        return "未分類"
+    rank = match.group(0)
+    return rank if RANK_RE.fullmatch(rank) else "未分類"
+
+
+def extract_array(raw: object) -> list[dict]:
+    if isinstance(raw, list):
+        return [x for x in raw if isinstance(x, dict)]
+    if not isinstance(raw, dict):
+        return []
+    for key in ("sheets", "data", "charts", "items", "results"):
+        value = raw.get(key)
+        if isinstance(value, list):
+            return [x for x in value if isinstance(x, dict)]
+        if isinstance(value, dict):
+            nested = extract_array(value)
+            if nested:
+                return nested
+    return []
+
+
+def fetch_master() -> tuple[list[dict], str]:
+    errors: list[str] = []
+    for url in MASTER_URLS:
+        try:
+            response = requests.get(url, headers=headers(), timeout=TIMEOUT)
+            response.raise_for_status()
+            raw = response.json()
+            arr = extract_array(raw)
+            rows: list[dict] = []
+            seen: set[str] = set()
+            for item in arr:
+                raw_title = clean(pick(item, "title", "music_title", "name", "song_name"))
+                if not raw_title:
+                    continue
+                title = normalize_title(raw_title)
+                ver = clean(pick(item, "version", "ver", "series", "version_id", default="-")) or "-"
+                difficulty = pick(item, "difficulty", "chart", "play_style", "another", "difficulty_id")
+                chart = chart_name(difficulty, raw_title)
+                wiki_url = clean(pick(item, "wiki_url", "wikiUrl", "url", "atwiki_url"))
+                wiki_key = normalize_wiki_url(wiki_url)
+                row_id = clean(pick(item, "id", "sheet_id", "chart_id"))
+                key = row_id or (f"url:{wiki_key}\0{chart}" if wiki_key else f"fallback:{title.casefold()}\0{ver}\0{chart}")
+                if key in seen:
+                    continue
+                seen.add(key)
+                rows.append({
+                    "masterKey": key,
+                    "title": title,
+                    "chart": chart,
+                    "ver": ver,
+                    "bpm": clean(pick(item, "bpm")),
+                    "notes": clean(pick(item, "notes", "note_count")),
+                    "attr": clean(pick(item, "attributes", "attribute")),
+                    "wikiUrl": wiki_url,
+                })
+            if len(rows) < MIN_MASTER:
+                raise RuntimeError(f"master count too low: {len(rows)}")
+            return rows, url
+        except Exception as exc:
+            errors.append(f"{url}: {exc}")
+    raise RuntimeError("all master sources failed / " + " / ".join(errors))
+
+
+def table_header_indexes(table: Tag) -> dict[str, int] | None:
+    for row in table.find_all("tr")[:3]:
+        values = [clean(cell.get_text(" ", strip=True)) for cell in row.find_all(["th", "td"])]
+        title_idx = next((i for i, text in enumerate(values) if "曲名" in text), None)
+        if title_idx is None:
+            continue
+        return {
+            "title": title_idx,
+            "ver": next((i for i, text in enumerate(values) if text.lower() == "ver"), 0),
+            "bpm": next((i for i, text in enumerate(values) if "BPM" in text.upper()), -1),
+            "notes": next((i for i, text in enumerate(values) if "notes" in text.lower()), -1),
+            "attr": next((i for i, text in enumerate(values) if "属性" in text), -1),
+        }
+    return None
+
+
+def cell_text(cells: list[Tag], index: int) -> str:
+    return clean(cells[index].get_text(" ", strip=True)) if 0 <= index < len(cells) else ""
+
+
+def parse_rank_page(html: str, page_url: str, mode: str) -> tuple[list[dict], dict]:
     soup = BeautifulSoup(html, "html.parser")
-    node = soup.find("script", id="__NEXT_DATA__")
-    if not node or not node.string:
-        raise RuntimeError("__NEXT_DATA__ not found")
-    return json.loads(node.string)
-
-
-def get_tables(document: dict) -> dict[str, dict]:
-    entries = document["props"]["pageProps"]["tables"]["tables"]
-    return {str(entry["id"]): entry["table"] for entry in entries}
-
-
-def displayed_ranks(atwiki_html: str, page_url: str) -> dict[str, str]:
-    """Wiki URLのパス → 画面に表示されている分類名。"""
-    soup = BeautifulSoup(atwiki_html, "html.parser")
-    result: dict[str, str] = {}
     current_rank = "未分類"
-
-    # 見出しと表をページ上の順番どおりに処理する
+    rows: list[dict] = []
+    parsed_tables = 0
     for element in soup.find_all(["h2", "h3", "h4", "h5", "h6", "table"]):
         if element.name != "table":
             text = clean(element.get_text(" ", strip=True))
-            text = re.sub(r"[（(]\s*\d+\s*曲?\s*[）)]$", "", text).strip()
-            # 見出しに余分な説明が付いていても分類名だけを抽出
-            match = re.search(r"(?:未定|地力[0-9A-FS](?:\+)?|個人差[0-9A-FS](?:\+)?)", text)
-            if match and VALID_RANK.fullmatch(match.group(0)):
-                current_rank = match.group(0)
+            if "未定" in text or re.search(r"(?:地力|個人差)(?:S\+?|A\+?|B\+?|C|D|E|F)", text):
+                current_rank = normalize_rank(text)
             continue
-
-        rows = element.find_all("tr")
-        if not rows:
+        indexes = table_header_indexes(element)
+        if not indexes:
             continue
-        headers = [clean(cell.get_text(" ", strip=True)) for cell in rows[0].find_all(["th", "td"])]
-        title_index = next((i for i, value in enumerate(headers) if "曲名" in value), None)
-        if title_index is None:
-            continue
-
-        for row in rows[1:]:
-            cells = row.find_all(["th", "td"])
-            if len(cells) <= title_index:
+        parsed_tables += 1
+        for tr in element.find_all("tr"):
+            cells = tr.find_all(["th", "td"])
+            if len(cells) <= indexes["title"]:
                 continue
-            title_cell = cells[title_index]
+            title_cell = cells[indexes["title"]]
+            raw_title = clean(title_cell.get_text(" ", strip=True))
+            if not raw_title or raw_title == "曲名":
+                continue
+            ver = cell_text(cells, indexes["ver"])
+            if not re.fullmatch(r"\d{1,2}", ver):
+                continue
             link = title_cell.find("a", href=True)
-            if not link:
-                continue
-            key = normalize_url(link["href"], page_url)
-            if key:
-                result[key] = current_rank
+            wiki_url = urljoin(page_url, link["href"]) if link else ""
+            chart = chart_name("", raw_title)
+            rows.append({
+                "title": normalize_title(raw_title), "chart": chart, "ver": ver,
+                "bpm": cell_text(cells, indexes["bpm"]),
+                "notes": cell_text(cells, indexes["notes"]),
+                "attr": cell_text(cells, indexes["attr"]),
+                "wikiUrl": wiki_url, "wikiKey": normalize_wiki_url(wiki_url, page_url),
+                "rank": current_rank, "mode": mode,
+            })
+    # 同じ照合キーが複数ある場合は、未分類より有効分類を優先する。
+    unique: dict[str, dict] = {}
+    for row in rows:
+        key = (f"url:{row['wikiKey']}\0{row['chart']}" if row["wikiKey"]
+               else f"fallback:{row['title'].casefold()}\0{row['ver']}\0{row['chart']}")
+        old = unique.get(key)
+        if old is None or (old["rank"] == "未分類" and row["rank"] != "未分類"):
+            unique[key] = row
+    result = list(unique.values())
+    if len(result) < 500:
+        raise RuntimeError(f"too few charts parsed from {page_url}: {len(result)}")
+    return result, {"url": page_url, "mode": mode, "parsedCount": len(result), "parsedTables": parsed_tables}
 
-    if len(result) < 300:
-        raise RuntimeError(f"too few ranked charts parsed from {page_url}: {len(result)}")
-    return result
+
+def fallback_identity(row: dict) -> str:
+    return f"{row['title'].casefold()}\0{row['ver']}\0{row['chart']}"
 
 
-def chart_key(item: dict) -> tuple[str, str, int]:
-    return (
-        clean(item.get("name")),
-        clean(item.get("version")),
-        int(item.get("difficulty", 3)),
-    )
+def build_rank_indexes(rows: list[dict]) -> tuple[dict[str, dict], dict[str, dict]]:
+    by_url: dict[str, dict] = {}
+    by_fallback: dict[str, dict] = {}
+    for row in rows:
+        if row.get("wikiKey"):
+            by_url[f"{row['wikiKey']}\0{row['chart']}"] = row
+        by_fallback[fallback_identity(row)] = row
+    return by_url, by_fallback
 
 
-def build_rows(tables: dict[str, dict]) -> list[dict]:
-    normal_table = tables["12_normal"]
-    hard_table = tables["12_hard"]
+def find_rank(master: dict, by_url: dict[str, dict], by_fallback: dict[str, dict]) -> tuple[str, str, dict | None]:
+    wiki_key = normalize_wiki_url(master.get("wikiUrl", ""))
+    if wiki_key:
+        row = by_url.get(f"{wiki_key}\0{master['chart']}")
+        if row:
+            return row["rank"], "wikiUrl", row
+    row = by_fallback.get(fallback_identity(master))
+    if row:
+        return row["rank"], "title+ver+chart", row
+    return "未分類", "unlisted", None
 
-    normal_ranks = displayed_ranks(get(normal_table["url"]), normal_table["url"])
-    hard_ranks = displayed_ranks(get(hard_table["url"]), hard_table["url"])
 
-    normal = {chart_key(item): item for item in normal_table["data"]}
-    hard = {chart_key(item): item for item in hard_table["data"]}
-    rows: list[dict] = []
-    missing_normal = 0
-    missing_hard = 0
-
-    for key in sorted(set(normal) | set(hard), key=lambda value: (value[0].casefold(), value[2])):
-        n = normal.get(key)
-        h = hard.get(key)
-        base = n or h
-        assert base is not None
-        difficulty = int(base.get("difficulty", 3))
-        wiki_path = normalize_url(clean(base.get("wikiUrl")))
-        normal_rank = normal_ranks.get(wiki_path, "未分類") if n else "未分類"
-        hard_rank = hard_ranks.get(wiki_path, "未分類") if h else "未分類"
-        missing_normal += int(n is not None and normal_rank == "未分類")
-        missing_hard += int(h is not None and hard_rank == "未分類")
-
-        rows.append({
-            "title": clean(base.get("name")),
-            "chart": {3: "ANOTHER", 4: "LEGGENDARIA"}.get(difficulty, "SP☆12"),
-            "ver": clean(base.get("version")) or "-",
-            "normal": normal_rank,
-            "hard": hard_rank,
-            "level": 12,
-            "wikiUrl": clean(base.get("wikiUrl")),
-            "source": "displayed headings on atwiki",
+def merge(master: list[dict], normal_rows: list[dict], hard_rows: list[dict]) -> tuple[list[dict], dict]:
+    normal_url, normal_fallback = build_rank_indexes(normal_rows)
+    hard_url, hard_fallback = build_rank_indexes(hard_rows)
+    merged: list[dict] = []
+    stats = {"normal": {}, "hard": {}}
+    unlisted_normal: list[dict] = []
+    unlisted_hard: list[dict] = []
+    for item in master:
+        normal, normal_method, nrow = find_rank(item, normal_url, normal_fallback)
+        hard, hard_method, hrow = find_rank(item, hard_url, hard_fallback)
+        # 未定・非掲載・照合不能はすべて未分類。
+        normal = normalize_rank(normal)
+        hard = normalize_rank(hard)
+        stats["normal"][normal] = stats["normal"].get(normal, 0) + 1
+        stats["hard"][hard] = stats["hard"].get(hard, 0) + 1
+        if normal == "未分類":
+            unlisted_normal.append({"title": item["title"], "chart": item["chart"], "ver": item["ver"], "match": normal_method})
+        if hard == "未分類":
+            unlisted_hard.append({"title": item["title"], "chart": item["chart"], "ver": item["ver"], "match": hard_method})
+        source_row = nrow or hrow or {}
+        merged.append({
+            "title": item["title"], "chart": item["chart"], "ver": item["ver"],
+            "bpm": item["bpm"] or source_row.get("bpm", ""),
+            "notes": item["notes"] or source_row.get("notes", ""),
+            "attr": item["attr"] or source_row.get("attr", ""),
+            "normal": normal, "hard": hard, "level": 12,
+            "wikiUrl": item["wikiUrl"] or source_row.get("wikiUrl", ""),
+            "normalMatch": normal_method, "hardMatch": hard_method,
+            "source": "sp12.iidx.app master + atwiki classifications",
         })
+    merged.sort(key=lambda row: (row["title"].casefold(), row["chart"], row["ver"]))
+    return merged, {
+        "masterCount": len(master), "rankCounts": stats,
+        "normalUnclassifiedCount": len(unlisted_normal),
+        "hardUnclassifiedCount": len(unlisted_hard),
+        "normalUnclassified": unlisted_normal,
+        "hardUnclassified": unlisted_hard,
+    }
 
-    rows = [row for row in rows if row["title"]]
-    if len(rows) < 400:
-        raise RuntimeError(f"not enough SP12 charts: {len(rows)}")
-    # ページ構造の変化を誤って正常扱いしない
-    if missing_normal > 15 or missing_hard > 15:
-        raise RuntimeError(
-            f"too many unmatched rank labels: normal={missing_normal}, hard={missing_hard}"
-        )
-    return rows
+
+def write_json_atomic(path: Path, payload: object) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    temporary = path.with_suffix(path.suffix + ".tmp")
+    temporary.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    temporary.replace(path)
 
 
 def main() -> None:
-    errors: list[str] = []
-    for page in (NORMAL_PAGE, HARD_PAGE):
-        try:
-            document = parse_next_data(get(page))
-            tables = get_tables(document)
-            if "12_normal" not in tables or "12_hard" not in tables:
-                raise RuntimeError("12_normal / 12_hard not found")
-            rows = build_rows(tables)
-            payload = {
-                "updatedAt": datetime.now(timezone.utc).astimezone().isoformat(timespec="seconds"),
-                "sourceUrl": page,
-                "classificationMethod": "displayed atwiki section headings (no tier conversion)",
-                "data": rows,
-            }
-            OUTPUT.parent.mkdir(parents=True, exist_ok=True)
-            temporary = OUTPUT.with_suffix(".json.tmp")
-            temporary.write_text(
-                json.dumps(payload, ensure_ascii=False, indent=2) + "\n",
-                encoding="utf-8",
-            )
-            temporary.replace(OUTPUT)
-            print(f"updated {OUTPUT}: {len(rows)} charts")
-            return
-        except Exception as exc:  # try the other Next.js page as a metadata source
-            errors.append(f"{page}: {exc}")
-
-    print("update failed; existing data/sp12.json was preserved", file=sys.stderr)
-    print("\n".join(errors), file=sys.stderr)
-    raise SystemExit(1)
+    try:
+        master, master_url = fetch_master()
+        normal_rows, normal_report = parse_rank_page(fetch_text(NORMAL_URL), NORMAL_URL, "normal")
+        hard_rows, hard_report = parse_rank_page(fetch_text(HARD_URL), HARD_URL, "hard")
+        rows, merge_report = merge(master, normal_rows, hard_rows)
+        if len(rows) < MIN_MASTER:
+            raise RuntimeError(f"merged chart count too low: {len(rows)}")
+        now = datetime.now(timezone.utc).astimezone().isoformat(timespec="seconds")
+        payload = {
+            "updatedAt": now,
+            "sourceUrl": {"master": master_url, "normal": NORMAL_URL, "hard": HARD_URL},
+            "classificationMethod": "SP12 master; unlisted and undecided ranks are grouped as 未分類",
+            "data": rows,
+        }
+        report = {"updatedAt": now, "masterUrl": master_url, "normal": normal_report, "hard": hard_report, "merge": merge_report}
+        write_json_atomic(OUTPUT, payload)
+        write_json_atomic(REPORT, report)
+        print(f"updated {OUTPUT}: {len(rows)} charts")
+        print(json.dumps({"master": len(master), "normalUnclassified": merge_report["normalUnclassifiedCount"], "hardUnclassified": merge_report["hardUnclassifiedCount"]}, ensure_ascii=False))
+    except Exception as exc:
+        print(f"update failed; existing JSON was preserved: {exc}", file=sys.stderr)
+        raise SystemExit(1)
 
 
 if __name__ == "__main__":

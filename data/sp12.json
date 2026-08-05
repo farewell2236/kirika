@@ -1,7 +1,6 @@
 {
-  "updatedAt": "2026-08-05T18:15:35+00:00",
+  "updatedAt": "2026-08-06T00:00:00+09:00",
   "sourceUrl": "https://iidx-difficulty-table-checker.nomadblacky.dev/table/12_normal",
-  "classificationMethod": "displayed atwiki section headings (no tier conversion)",
   "data": [
     {
       "title": "#CMFLG",
@@ -10,8 +9,7 @@
       "normal": "地力D",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4707.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "#MAGiCVLGiRL_TRVP_B3VTZ",
@@ -20,8 +18,7 @@
       "normal": "地力B",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3001.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "-65℃",
@@ -30,58 +27,52 @@
       "normal": "地力A+",
       "hard": "地力A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4018.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "199024club -Re:BounceKiller-",
       "chart": "ANOTHER",
       "ver": "23",
-      "normal": "個人差B+",
-      "hard": "個人差A",
+      "normal": "個人差B",
+      "hard": "個人差B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2851.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "2 Beasts Unchained",
       "chart": "ANOTHER",
       "ver": "29",
-      "normal": "個人差A",
+      "normal": "個人差B+",
       "hard": "地力A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4316.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "24h Endurance Race",
       "chart": "ANOTHER",
       "ver": "30",
       "normal": "地力B",
-      "hard": "個人差B+",
+      "hard": "個人差B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4410.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "255",
       "chart": "ANOTHER",
       "ver": "25",
       "normal": "地力A",
-      "hard": "個人差A+",
+      "hard": "個人差A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3323.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "3y3s",
       "chart": "ANOTHER",
       "ver": "16",
-      "normal": "個人差A",
+      "normal": "個人差B+",
       "hard": "地力S+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/261.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "[ ]DENTITY",
@@ -90,8 +81,7 @@
       "normal": "地力A+",
       "hard": "地力A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4525.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "A",
@@ -100,8 +90,7 @@
       "normal": "地力F",
       "hard": "地力F",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/19.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "A MINSTREL ～ ver. short-scape ～",
@@ -110,8 +99,7 @@
       "normal": "地力B",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4987.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "AA",
@@ -120,8 +108,7 @@
       "normal": "地力D",
       "hard": "地力D",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/20.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "AA -rebuild-",
@@ -130,8 +117,7 @@
       "normal": "地力B",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3225.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "ABSOLUTE EVIL",
@@ -140,8 +126,7 @@
       "normal": "地力A",
       "hard": "地力A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4321.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "ACT0",
@@ -150,18 +135,16 @@
       "normal": "地力D",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/5000.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Adularia",
       "chart": "ANOTHER",
       "ver": "21",
-      "normal": "個人差C",
-      "hard": "個人差C",
+      "normal": "個人差D",
+      "hard": "個人差D",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2238.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Aftermath",
@@ -170,18 +153,16 @@
       "normal": "地力C",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4284.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "AIR RAID FROM THA UNDAGROUND",
       "chart": "LEGGENDARIA",
       "ver": "17",
-      "normal": "個人差A",
-      "hard": "個人差B+",
+      "normal": "個人差B+",
+      "hard": "個人差B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4238.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "AKASHIC BREAK",
@@ -190,18 +171,16 @@
       "normal": "地力C",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3698.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "ALBA -黎明-",
       "chart": "LEGGENDARIA",
       "ver": "21",
       "normal": "地力B+",
-      "hard": "個人差A",
+      "hard": "個人差B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/5083.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "ALBIDA",
@@ -210,8 +189,7 @@
       "normal": "地力D",
       "hard": "地力D",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/1399.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Almagest",
@@ -220,8 +198,7 @@
       "normal": "地力A+",
       "hard": "地力S",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/489.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "ALTERNATOR",
@@ -230,8 +207,7 @@
       "normal": "地力A",
       "hard": "地力A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4281.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Always We Trust In You",
@@ -240,8 +216,7 @@
       "normal": "地力C",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4701.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Amazing Mirage",
@@ -250,8 +225,7 @@
       "normal": "地力C",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4266.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Ambivalent Vermilia",
@@ -260,8 +234,7 @@
       "normal": "地力A+",
       "hard": "地力S",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4903.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "ANCHOR",
@@ -270,18 +243,7 @@
       "normal": "地力B+",
       "hard": "地力A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3336.html",
-      "source": "displayed headings on atwiki"
-    },
-    {
-      "title": "Ancient Scapes",
-      "chart": "ANOTHER",
-      "ver": "21",
-      "normal": "地力C",
-      "hard": "地力C",
-      "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2219.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Ancient Scapes",
@@ -290,8 +252,16 @@
       "normal": "地力A+",
       "hard": "地力A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4248.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Ancient Scapes",
+      "chart": "ANOTHER",
+      "ver": "21",
+      "normal": "地力C",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Angel's Ladder",
@@ -300,8 +270,7 @@
       "normal": "地力B",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4226.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Anisakis -somatic mutation type\"Forza\"-",
@@ -310,28 +279,25 @@
       "normal": "地力A+",
       "hard": "地力A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/307.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Antigravity",
       "chart": "ANOTHER",
       "ver": "25",
       "normal": "地力B+",
-      "hard": "個人差A",
+      "hard": "個人差B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3325.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "AO-1",
       "chart": "ANOTHER",
       "ver": "23",
-      "normal": "個人差B",
+      "normal": "個人差C",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2772.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Apocalypse",
@@ -340,8 +306,7 @@
       "normal": "地力E",
       "hard": "地力E",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3110.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Arabian Rave Night",
@@ -350,8 +315,7 @@
       "normal": "地力C",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/499.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Arca",
@@ -360,8 +324,7 @@
       "normal": "地力E",
       "hard": "地力E",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3227.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Arkadia",
@@ -370,8 +333,7 @@
       "normal": "地力B",
       "hard": "地力B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4420.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Artist",
@@ -380,8 +342,7 @@
       "normal": "地力A",
       "hard": "地力A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3794.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "ASIAN VIRTUAL REALITIES (MELTING TOGETHER IN DAZZLING DARKNESS)",
@@ -390,28 +351,25 @@
       "normal": "地力B",
       "hard": "地力B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3984.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "ATHER",
       "chart": "LEGGENDARIA",
       "ver": "21",
       "normal": "地力D",
-      "hard": "個人差C",
+      "hard": "個人差D",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4687.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "B.O.D.Y.",
       "chart": "ANOTHER",
       "ver": "30",
-      "normal": "個人差C",
-      "hard": "個人差C",
+      "normal": "個人差D",
+      "hard": "個人差D",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4549.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "B4U(BEMANI FOR YOU MIX)",
@@ -420,8 +378,7 @@
       "normal": "地力A+",
       "hard": "地力A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/498.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Bad Encryption",
@@ -430,8 +387,7 @@
       "normal": "地力A+",
       "hard": "地力S",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4548.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Bad Maniacs",
@@ -440,18 +396,16 @@
       "normal": "地力A",
       "hard": "地力A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/482.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Be quiet",
       "chart": "LEGGENDARIA",
       "ver": "11",
-      "normal": "個人差B+",
-      "hard": "個人差A+",
+      "normal": "個人差B",
+      "hard": "個人差A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4015.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "BEAT PRISONER",
@@ -460,8 +414,7 @@
       "normal": "地力A",
       "hard": "地力A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3757.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Beat Radiance",
@@ -470,8 +423,7 @@
       "normal": "地力D",
       "hard": "地力D",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4256.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Beyond Evolution",
@@ -480,8 +432,7 @@
       "normal": "地力S+",
       "hard": "地力S+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4617.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "BIGWAVERS",
@@ -490,8 +441,7 @@
       "normal": "地力B",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4646.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "BIGソムタム",
@@ -500,8 +450,7 @@
       "normal": "地力D",
       "hard": "地力E",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3953.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Binary Black Hole",
@@ -510,8 +459,7 @@
       "normal": "地力S",
       "hard": "地力S",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4308.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "BITTER CHOCOLATE STRIKER",
@@ -520,8 +468,7 @@
       "normal": "地力B",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/516.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "BLACK or WHITE?",
@@ -530,18 +477,16 @@
       "normal": "地力A",
       "hard": "地力A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4040.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "BLACK.by X-Cross Fade",
       "chart": "ANOTHER",
       "ver": "19",
-      "normal": "個人差A+",
-      "hard": "個人差S",
+      "normal": "個人差A",
+      "hard": "個人差A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/1702.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "BLAZING_LAZER",
@@ -550,8 +495,7 @@
       "normal": "地力D",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4565.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "BLUE DRAGON(雷龍RemixIIDX)",
@@ -560,18 +504,16 @@
       "normal": "地力B",
       "hard": "地力B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2223.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "BLUE MIRAGE",
       "chart": "ANOTHER",
       "ver": "22",
-      "normal": "個人差C",
-      "hard": "個人差A",
+      "normal": "個人差D",
+      "hard": "個人差B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/453.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Blue Rain",
@@ -580,8 +522,7 @@
       "normal": "地力A",
       "hard": "地力A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/308.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Blue Spring Express",
@@ -590,18 +531,16 @@
       "normal": "地力A+",
       "hard": "地力A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2712.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Boomy and The Boost",
       "chart": "ANOTHER",
       "ver": "25",
-      "normal": "個人差B+",
+      "normal": "個人差B",
       "hard": "地力A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3251.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Bring The Fire",
@@ -610,18 +549,16 @@
       "normal": "地力D",
       "hard": "地力D",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/5130.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "BroGamer",
       "chart": "LEGGENDARIA",
       "ver": "24",
-      "normal": "個人差S",
+      "normal": "個人差A+",
       "hard": "地力S",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4120.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Broken",
@@ -630,8 +567,7 @@
       "normal": "地力D",
       "hard": "地力D",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/1607.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Broken Sword",
@@ -640,8 +576,7 @@
       "normal": "地力B",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2413.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Burning Flame",
@@ -650,8 +585,7 @@
       "normal": "地力B",
       "hard": "地力B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4620.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "CADENZA",
@@ -660,8 +594,7 @@
       "normal": "地力A+",
       "hard": "地力A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4909.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Candy Galy",
@@ -670,8 +603,7 @@
       "normal": "地力B",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/21.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Carmina",
@@ -680,8 +612,7 @@
       "normal": "地力S",
       "hard": "地力S",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3506.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Carry Me Away",
@@ -690,8 +621,7 @@
       "normal": "地力E",
       "hard": "地力D",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3485.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Catch Our Fire!",
@@ -700,18 +630,16 @@
       "normal": "地力D",
       "hard": "地力D",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3437.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Caterpillar",
       "chart": "ANOTHER",
       "ver": "24",
-      "normal": "個人差D",
-      "hard": "個人差C",
+      "normal": "個人差E",
+      "hard": "個人差D",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3073.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Chaotoxin",
@@ -720,8 +648,7 @@
       "normal": "地力C",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4634.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "CHRONO DIVER -NORNIR-",
@@ -730,8 +657,7 @@
       "normal": "地力A+",
       "hard": "地力A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4258.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Chrono Diver -PENDULUMs-",
@@ -740,8 +666,7 @@
       "normal": "地力S",
       "hard": "地力S+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2493.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "cinder",
@@ -750,18 +675,7 @@
       "normal": "地力B",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2411.html",
-      "source": "displayed headings on atwiki"
-    },
-    {
-      "title": "Close the World feat.a☆ru",
-      "chart": "ANOTHER",
-      "ver": "21",
-      "normal": "地力B",
-      "hard": "地力B",
-      "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2189.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Close the World feat.a☆ru",
@@ -770,18 +684,25 @@
       "normal": "地力A",
       "hard": "地力A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4249.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Close the World feat.a☆ru",
+      "chart": "ANOTHER",
+      "ver": "21",
+      "normal": "地力B",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "CODE:0",
       "chart": "LEGGENDARIA",
       "ver": "26",
       "normal": "地力A+",
-      "hard": "個人差A+",
+      "hard": "個人差A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4807.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "CODE:1 [revision1.0.1]",
@@ -790,8 +711,7 @@
       "normal": "地力B",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2760.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Colorful Cookie",
@@ -800,8 +720,7 @@
       "normal": "地力B",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/392.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Colors (radio edit)",
@@ -810,8 +729,7 @@
       "normal": "地力E",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/22.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Concertino in Blue",
@@ -820,8 +738,7 @@
       "normal": "地力E",
       "hard": "地力D",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/23.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Confiserie",
@@ -830,8 +747,7 @@
       "normal": "地力S",
       "hard": "地力S",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2057.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "CONTRACT",
@@ -840,8 +756,7 @@
       "normal": "地力A+",
       "hard": "地力A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4234.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Cosmic Cat",
@@ -850,8 +765,7 @@
       "normal": "地力C",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4259.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "COSMIC RAY",
@@ -860,8 +774,7 @@
       "normal": "地力A",
       "hard": "地力A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4100.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "COSMIC V3LOCITY",
@@ -870,28 +783,25 @@
       "normal": "地力C",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/5116.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "CUE CUE RESCUE",
       "chart": "LEGGENDARIA",
       "ver": "30",
-      "normal": "未定",
-      "hard": "未定",
+      "normal": "個人差S+",
+      "hard": "個人差S+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/5170.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Cult Invitation",
       "chart": "ANOTHER",
       "ver": "31",
-      "normal": "個人差A",
-      "hard": "個人差A+",
+      "normal": "個人差B+",
+      "hard": "個人差A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/5051.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Dahlia",
@@ -900,18 +810,7 @@
       "normal": "地力D",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4828.html",
-      "source": "displayed headings on atwiki"
-    },
-    {
-      "title": "Dances with Snow Fairies",
-      "chart": "ANOTHER",
-      "ver": "18",
-      "normal": "地力B",
-      "hard": "地力B",
-      "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/1400.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Dances with Snow Fairies",
@@ -920,8 +819,16 @@
       "normal": "地力S",
       "hard": "地力S",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4719.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Dances with Snow Fairies",
+      "chart": "ANOTHER",
+      "ver": "18",
+      "normal": "地力B",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Dans la nuit de l'eternite",
@@ -930,8 +837,7 @@
       "normal": "地力A+",
       "hard": "地力S",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3834.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "DARK LEGACY",
@@ -940,8 +846,7 @@
       "normal": "地力C",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2239.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "dAuntl3ss",
@@ -950,18 +855,16 @@
       "normal": "地力C",
       "hard": "地力D",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3443.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "DAY DREAM",
       "chart": "ANOTHER",
       "ver": "20",
       "normal": "地力C",
-      "hard": "個人差A",
+      "hard": "個人差B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2037.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "DEADHEAT",
@@ -970,18 +873,7 @@
       "normal": "地力B+",
       "hard": "地力B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3226.html",
-      "source": "displayed headings on atwiki"
-    },
-    {
-      "title": "DEATH†ZIGOQ ～怒りの高速爆走野郎～",
-      "chart": "ANOTHER",
-      "ver": "25",
-      "normal": "地力A",
-      "hard": "地力A+",
-      "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3240.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "DEATH†ZIGOQ ～怒りの高速爆走野郎～",
@@ -990,8 +882,16 @@
       "normal": "地力S+",
       "hard": "地力S+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/5075.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "DEATH†ZIGOQ ～怒りの高速爆走野郎～",
+      "chart": "ANOTHER",
+      "ver": "25",
+      "normal": "地力A",
+      "hard": "地力A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Demon March",
@@ -1000,8 +900,7 @@
       "normal": "地力A",
       "hard": "地力A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4973.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Despair of ELFERIA",
@@ -1010,8 +909,7 @@
       "normal": "地力A",
       "hard": "地力A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2487.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "destination",
@@ -1020,8 +918,7 @@
       "normal": "地力B",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/5131.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Devil's Gear",
@@ -1030,8 +927,7 @@
       "normal": "地力A",
       "hard": "地力A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2721.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Devilz Staircase",
@@ -1040,38 +936,34 @@
       "normal": "地力B",
       "hard": "地力B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2011.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "DIAMOND CROSSING",
       "chart": "ANOTHER",
       "ver": "23",
-      "normal": "個人差B+",
-      "hard": "個人差A+",
+      "normal": "個人差B",
+      "hard": "個人差A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2723.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "DIAVOLO",
       "chart": "ANOTHER",
       "ver": "19",
-      "normal": "個人差S+",
-      "hard": "個人差S+",
+      "normal": "個人差S",
+      "hard": "個人差S",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/1635.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "dica dica",
       "chart": "ANOTHER",
       "ver": "30",
-      "normal": "個人差D",
-      "hard": "個人差C",
+      "normal": "個人差E",
+      "hard": "個人差D",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4621.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "DIVINE JUDGEMENT",
@@ -1080,8 +972,7 @@
       "normal": "地力C",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/5150.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "DOMINION",
@@ -1090,18 +981,16 @@
       "normal": "地力C",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/483.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Don't believe the hype",
       "chart": "ANOTHER",
       "ver": "29",
-      "normal": "個人差A",
-      "hard": "個人差A+",
+      "normal": "個人差B+",
+      "hard": "個人差A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4224.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "DORNWALD ～Junge～",
@@ -1110,8 +999,7 @@
       "normal": "地力A",
       "hard": "地力A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3056.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Double Dribble",
@@ -1120,8 +1008,7 @@
       "normal": "地力D",
       "hard": "地力D",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3759.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Dr. Chemical & Killing Machine",
@@ -1130,8 +1017,7 @@
       "normal": "地力C",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3444.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Drastic Dramatic",
@@ -1140,8 +1026,7 @@
       "normal": "地力D",
       "hard": "地力D",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3452.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Drop Syndicate",
@@ -1150,8 +1035,7 @@
       "normal": "地力B+",
       "hard": "地力B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/5137.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "DropZ-Line-",
@@ -1160,8 +1044,7 @@
       "normal": "地力B",
       "hard": "地力B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3293.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "DRUNK MONKY",
@@ -1170,8 +1053,7 @@
       "normal": "地力D",
       "hard": "地力D",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/454.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "DUAL STRIKER",
@@ -1180,38 +1062,25 @@
       "normal": "地力B",
       "hard": "地力B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4092.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "DUE TOMORROW",
       "chart": "ANOTHER",
       "ver": "13",
-      "normal": "個人差E",
-      "hard": "個人差C",
+      "normal": "個人差F",
+      "hard": "個人差D",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/24.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Dynamite",
       "chart": "ANOTHER",
       "ver": "23",
       "normal": "地力A",
-      "hard": "個人差A+",
+      "hard": "個人差A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2719.html",
-      "source": "displayed headings on atwiki"
-    },
-    {
-      "title": "EBONY & IVORY",
-      "chart": "ANOTHER",
-      "ver": "22",
-      "normal": "地力C",
-      "hard": "地力B",
-      "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2524.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "EBONY & IVORY",
@@ -1220,18 +1089,25 @@
       "normal": "地力A+",
       "hard": "地力S",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4260.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "EBONY & IVORY",
+      "chart": "ANOTHER",
+      "ver": "22",
+      "normal": "地力C",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "ECHIDNA",
       "chart": "ANOTHER",
       "ver": "24",
-      "normal": "個人差A+",
-      "hard": "個人差S",
+      "normal": "個人差A",
+      "hard": "個人差A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3031.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Elektrick U-Phoria",
@@ -1240,8 +1116,7 @@
       "normal": "地力A",
       "hard": "地力A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4642.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Elemental Creation",
@@ -1250,8 +1125,7 @@
       "normal": "地力S",
       "hard": "地力S",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2091.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "EMERALDAS",
@@ -1260,8 +1134,7 @@
       "normal": "地力S",
       "hard": "地力S",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3288.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Empire of Fury",
@@ -1270,8 +1143,7 @@
       "normal": "地力B+",
       "hard": "地力A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3954.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "encounter",
@@ -1280,8 +1152,7 @@
       "normal": "地力E",
       "hard": "地力E",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3257.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "entelecheia",
@@ -1290,28 +1161,25 @@
       "normal": "地力B",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2452.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "eRAseRmOToRpHAntOM",
       "chart": "ANOTHER",
       "ver": "17",
-      "normal": "個人差D",
-      "hard": "個人差D",
+      "normal": "個人差E",
+      "hard": "個人差E",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/440.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "EROICA",
       "chart": "ANOTHER",
       "ver": "27",
-      "normal": "個人差S",
+      "normal": "個人差A+",
       "hard": "地力S+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3831.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "EVANESCENT",
@@ -1320,8 +1188,7 @@
       "normal": "地力D",
       "hard": "地力D",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3498.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Evans",
@@ -1330,8 +1197,7 @@
       "normal": "地力C",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/1498.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Everlasting Message",
@@ -1340,8 +1206,7 @@
       "normal": "地力S",
       "hard": "地力S",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3779.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "EX-MASSIVE FIGHTER",
@@ -1350,8 +1215,7 @@
       "normal": "地力C",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/5122.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "EXUSIA",
@@ -1360,8 +1224,7 @@
       "normal": "地力A",
       "hard": "地力B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/484.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "F",
@@ -1370,18 +1233,16 @@
       "normal": "地力E",
       "hard": "地力E",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/1704.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "FAKE TIME",
       "chart": "ANOTHER",
       "ver": "11",
-      "normal": "個人差B",
-      "hard": "個人差C",
+      "normal": "個人差C",
+      "hard": "個人差D",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/25.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "fallen leaves -IIDX edition-",
@@ -1390,28 +1251,25 @@
       "normal": "地力B+",
       "hard": "地力A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2447.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "FANTASTIC THREE",
       "chart": "ANOTHER",
       "ver": "22",
       "normal": "地力C",
-      "hard": "個人差B",
+      "hard": "個人差C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2420.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Fascination MAXX",
       "chart": "ANOTHER",
       "ver": "14",
-      "normal": "個人差D",
-      "hard": "個人差S",
+      "normal": "個人差E",
+      "hard": "個人差A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/26.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Feel The Beat",
@@ -1420,8 +1278,7 @@
       "normal": "地力D",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2256.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Feel The Beat",
@@ -1430,8 +1287,7 @@
       "normal": "地力A",
       "hard": "地力S+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4250.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Fegrix",
@@ -1440,8 +1296,7 @@
       "normal": "地力D",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4227.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "fffff",
@@ -1450,18 +1305,16 @@
       "normal": "地力D",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/326.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Fire Beat",
       "chart": "ANOTHER",
       "ver": "28",
-      "normal": "個人差D",
-      "hard": "個人差D",
+      "normal": "個人差E",
+      "hard": "個人差E",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3944.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "FIRE FIRE",
@@ -1470,18 +1323,16 @@
       "normal": "地力D",
       "hard": "地力D",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/27.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Flashes",
       "chart": "ANOTHER",
       "ver": "22",
-      "normal": "個人差B",
+      "normal": "個人差C",
       "hard": "地力A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2483.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Flying Castle",
@@ -1490,8 +1341,7 @@
       "normal": "地力B",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4382.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "four pieces of heaven",
@@ -1500,8 +1350,7 @@
       "normal": "地力A",
       "hard": "地力A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/310.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "frequent",
@@ -1510,8 +1359,7 @@
       "normal": "地力D",
       "hard": "地力D",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4829.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Friction[!]Function",
@@ -1520,8 +1368,7 @@
       "normal": "地力C",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3792.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "FUZIN RIZIN",
@@ -1530,8 +1377,7 @@
       "normal": "地力C",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3071.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "G59",
@@ -1540,8 +1386,7 @@
       "normal": "地力A",
       "hard": "地力B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/485.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "GAIA",
@@ -1550,18 +1395,16 @@
       "normal": "地力D",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2084.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "GAME ON",
       "chart": "ANOTHER",
       "ver": "31",
-      "normal": "個人差C",
-      "hard": "個人差B",
+      "normal": "個人差D",
+      "hard": "個人差C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4830.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Ganymede",
@@ -1570,8 +1413,7 @@
       "normal": "地力A",
       "hard": "地力A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4037.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "GENE",
@@ -1580,8 +1422,7 @@
       "normal": "地力B",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3548.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Ghost Pulse",
@@ -1590,8 +1431,16 @@
       "normal": "地力C",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4831.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "gigadelic",
+      "chart": "ANOTHER",
+      "ver": "11",
+      "normal": "地力E",
+      "hard": "地力F",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "gigadelic",
@@ -1600,28 +1449,16 @@
       "normal": "地力E",
       "hard": "地力F",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/28.html",
-      "source": "displayed headings on atwiki"
-    },
-    {
-      "title": "gigadelic",
-      "chart": "ANOTHER",
-      "ver": "11",
-      "normal": "地力E",
-      "hard": "地力F",
-      "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/29.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "GiGaGaHell",
       "chart": "ANOTHER",
       "ver": "29",
-      "normal": "個人差B+",
-      "hard": "個人差A+",
+      "normal": "個人差B",
+      "hard": "個人差A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4221.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "glacia",
@@ -1630,18 +1467,16 @@
       "normal": "地力E",
       "hard": "地力E",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4632.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Glitch N Ride",
       "chart": "ANOTHER",
       "ver": "31",
       "normal": "地力A+",
-      "hard": "個人差A+",
+      "hard": "個人差A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4893.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Go Ahead!!",
@@ -1650,8 +1485,7 @@
       "normal": "地力S",
       "hard": "地力S+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3020.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Go Beyond!!",
@@ -1660,8 +1494,7 @@
       "normal": "地力D",
       "hard": "地力S+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/438.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "GO OVER WITH GLARE -ROOTAGE 26-",
@@ -1670,8 +1503,7 @@
       "normal": "地力S",
       "hard": "地力S",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3564.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Godspeed",
@@ -1680,8 +1512,7 @@
       "normal": "地力C",
       "hard": "地力B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2751.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "GOLDEN CROSS",
@@ -1690,8 +1521,7 @@
       "normal": "地力C",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/436.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Grand Chariot",
@@ -1700,8 +1530,7 @@
       "normal": "地力B+",
       "hard": "地力B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2861.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Gravigazer",
@@ -1710,8 +1539,7 @@
       "normal": "地力C",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2412.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "GRAVITON",
@@ -1720,18 +1548,16 @@
       "normal": "地力B+",
       "hard": "地力B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4081.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "GRID KNIGHT",
       "chart": "LEGGENDARIA",
       "ver": "14",
-      "normal": "個人差E",
+      "normal": "個人差F",
       "hard": "地力E",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4236.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "GUILTY",
@@ -1740,8 +1566,7 @@
       "normal": "地力B",
       "hard": "地力B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/5044.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "GuNGNiR",
@@ -1750,8 +1575,7 @@
       "normal": "地力A",
       "hard": "地力A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3058.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "GuNGNiR",
@@ -1760,8 +1584,7 @@
       "normal": "地力S+",
       "hard": "地力S+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3846.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "HADES",
@@ -1770,8 +1593,7 @@
       "normal": "地力A",
       "hard": "地力B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2980.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "HAERETICUS",
@@ -1780,8 +1602,7 @@
       "normal": "地力A",
       "hard": "地力A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/1885.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "HARD BRAIN",
@@ -1790,8 +1611,7 @@
       "normal": "地力B",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3523.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "hard-wired",
@@ -1800,8 +1620,7 @@
       "normal": "地力S",
       "hard": "地力S",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4423.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Hat Surprise (Season 2)",
@@ -1810,8 +1629,7 @@
       "normal": "地力E",
       "hard": "地力E",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4537.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Here We Go Now",
@@ -1820,8 +1638,7 @@
       "normal": "地力C",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/5132.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Highcharge Divolt",
@@ -1830,28 +1647,25 @@
       "normal": "地力D",
       "hard": "地力D",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2777.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Hollywood Galaxy",
       "chart": "ANOTHER",
       "ver": "20",
-      "normal": "個人差B+",
+      "normal": "個人差B",
       "hard": "地力A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2016.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "HYENA",
       "chart": "LEGGENDARIA",
       "ver": "21",
-      "normal": "未定",
-      "hard": "未定",
+      "normal": "個人差S+",
+      "hard": "個人差S+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/5215.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "I",
@@ -1860,18 +1674,7 @@
       "normal": "地力B",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4527.html",
-      "source": "displayed headings on atwiki"
-    },
-    {
-      "title": "ICARUS",
-      "chart": "ANOTHER",
-      "ver": "15",
-      "normal": "個人差E",
-      "hard": "個人差D",
-      "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/30.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "ICARUS",
@@ -1880,8 +1683,16 @@
       "normal": "地力S",
       "hard": "地力S+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/280.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "ICARUS",
+      "chart": "ANOTHER",
+      "ver": "15",
+      "normal": "個人差F",
+      "hard": "個人差E",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Idola",
@@ -1890,8 +1701,7 @@
       "normal": "地力C",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2292.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Ignis†Irae",
@@ -1900,8 +1710,7 @@
       "normal": "地力A+",
       "hard": "地力S",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4072.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Illegal Function Call",
@@ -1910,8 +1719,7 @@
       "normal": "地力S+",
       "hard": "地力S+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4424.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Illusionary Waterlily",
@@ -1920,28 +1728,25 @@
       "normal": "地力B",
       "hard": "地力B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3287.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "IMPLANTATION",
       "chart": "ANOTHER",
       "ver": "22",
-      "normal": "個人差B",
-      "hard": "個人差B",
+      "normal": "個人差C",
+      "hard": "個人差C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/330.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Inferno of Fomalhaut",
       "chart": "ANOTHER",
       "ver": "27",
-      "normal": "個人差B+",
-      "hard": "個人差A",
+      "normal": "個人差B",
+      "hard": "個人差B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3736.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Initiation",
@@ -1950,8 +1755,7 @@
       "normal": "地力A+",
       "hard": "地力A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3309.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "innocent revolver",
@@ -1960,28 +1764,25 @@
       "normal": "地力C",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4033.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Innocent Walls",
       "chart": "SP☆12",
       "ver": "10",
-      "normal": "個人差E",
-      "hard": "個人差E",
+      "normal": "個人差F",
+      "hard": "個人差F",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/31.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Innocent Walls",
       "chart": "ANOTHER",
       "ver": "10",
-      "normal": "個人差E",
-      "hard": "個人差D",
+      "normal": "個人差F",
+      "hard": "個人差E",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/32.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "INSOMNIA",
@@ -1990,18 +1791,16 @@
       "normal": "地力B",
       "hard": "地力B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2240.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Invitation from Mr.C",
       "chart": "ANOTHER",
       "ver": "22",
       "normal": "地力C",
-      "hard": "個人差B",
+      "hard": "個人差C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2614.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "invoker",
@@ -2010,18 +1809,16 @@
       "normal": "地力E",
       "hard": "地力E",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2246.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "invoker",
       "chart": "LEGGENDARIA",
       "ver": "21",
-      "normal": "個人差A+",
+      "normal": "個人差A",
       "hard": "地力A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4251.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "IX",
@@ -2030,18 +1827,16 @@
       "normal": "地力S",
       "hard": "地力S",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2228.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "JOMANDA",
       "chart": "ANOTHER",
       "ver": "20",
       "normal": "地力B+",
-      "hard": "個人差A",
+      "hard": "個人差B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2017.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "JUSTICE/GUILTY feat. Nana Takahashi & 709sec.",
@@ -2050,18 +1845,7 @@
       "normal": "地力E",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4832.html",
-      "source": "displayed headings on atwiki"
-    },
-    {
-      "title": "KAISER PHOENIX",
-      "chart": "ANOTHER",
-      "ver": "21",
-      "normal": "地力A",
-      "hard": "地力A+",
-      "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2302.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "KAISER PHOENIX",
@@ -2070,8 +1854,16 @@
       "normal": "地力S",
       "hard": "地力S+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4268.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "KAISER PHOENIX",
+      "chart": "ANOTHER",
+      "ver": "21",
+      "normal": "地力A",
+      "hard": "地力A+",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "KAMAITACHI",
@@ -2080,8 +1872,7 @@
       "normal": "地力S+",
       "hard": "地力S+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/434.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "KILL EACH OTHER",
@@ -2090,8 +1881,7 @@
       "normal": "地力B",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3440.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "KING",
@@ -2100,8 +1890,7 @@
       "normal": "地力E",
       "hard": "地力D",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4961.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Konzert V",
@@ -2110,8 +1899,7 @@
       "normal": "地力C",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2728.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "kors k's How to make OTOGE CORE 「LONG」",
@@ -2120,8 +1908,7 @@
       "normal": "地力B+",
       "hard": "地力A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4616.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Kung-fu Empire",
@@ -2130,8 +1917,7 @@
       "normal": "地力D",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/497.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "L.F.O",
@@ -2140,8 +1926,7 @@
       "normal": "地力C",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3445.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "LASER CRUSTER",
@@ -2150,8 +1935,7 @@
       "normal": "地力E",
       "hard": "地力E",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/33.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "LASER CRUSTER (IGNITE REMIX)",
@@ -2160,8 +1944,7 @@
       "normal": "地力B",
       "hard": "地力B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3744.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Last Dance",
@@ -2170,8 +1953,7 @@
       "normal": "地力C",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2226.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Lethal Weapon",
@@ -2180,58 +1962,52 @@
       "normal": "地力C",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3583.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Level 2",
       "chart": "ANOTHER",
       "ver": "27",
-      "normal": "個人差C",
-      "hard": "個人差B+",
+      "normal": "個人差D",
+      "hard": "個人差B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3761.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Level 3",
       "chart": "ANOTHER",
       "ver": "28",
-      "normal": "個人差A+",
-      "hard": "個人差S",
+      "normal": "個人差A",
+      "hard": "個人差A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4102.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Level 4",
       "chart": "ANOTHER",
       "ver": "30",
-      "normal": "個人差A+",
-      "hard": "個人差S",
+      "normal": "個人差A",
+      "hard": "個人差A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4583.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Level 5",
       "chart": "ANOTHER",
       "ver": "31",
-      "normal": "個人差S",
-      "hard": "個人差S+",
+      "normal": "個人差A+",
+      "hard": "個人差S",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/5011.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Level One",
       "chart": "ANOTHER",
       "ver": "26",
-      "normal": "個人差A",
-      "hard": "個人差S",
+      "normal": "個人差B+",
+      "hard": "個人差A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3446.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Liberation",
@@ -2240,8 +2016,7 @@
       "normal": "地力E",
       "hard": "地力D",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2012.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Life Is A Game ft.DD\"ナカタ\"Metal",
@@ -2250,18 +2025,7 @@
       "normal": "地力A",
       "hard": "地力A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3321.html",
-      "source": "displayed headings on atwiki"
-    },
-    {
-      "title": "LIGHTNING STRIKES",
-      "chart": "ANOTHER",
-      "ver": "27",
-      "normal": "地力E",
-      "hard": "地力E",
-      "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3696.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "LIGHTNING STRIKES",
@@ -2270,8 +2034,16 @@
       "normal": "地力A+",
       "hard": "地力A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/5082.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "LIGHTNING STRIKES",
+      "chart": "ANOTHER",
+      "ver": "27",
+      "normal": "地力E",
+      "hard": "地力E",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Lightspeed",
@@ -2280,8 +2052,7 @@
       "normal": "地力B",
       "hard": "地力B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/5118.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Little Little Princess",
@@ -2290,8 +2061,7 @@
       "normal": "地力B",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4232.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Little Star",
@@ -2300,8 +2070,7 @@
       "normal": "地力E",
       "hard": "地力E",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2013.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "LIVE DRIVING!! feat. 花たん",
@@ -2310,8 +2079,7 @@
       "normal": "地力C",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4222.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "LOCUS OF THE TRAVEL",
@@ -2320,18 +2088,16 @@
       "normal": "地力A",
       "hard": "地力A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4104.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Lords Of The Roundtable",
       "chart": "ANOTHER",
       "ver": "27",
-      "normal": "個人差S",
-      "hard": "個人差S",
+      "normal": "個人差A+",
+      "hard": "個人差A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3729.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Lost Souls",
@@ -2340,8 +2106,7 @@
       "normal": "地力S",
       "hard": "地力S",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/5045.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "LOST TECHNOLOGIE",
@@ -2350,8 +2115,7 @@
       "normal": "地力C",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3458.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "LOUDER ROLLING THUNDER",
@@ -2360,8 +2124,7 @@
       "normal": "地力A+",
       "hard": "地力A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4560.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "M4K3 1T B0UNC3",
@@ -2370,8 +2133,7 @@
       "normal": "地力B",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2785.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Macho Monky",
@@ -2380,18 +2142,16 @@
       "normal": "地力B+",
       "hard": "地力A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3502.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "MAD ATTACK",
       "chart": "LEGGENDARIA",
       "ver": "21",
-      "normal": "個人差C",
-      "hard": "個人差B+",
+      "normal": "個人差D",
+      "hard": "個人差B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4963.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Mare Nectaris",
@@ -2400,18 +2160,16 @@
       "normal": "地力S+",
       "hard": "地力S+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3078.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Marie Antoinette",
       "chart": "LEGGENDARIA",
       "ver": "16",
-      "normal": "個人差B+",
-      "hard": "個人差B+",
+      "normal": "個人差B",
+      "hard": "個人差B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/496.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Matt Silver",
@@ -2420,18 +2178,16 @@
       "normal": "地力D",
       "hard": "地力D",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3725.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "MAX 300",
       "chart": "ANOTHER",
       "ver": "7",
       "normal": "地力B",
-      "hard": "個人差B+",
+      "hard": "個人差B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4665.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "MAX 360",
@@ -2440,8 +2196,7 @@
       "normal": "地力B",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4690.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "MAXIMUM CHEAT GIRL",
@@ -2450,8 +2205,7 @@
       "normal": "地力B",
       "hard": "地力B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4891.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "MEGAERA",
@@ -2460,8 +2214,7 @@
       "normal": "地力S",
       "hard": "地力S",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3995.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Megalara Garuda",
@@ -2470,8 +2223,7 @@
       "normal": "地力D",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3818.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Meissa",
@@ -2480,8 +2232,7 @@
       "normal": "地力D",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4550.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "MENDES",
@@ -2490,18 +2241,16 @@
       "normal": "地力A",
       "hard": "地力A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/34.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Mid-Corner (Magic Maker)",
       "chart": "ANOTHER",
       "ver": "32",
-      "normal": "未定",
-      "hard": "未定",
+      "normal": "個人差S+",
+      "hard": "個人差S+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/5187.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Million Dollar",
@@ -2510,18 +2259,16 @@
       "normal": "地力C",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4910.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Miracle 5ympho X",
       "chart": "LEGGENDARIA",
       "ver": "21",
-      "normal": "個人差A",
-      "hard": "個人差S",
+      "normal": "個人差B+",
+      "hard": "個人差A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4906.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Monopole.",
@@ -2530,8 +2277,7 @@
       "normal": "地力B",
       "hard": "地力B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2421.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "moon_child",
@@ -2540,18 +2286,16 @@
       "normal": "地力E",
       "hard": "地力E",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/35.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "mosaic",
       "chart": "ANOTHER",
       "ver": "17",
-      "normal": "個人差D",
-      "hard": "個人差E",
+      "normal": "個人差E",
+      "hard": "個人差F",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/486.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "n/a",
@@ -2560,8 +2304,7 @@
       "normal": "地力S+",
       "hard": "地力S+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4323.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "NEO GENERATOR SEVEN",
@@ -2570,8 +2313,7 @@
       "normal": "地力C",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2408.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "neu",
@@ -2580,18 +2322,16 @@
       "normal": "地力B",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2007.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "New Castle Legions",
       "chart": "ANOTHER",
       "ver": "18",
-      "normal": "個人差C",
-      "hard": "個人差B",
+      "normal": "個人差D",
+      "hard": "個人差C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3480.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "NEW GENERATION -もう、お前しか見えない-",
@@ -2600,8 +2340,7 @@
       "normal": "地力B+",
       "hard": "地力A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/317.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Nightmare before oversleep",
@@ -2610,8 +2349,7 @@
       "normal": "地力C",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2713.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "NINJA IS DEAD IIDX ver.",
@@ -2620,8 +2358,7 @@
       "normal": "地力E",
       "hard": "地力E",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2752.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "NITROUS CANNON",
@@ -2630,8 +2367,7 @@
       "normal": "地力B",
       "hard": "地力B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3260.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "NNRT",
@@ -2640,8 +2376,7 @@
       "normal": "地力C",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/1782.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "No Border",
@@ -2650,8 +2385,7 @@
       "normal": "地力D",
       "hard": "地力D",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4551.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "NOIXIA",
@@ -2660,28 +2394,25 @@
       "normal": "地力A",
       "hard": "地力A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/5129.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Nothing but Theory",
       "chart": "LEGGENDARIA",
       "ver": "25",
-      "normal": "未定",
-      "hard": "未定",
+      "normal": "個人差S+",
+      "hard": "個人差S+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/5182.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "NZM",
       "chart": "ANOTHER",
       "ver": "23",
       "normal": "地力A+",
-      "hard": "個人差S",
+      "hard": "個人差A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2880.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "O/D*20",
@@ -2690,8 +2421,7 @@
       "normal": "地力B+",
       "hard": "地力A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4897.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "ONE AND ONLY",
@@ -2700,8 +2430,7 @@
       "normal": "地力D",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4587.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "One for All",
@@ -2710,8 +2439,7 @@
       "normal": "地力B",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4202.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "One More Lovely",
@@ -2720,28 +2448,25 @@
       "normal": "地力B+",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/36.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "one or eight",
       "chart": "ANOTHER",
       "ver": "9",
-      "normal": "個人差E",
-      "hard": "個人差D",
+      "normal": "個人差F",
+      "hard": "個人差E",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/37.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "ONIGOROSHI",
       "chart": "ANOTHER",
       "ver": "26",
-      "normal": "個人差C",
-      "hard": "個人差B",
+      "normal": "個人差D",
+      "hard": "個人差C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3530.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "oratio",
@@ -2750,8 +2475,7 @@
       "normal": "地力D",
       "hard": "地力D",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/38.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "ORCA",
@@ -2760,8 +2484,7 @@
       "normal": "地力B+",
       "hard": "地力B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3812.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "OTENAMI Hurricane",
@@ -2770,8 +2493,7 @@
       "normal": "地力B",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2996.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Ou Legends",
@@ -2780,8 +2502,7 @@
       "normal": "地力C",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4535.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Out of Control",
@@ -2790,8 +2511,7 @@
       "normal": "地力D",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4858.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Override",
@@ -2800,8 +2520,7 @@
       "normal": "地力S",
       "hard": "地力S",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4412.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Painful Fate",
@@ -2810,18 +2529,16 @@
       "normal": "地力A",
       "hard": "地力A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3476.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Papilio ulysses",
       "chart": "ANOTHER",
       "ver": "25",
-      "normal": "個人差B",
-      "hard": "個人差B+",
+      "normal": "個人差C",
+      "hard": "個人差B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3244.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "PARADISE LOST",
@@ -2830,18 +2547,16 @@
       "normal": "地力A+",
       "hard": "地力A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/1402.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "PARANOiA ～HADES～",
       "chart": "ANOTHER",
       "ver": "15",
-      "normal": "個人差B",
-      "hard": "個人差A",
+      "normal": "個人差C",
+      "hard": "個人差B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/39.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Parvati",
@@ -2850,18 +2565,16 @@
       "normal": "地力D",
       "hard": "地力D",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4055.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Peaktime Booster",
       "chart": "ANOTHER",
       "ver": "30",
-      "normal": "個人差B+",
-      "hard": "個人差A",
+      "normal": "個人差B",
+      "hard": "個人差B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4559.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "perditus†paradisus",
@@ -2870,8 +2583,7 @@
       "normal": "地力S",
       "hard": "地力S",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/1398.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Persephone",
@@ -2880,8 +2592,7 @@
       "normal": "地力D",
       "hard": "地力D",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3243.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Phoenix",
@@ -2890,18 +2601,16 @@
       "normal": "地力S",
       "hard": "地力S",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4371.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Plan 8",
       "chart": "ANOTHER",
       "ver": "20",
-      "normal": "個人差S+",
-      "hard": "個人差S+",
+      "normal": "個人差S",
+      "hard": "個人差S",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2004.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "PLASMA SOUL NIGHT feat. Nana Takahashi / 709sec.",
@@ -2910,28 +2619,25 @@
       "normal": "地力B+",
       "hard": "地力B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4352.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "PLEASE DON'T GO",
       "chart": "ANOTHER",
       "ver": "8",
-      "normal": "個人差C",
-      "hard": "個人差C",
+      "normal": "個人差D",
+      "hard": "個人差D",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/40.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "POSSESSION",
       "chart": "ANOTHER",
       "ver": "23",
       "normal": "地力D",
-      "hard": "個人差C",
+      "hard": "個人差D",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2783.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Primitive Vibes",
@@ -2940,8 +2646,7 @@
       "normal": "地力F",
       "hard": "地力F",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3670.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Proof of the existence",
@@ -2950,8 +2655,7 @@
       "normal": "地力B",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2028.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "PUNISHER",
@@ -2960,18 +2664,16 @@
       "normal": "地力D",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2196.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Purple Perplex",
       "chart": "ANOTHER",
       "ver": "29",
-      "normal": "個人差A",
-      "hard": "個人差A+",
+      "normal": "個人差B+",
+      "hard": "個人差A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4223.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Push on Beats!～音ゲの国のeX-ストリーマー～",
@@ -2980,8 +2682,7 @@
       "normal": "地力C",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4355.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Quakes",
@@ -2990,8 +2691,7 @@
       "normal": "地力A+",
       "hard": "地力A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3083.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "QUANTUM TELEPORTATION",
@@ -3000,8 +2700,7 @@
       "normal": "地力B",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4242.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "quaver♪",
@@ -3010,8 +2709,7 @@
       "normal": "地力B",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/1883.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "quell～the seventh slave～",
@@ -3020,38 +2718,34 @@
       "normal": "地力A",
       "hard": "地力A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/430.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "ra'am",
       "chart": "ANOTHER",
       "ver": "21",
       "normal": "地力B",
-      "hard": "個人差B+",
+      "hard": "個人差B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2205.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "rage against usual",
       "chart": "ANOTHER",
       "ver": "12",
       "normal": "地力C",
-      "hard": "個人差A",
+      "hard": "個人差B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/41.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "RAGE feat.H14 of LEONAIR",
       "chart": "ANOTHER",
       "ver": "29",
-      "normal": "個人差S+",
-      "hard": "個人差S+",
+      "normal": "個人差S",
+      "hard": "個人差S",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4368.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "RAIN",
@@ -3060,8 +2754,7 @@
       "normal": "地力C",
       "hard": "地力D",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3075.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Rampage",
@@ -3070,8 +2763,7 @@
       "normal": "地力D",
       "hard": "地力D",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3280.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Raspberry Railgun",
@@ -3080,8 +2772,7 @@
       "normal": "地力E",
       "hard": "地力E",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3267.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Rave Cannon",
@@ -3090,8 +2781,7 @@
       "normal": "地力D",
       "hard": "地力D",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2992.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Rave Patroller",
@@ -3100,18 +2790,16 @@
       "normal": "地力C",
       "hard": "地力D",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3684.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Rave*it!! Rave*it!!",
       "chart": "ANOTHER",
       "ver": "22",
-      "normal": "個人差C",
-      "hard": "個人差A+",
+      "normal": "個人差D",
+      "hard": "個人差A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2448.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "RED ZONE",
@@ -3120,38 +2808,34 @@
       "normal": "地力E",
       "hard": "地力E",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4231.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Red. by Full Metal Jacket",
       "chart": "ANOTHER",
       "ver": "17",
-      "normal": "個人差B",
-      "hard": "個人差A",
+      "normal": "個人差C",
+      "hard": "個人差B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/487.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Red. by Jack Trance",
       "chart": "ANOTHER",
       "ver": "26",
-      "normal": "個人差A+",
-      "hard": "個人差S",
+      "normal": "個人差A",
+      "hard": "個人差A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3479.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Reflux",
       "chart": "ANOTHER",
       "ver": "22",
-      "normal": "個人差A+",
-      "hard": "個人差A+",
+      "normal": "個人差A",
+      "hard": "個人差A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2520.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "refrain",
@@ -3160,8 +2844,7 @@
       "normal": "地力B",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2722.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Resonant",
@@ -3170,8 +2853,7 @@
       "normal": "地力B+",
       "hard": "地力A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/5053.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "reunion",
@@ -3180,18 +2862,16 @@
       "normal": "地力B",
       "hard": "地力A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/1404.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "REVOLVER",
       "chart": "LEGGENDARIA",
       "ver": "25",
       "normal": "地力A+",
-      "hard": "個人差S",
+      "hard": "個人差A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4341.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "RINNE",
@@ -3200,8 +2880,7 @@
       "normal": "地力C",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4526.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Ristaccia",
@@ -3210,8 +2889,7 @@
       "normal": "地力F",
       "hard": "地力F",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/42.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Roar of Chronos",
@@ -3220,8 +2898,7 @@
       "normal": "地力C",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/5152.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "rommmo",
@@ -3230,8 +2907,7 @@
       "normal": "地力C",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3956.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "ruin of opals",
@@ -3240,28 +2916,25 @@
       "normal": "地力B",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3536.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "sakura storm",
       "chart": "ANOTHER",
       "ver": "18",
-      "normal": "個人差F",
-      "hard": "個人差E",
+      "normal": "未分類",
+      "hard": "個人差F",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/1403.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "SAMURAI-Scramble",
       "chart": "LEGGENDARIA",
       "ver": "24",
-      "normal": "個人差S+",
-      "hard": "個人差S+",
+      "normal": "個人差S",
+      "hard": "個人差S",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4108.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Satellite Burst",
@@ -3270,8 +2943,7 @@
       "normal": "地力A+",
       "hard": "地力A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/5133.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Saturn",
@@ -3280,8 +2952,7 @@
       "normal": "地力A+",
       "hard": "地力S",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4964.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "SAY BAY",
@@ -3290,8 +2961,7 @@
       "normal": "地力C",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2997.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Say YEEEAHH",
@@ -3300,48 +2970,43 @@
       "normal": "地力D",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2519.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "SCREAM SQUAD",
       "chart": "ANOTHER",
       "ver": "12",
-      "normal": "個人差E",
-      "hard": "個人差E",
+      "normal": "個人差F",
+      "hard": "個人差F",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/43.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "SCREW // owo // SCREW",
       "chart": "ANOTHER",
       "ver": "27",
-      "normal": "個人差A+",
-      "hard": "個人差A+",
+      "normal": "個人差A",
+      "hard": "個人差A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3693.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Scripted Connection⇒ A mix",
+      "chart": "LEGGENDARIA",
+      "ver": "12",
+      "normal": "個人差B+",
+      "hard": "地力A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Scripted Connection⇒ A mix",
       "chart": "ANOTHER",
       "ver": "12",
       "normal": "地力D",
-      "hard": "個人差C",
+      "hard": "個人差D",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/44.html",
-      "source": "displayed headings on atwiki"
-    },
-    {
-      "title": "Scripted Connection⇒ A mix",
-      "chart": "LEGGENDARIA",
-      "ver": "12",
-      "normal": "個人差A",
-      "hard": "地力A",
-      "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/452.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Scripted Connection⇒ H mix",
@@ -3350,8 +3015,7 @@
       "normal": "地力D",
       "hard": "地力D",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/918.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Secrets",
@@ -3360,18 +3024,16 @@
       "normal": "地力A",
       "hard": "地力A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/495.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Sense 2007",
       "chart": "ANOTHER",
       "ver": "14",
-      "normal": "個人差C",
-      "hard": "個人差B",
+      "normal": "個人差D",
+      "hard": "個人差C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/45.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Session 9 -Chronicles-",
@@ -3380,8 +3042,7 @@
       "normal": "地力B",
       "hard": "地力B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/1384.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Seven Times Four",
@@ -3390,8 +3051,7 @@
       "normal": "地力C",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/5035.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Shooting Fireball",
@@ -3400,18 +3060,7 @@
       "normal": "地力B+",
       "hard": "地力B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2484.html",
-      "source": "displayed headings on atwiki"
-    },
-    {
-      "title": "Sigmund",
-      "chart": "ANOTHER",
-      "ver": "21",
-      "normal": "地力S",
-      "hard": "地力S",
-      "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2206.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Sigmund",
@@ -3420,8 +3069,16 @@
       "normal": "地力S+",
       "hard": "地力S+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4252.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "Sigmund",
+      "chart": "ANOTHER",
+      "ver": "21",
+      "normal": "地力S",
+      "hard": "地力S",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Silver Bullet",
@@ -3430,8 +3087,7 @@
       "normal": "地力D",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4306.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Sinus Iridum",
@@ -3440,8 +3096,7 @@
       "normal": "地力S",
       "hard": "地力S+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4074.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Sirius",
@@ -3450,8 +3105,7 @@
       "normal": "地力E",
       "hard": "地力E",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4811.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Sky High",
@@ -3460,8 +3114,7 @@
       "normal": "地力B",
       "hard": "地力B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3023.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Slipstream",
@@ -3470,8 +3123,7 @@
       "normal": "地力B",
       "hard": "地力B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3304.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Smalt #28598F",
@@ -3480,8 +3132,7 @@
       "normal": "地力B",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4366.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Smashing Wedge",
@@ -3490,28 +3141,25 @@
       "normal": "地力A+",
       "hard": "地力A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3829.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Snake Stick",
       "chart": "ANOTHER",
       "ver": "19",
-      "normal": "個人差B+",
-      "hard": "個人差A+",
+      "normal": "個人差B",
+      "hard": "個人差A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/1683.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Snakey Kung-fu",
       "chart": "ANOTHER",
       "ver": "24",
       "normal": "地力B+",
-      "hard": "個人差A",
+      "hard": "個人差B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3112.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "snow storm",
@@ -3520,8 +3168,7 @@
       "normal": "地力F",
       "hard": "地力F",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/490.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Sol Cosine Job 2",
@@ -3530,28 +3177,16 @@
       "normal": "地力C",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/1986.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "SOLAR ECLIPSE",
       "chart": "ANOTHER",
       "ver": "31",
       "normal": "地力A+",
-      "hard": "個人差S",
+      "hard": "個人差A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4834.html",
-      "source": "displayed headings on atwiki"
-    },
-    {
-      "title": "SOLID STATE SQUAD",
-      "chart": "ANOTHER",
-      "ver": "17",
-      "normal": "地力D",
-      "hard": "地力D",
-      "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/441.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "SOLID STATE SQUAD",
@@ -3560,8 +3195,16 @@
       "normal": "地力A",
       "hard": "地力A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4239.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "SOLID STATE SQUAD",
+      "chart": "ANOTHER",
+      "ver": "17",
+      "normal": "地力D",
+      "hard": "地力D",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "SOLID STATE SQUAD -RISEN RELIC REMIX-",
@@ -3570,8 +3213,7 @@
       "normal": "地力C",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3993.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "SOLID WYVERN",
@@ -3580,8 +3222,7 @@
       "normal": "地力A+",
       "hard": "地力A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/5007.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Somnidiscotheque",
@@ -3590,8 +3231,7 @@
       "normal": "地力S+",
       "hard": "地力S+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4647.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Sounds Of Summer",
@@ -3600,8 +3240,7 @@
       "normal": "地力C",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2564.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "SpaceLand☆TOYBOX",
@@ -3610,8 +3249,7 @@
       "normal": "地力D",
       "hard": "地力D",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2422.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "SPECIAL SUMMER CAMPAIGN!",
@@ -3620,8 +3258,7 @@
       "normal": "地力F",
       "hard": "地力F",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/1601.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "spiral galaxy",
@@ -3630,8 +3267,7 @@
       "normal": "地力C",
       "hard": "地力D",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/320.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "STARLIGHT DANCEHALL",
@@ -3640,28 +3276,25 @@
       "normal": "地力B+",
       "hard": "地力B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4264.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Steel Edge",
       "chart": "ANOTHER",
       "ver": "24",
-      "normal": "個人差E",
+      "normal": "個人差F",
       "hard": "地力E",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3007.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "STEEL NEEDLE",
       "chart": "LEGGENDARIA",
       "ver": "15",
-      "normal": "個人差A",
+      "normal": "個人差B+",
       "hard": "地力S",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/321.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Stereo Beasts",
@@ -3670,8 +3303,7 @@
       "normal": "地力D",
       "hard": "地力D",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4957.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "StrayedCatz",
@@ -3680,18 +3312,16 @@
       "normal": "地力B+",
       "hard": "地力B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2862.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "STULTI",
       "chart": "ANOTHER",
       "ver": "20",
-      "normal": "個人差B+",
+      "normal": "個人差B",
       "hard": "地力A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2088.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Summerlights(IIDX Edition)",
@@ -3700,8 +3330,7 @@
       "normal": "地力E",
       "hard": "地力D",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3081.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Super Freak",
@@ -3710,8 +3339,7 @@
       "normal": "地力C",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4585.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Super Rush",
@@ -3720,8 +3348,7 @@
       "normal": "地力B",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2998.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "suspicions",
@@ -3730,8 +3357,7 @@
       "normal": "地力A",
       "hard": "地力A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4688.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Sword of Vengeance",
@@ -3740,8 +3366,7 @@
       "normal": "地力C",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4911.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Symmetry",
@@ -3750,8 +3375,7 @@
       "normal": "地力E",
       "hard": "地力E",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2405.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "SYNC-ANTHEM",
@@ -3760,8 +3384,7 @@
       "normal": "地力B+",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/1999.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "T-REX vs Velociraptor (In the Far east euphoria)",
@@ -3770,8 +3393,7 @@
       "normal": "地力B",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3673.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "TECHNO Style Essentials",
@@ -3780,18 +3402,16 @@
       "normal": "地力C",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3671.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "TECHNOPHOBIA",
       "chart": "ANOTHER",
       "ver": "30",
-      "normal": "個人差A",
+      "normal": "個人差B+",
       "hard": "地力A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4552.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "THANK YOU FOR PLAYING",
@@ -3800,8 +3420,7 @@
       "normal": "地力C",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/493.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "THE BRAVE MUST DIE",
@@ -3810,18 +3429,16 @@
       "normal": "地力A",
       "hard": "地力A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3672.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "The Chase",
       "chart": "ANOTHER",
       "ver": "25",
-      "normal": "個人差A+",
-      "hard": "個人差S",
+      "normal": "個人差A",
+      "hard": "個人差A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3228.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "The Clown of 24stairs",
@@ -3830,8 +3447,7 @@
       "normal": "地力A+",
       "hard": "地力A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4598.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "THE DAY OF JUBILATIONS",
@@ -3840,8 +3456,7 @@
       "normal": "地力C",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3447.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "THE DEEP STRIKER",
@@ -3850,8 +3465,7 @@
       "normal": "地力B",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/322.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "THE F∀UST",
@@ -3860,8 +3474,7 @@
       "normal": "地力A+",
       "hard": "地力A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3681.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "The Last Apocalypse",
@@ -3870,8 +3483,7 @@
       "normal": "地力B",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/5009.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "The Least 100sec",
@@ -3880,18 +3492,7 @@
       "normal": "地力D",
       "hard": "地力D",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/455.html",
-      "source": "displayed headings on atwiki"
-    },
-    {
-      "title": "The Limbo",
-      "chart": "ANOTHER",
-      "ver": "19",
-      "normal": "地力B+",
-      "hard": "地力B",
-      "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/1783.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "The Limbo",
@@ -3900,28 +3501,34 @@
       "normal": "地力S+",
       "hard": "地力S+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4467.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "The Limbo",
+      "chart": "ANOTHER",
+      "ver": "19",
+      "normal": "地力B+",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "The Onlyonez",
       "chart": "ANOTHER",
       "ver": "31",
       "normal": "地力E",
-      "hard": "個人差E",
+      "hard": "個人差F",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/5039.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "THE PEERLESS UNDER HEAVEN",
       "chart": "ANOTHER",
       "ver": "28",
-      "normal": "個人差A+",
-      "hard": "個人差S",
+      "normal": "個人差A",
+      "hard": "個人差A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3957.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "The Rebellion of Sequencer",
@@ -3930,8 +3537,7 @@
       "normal": "地力A",
       "hard": "地力A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3448.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "The Sampling Paradise",
@@ -3940,18 +3546,16 @@
       "normal": "地力D",
       "hard": "地力D",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/1784.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Thor's Hammer",
       "chart": "ANOTHER",
       "ver": "20",
-      "normal": "個人差A+",
-      "hard": "個人差S+",
+      "normal": "個人差A",
+      "hard": "個人差S",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2000.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "thunder HOUSE NATION Remix",
@@ -3960,8 +3564,7 @@
       "normal": "地力C",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/492.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Thunderbolt",
@@ -3970,8 +3573,7 @@
       "normal": "地力D",
       "hard": "地力D",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/1592.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "TIEFSEE",
@@ -3980,8 +3582,7 @@
       "normal": "地力D",
       "hard": "地力D",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2481.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Tiempo Loco",
@@ -3990,18 +3591,16 @@
       "normal": "地力A+",
       "hard": "地力A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4045.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Time to Air",
       "chart": "LEGGENDARIA",
       "ver": "15",
-      "normal": "個人差S",
-      "hard": "個人差S",
+      "normal": "個人差A+",
+      "hard": "個人差A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/323.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Timepiece phase II",
@@ -4010,28 +3609,25 @@
       "normal": "地力B",
       "hard": "地力B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2040.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Timepiece phase II (CN Ver.)",
       "chart": "ANOTHER",
       "ver": "20",
-      "normal": "個人差S",
-      "hard": "個人差S+",
+      "normal": "個人差A+",
+      "hard": "個人差S",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2042.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "TITANS RETURN",
       "chart": "LEGGENDARIA",
       "ver": "19",
-      "normal": "個人差A+",
-      "hard": "個人差S",
+      "normal": "個人差A",
+      "hard": "個人差A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3743.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Todestrieb",
@@ -4040,28 +3636,25 @@
       "normal": "地力E",
       "hard": "地力D",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/1785.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "TOGAKUSHI",
       "chart": "ANOTHER",
       "ver": "24",
-      "normal": "個人差C",
-      "hard": "個人差B",
+      "normal": "個人差D",
+      "hard": "個人差C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2999.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "TOMAHAWK",
       "chart": "ANOTHER",
       "ver": "29",
-      "normal": "個人差A+",
-      "hard": "個人差A+",
+      "normal": "個人差A",
+      "hard": "個人差A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4204.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "TOXIC VIBRATION",
@@ -4070,8 +3663,7 @@
       "normal": "地力B+",
       "hard": "地力B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2478.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "TRANOID",
@@ -4080,8 +3672,7 @@
       "normal": "地力S",
       "hard": "地力S",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3802.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Trill auf G",
@@ -4090,8 +3681,7 @@
       "normal": "地力D",
       "hard": "地力B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3565.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Triple Counter",
@@ -4100,8 +3690,7 @@
       "normal": "地力A",
       "hard": "地力A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2866.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Triple Cross",
@@ -4110,8 +3699,7 @@
       "normal": "地力B",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4122.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "TRIUMPH",
@@ -4120,18 +3708,16 @@
       "normal": "地力A",
       "hard": "地力A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3674.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "TROOPERS",
       "chart": "ANOTHER",
       "ver": "15",
-      "normal": "個人差E",
-      "hard": "個人差D",
+      "normal": "個人差F",
+      "hard": "個人差E",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/47.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "True Blue",
@@ -4140,8 +3726,7 @@
       "normal": "地力D",
       "hard": "地力D",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2055.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Twelfth Style",
@@ -4150,8 +3735,7 @@
       "normal": "地力B+",
       "hard": "地力B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4233.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "u gotta beat",
@@ -4160,8 +3744,7 @@
       "normal": "地力B",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/5134.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Ubertreffen",
@@ -4170,8 +3753,7 @@
       "normal": "地力B",
       "hard": "地力B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/325.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Umbral",
@@ -4180,8 +3762,7 @@
       "normal": "地力D",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4403.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Unbelief",
@@ -4190,8 +3771,7 @@
       "normal": "地力B+",
       "hard": "地力A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3500.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "V",
@@ -4200,8 +3780,7 @@
       "normal": "地力D",
       "hard": "地力D",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/48.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Valanga",
@@ -4210,8 +3789,7 @@
       "normal": "地力B",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2115.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "VANESSA",
@@ -4220,8 +3798,7 @@
       "normal": "地力E",
       "hard": "地力D",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/49.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "VANESSA",
@@ -4230,8 +3807,7 @@
       "normal": "地力A+",
       "hard": "地力S",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/433.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Venom",
@@ -4240,8 +3816,7 @@
       "normal": "地力E",
       "hard": "地力E",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3101.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Verflucht",
@@ -4250,8 +3825,7 @@
       "normal": "地力A",
       "hard": "地力A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2288.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Verflucht",
@@ -4260,8 +3834,7 @@
       "normal": "地力S+",
       "hard": "地力S+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4253.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Vermilion Carol",
@@ -4270,8 +3843,7 @@
       "normal": "地力B",
       "hard": "地力B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4860.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Vinculum stellarum",
@@ -4280,8 +3852,7 @@
       "normal": "地力C",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3770.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Violet Pulse",
@@ -4290,8 +3861,7 @@
       "normal": "地力A",
       "hard": "地力A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4668.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Viridian",
@@ -4300,8 +3870,7 @@
       "normal": "地力C",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3978.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Visterhv",
@@ -4310,8 +3879,7 @@
       "normal": "地力B+",
       "hard": "地力B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3538.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Vitrum",
@@ -4320,18 +3888,16 @@
       "normal": "地力B",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3951.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "VOID",
       "chart": "ANOTHER",
       "ver": "30",
       "normal": "地力A+",
-      "hard": "個人差S",
+      "hard": "個人差A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4698.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "VOLAQUAS",
@@ -4340,8 +3906,7 @@
       "normal": "地力A",
       "hard": "地力A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4529.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "voltississimo",
@@ -4350,18 +3915,16 @@
       "normal": "地力A+",
       "hard": "地力A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3577.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "VOX UP",
       "chart": "ANOTHER",
       "ver": "21",
-      "normal": "個人差B",
-      "hard": "個人差A+",
+      "normal": "個人差C",
+      "hard": "個人差A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/337.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Vulnerability",
@@ -4370,18 +3933,16 @@
       "normal": "地力A+",
       "hard": "地力A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/5020.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Watch Out Pt.2",
       "chart": "ANOTHER",
       "ver": "18",
-      "normal": "個人差B",
-      "hard": "個人差A",
+      "normal": "個人差C",
+      "hard": "個人差B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/1405.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "waxing and wanding",
@@ -4390,8 +3951,7 @@
       "normal": "地力A",
       "hard": "地力A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4235.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "We're so Happy (P*Light Remix) IIDX ver.",
@@ -4400,8 +3960,7 @@
       "normal": "地力C",
       "hard": "地力B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2394.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Welcome",
@@ -4410,18 +3969,16 @@
       "normal": "地力B",
       "hard": "地力B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4265.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "WHA",
       "chart": "ANOTHER",
       "ver": "29",
-      "normal": "個人差S",
-      "hard": "個人差S",
+      "normal": "個人差A+",
+      "hard": "個人差A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4386.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "WONDER WALKER",
@@ -4430,8 +3987,7 @@
       "normal": "地力C",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/1709.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "X",
@@ -4440,8 +3996,7 @@
       "normal": "地力B",
       "hard": "地力B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2853.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "X-DEN",
@@ -4450,8 +4005,7 @@
       "normal": "地力S",
       "hard": "地力S+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3488.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Xb10r",
@@ -4460,8 +4014,7 @@
       "normal": "地力B+",
       "hard": "地力B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4901.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Xerulean",
@@ -4470,8 +4023,7 @@
       "normal": "地力S",
       "hard": "地力S",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4650.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Xlo",
@@ -4480,8 +4032,7 @@
       "normal": "地力B",
       "hard": "地力A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3449.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Xperanza",
@@ -4490,18 +4041,16 @@
       "normal": "地力B",
       "hard": "地力B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3230.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Y&Co. is dead or alive",
       "chart": "ANOTHER",
       "ver": "16",
-      "normal": "個人差B",
-      "hard": "個人差S",
+      "normal": "個人差C",
+      "hard": "個人差A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/491.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "YAKSHA",
@@ -4510,8 +4059,7 @@
       "normal": "地力B+",
       "hard": "地力B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/1786.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "yellow head joe",
@@ -4520,8 +4068,7 @@
       "normal": "地力C",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4805.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Ypsilon",
@@ -4530,8 +4077,7 @@
       "normal": "地力C",
       "hard": "地力D",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4085.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "ZEPHYRANTHES",
@@ -4540,28 +4086,25 @@
       "normal": "地力A",
       "hard": "地力A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3778.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "Zirkfied",
       "chart": "ANOTHER",
       "ver": "20",
-      "normal": "個人差A+",
+      "normal": "個人差A",
       "hard": "地力A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2120.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "ZZ",
       "chart": "ANOTHER",
       "ver": "22",
-      "normal": "個人差C",
+      "normal": "個人差D",
       "hard": "地力D",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2423.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "ΕΛΠΙΣ",
@@ -4570,8 +4113,7 @@
       "normal": "地力E",
       "hard": "地力E",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/1997.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "ΕΛΠΙΣ",
@@ -4580,8 +4122,7 @@
       "normal": "地力B",
       "hard": "地力B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4071.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "†渚の小悪魔ラヴリィ～レイディオ†(IIDX EDIT)",
@@ -4590,8 +4131,7 @@
       "normal": "地力B+",
       "hard": "地力B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2051.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "∀",
@@ -4600,8 +4140,7 @@
       "normal": "地力A+",
       "hard": "地力A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3955.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "〆",
@@ -4610,8 +4149,7 @@
       "normal": "地力D",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3022.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "《PL|RAYER》",
@@ -4620,8 +4158,7 @@
       "normal": "地力E",
       "hard": "地力E",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4823.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "お米の美味しい炊き方、そしてお米を食べることによるその効果。",
@@ -4630,8 +4167,7 @@
       "normal": "地力S",
       "hard": "地力S",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3854.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "お菓子の王国",
@@ -4640,8 +4176,7 @@
       "normal": "地力A",
       "hard": "地力A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3555.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "がっつり陰キャ!? 怪盗いいんちょの億劫^^;",
@@ -4650,8 +4185,7 @@
       "normal": "地力A+",
       "hard": "地力A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3750.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "それは花火のような恋",
@@ -4660,8 +4194,7 @@
       "normal": "地力C",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2526.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "ぞうしょく！？マイデンティティ",
@@ -4670,8 +4203,7 @@
       "normal": "地力B+",
       "hard": "地力B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4658.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "たまゆら",
@@ -4680,8 +4212,7 @@
       "normal": "地力B",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/494.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "めいさいアイドル☆あいむちゃん♪",
@@ -4690,18 +4221,16 @@
       "normal": "地力C",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2725.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "アストライアの双皿",
       "chart": "ANOTHER",
       "ver": "20",
-      "normal": "個人差B",
-      "hard": "個人差B",
+      "normal": "個人差C",
+      "hard": "個人差C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2049.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "イザナミノナゲキ",
@@ -4710,8 +4239,7 @@
       "normal": "地力C",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3021.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "カゴノトリ～弐式～",
@@ -4720,18 +4248,16 @@
       "normal": "地力D",
       "hard": "地力E",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/51.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "カジノファイヤーことみちゃん",
       "chart": "LEGGENDARIA",
       "ver": "20",
-      "normal": "個人差A",
+      "normal": "個人差B+",
       "hard": "地力S",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/5084.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "キャトられ恋はモ～モク",
@@ -4740,8 +4266,7 @@
       "normal": "地力B+",
       "hard": "地力A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2093.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "シムルグの目醒め",
@@ -4750,8 +4275,7 @@
       "normal": "地力A+",
       "hard": "地力A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3269.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "シュレーディンガーの猫",
@@ -4760,8 +4284,7 @@
       "normal": "地力C",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2112.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "スパークリング☆彡ハイパーチューン！！",
@@ -4770,28 +4293,25 @@
       "normal": "地力F",
       "hard": "地力F",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/5136.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "スーパー戦湯ババンバーン",
       "chart": "ANOTHER",
       "ver": "28",
-      "normal": "個人差C",
+      "normal": "個人差D",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4088.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "ディスコルディア",
       "chart": "ANOTHER",
       "ver": "28",
-      "normal": "個人差S",
+      "normal": "個人差A+",
       "hard": "地力S+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4042.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "トリカゴノ鳳凰",
@@ -4800,28 +4320,25 @@
       "normal": "地力C",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2025.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "ハイテックトキオ",
       "chart": "LEGGENDARIA",
       "ver": "29",
-      "normal": "個人差C",
-      "hard": "個人差B",
+      "normal": "個人差D",
+      "hard": "個人差C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4466.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "バッド・スイーツ、バッド・ドリーム",
       "chart": "ANOTHER",
       "ver": "28",
-      "normal": "個人差A",
-      "hard": "個人差A+",
+      "normal": "個人差B+",
+      "hard": "個人差A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4031.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "ピアノ協奏曲第1番”蠍火” (BlackY Remix)",
@@ -4830,48 +4347,43 @@
       "normal": "地力A",
       "hard": "地力A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3787.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "ピアノ協奏曲第１番”蠍火”",
       "chart": "ANOTHER",
       "ver": "11",
-      "normal": "個人差A",
-      "hard": "個人差A",
+      "normal": "個人差B+",
+      "hard": "個人差B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/55.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "ピアノ独奏無言歌 \"灰燼\"",
       "chart": "ANOTHER",
       "ver": "29",
-      "normal": "個人差A+",
-      "hard": "個人差S",
+      "normal": "個人差A",
+      "hard": "個人差A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4397.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "フォニイ",
       "chart": "LEGGENDARIA",
       "ver": "31",
-      "normal": "未定",
-      "hard": "未定",
+      "normal": "個人差S+",
+      "hard": "個人差S+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/5202.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "ミラージュ・レジデンス",
       "chart": "LEGGENDARIA",
       "ver": "15",
-      "normal": "個人差B",
-      "hard": "個人差B+",
+      "normal": "個人差C",
+      "hard": "個人差B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4468.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "リリーゼと炎龍レーヴァテイン",
@@ -4880,18 +4392,16 @@
       "normal": "地力B",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2416.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "ワルツ第17番 ト短調”大犬のワルツ”",
       "chart": "ANOTHER",
       "ver": "17",
-      "normal": "個人差D",
-      "hard": "個人差B",
+      "normal": "個人差E",
+      "hard": "個人差C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/488.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "不沈艦CANDY",
@@ -4900,8 +4410,7 @@
       "normal": "地力B",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/393.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "世界の果てに約束の凱歌を -ReUnion-",
@@ -4910,8 +4419,7 @@
       "normal": "地力A",
       "hard": "地力A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3968.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "九尾狐夜行",
@@ -4920,8 +4428,7 @@
       "normal": "地力D",
       "hard": "地力D",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2984.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "二人ノ廃城幽踊宴",
@@ -4930,8 +4437,7 @@
       "normal": "地力A",
       "hard": "地力A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4059.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "今宵、ロマンス横丁。",
@@ -4940,8 +4446,7 @@
       "normal": "地力B+",
       "hard": "地力A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/5018.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "仮想空間の旅人たち",
@@ -4950,8 +4455,7 @@
       "normal": "地力A",
       "hard": "地力B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4247.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "伐折羅-vajra-",
@@ -4960,8 +4464,7 @@
       "normal": "地力A",
       "hard": "地力A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4057.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "儚キ戀ノ幻想譚",
@@ -4970,8 +4473,7 @@
       "normal": "地力B",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4553.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "共鳴遊戯の華",
@@ -4980,8 +4482,7 @@
       "normal": "地力S",
       "hard": "地力S",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2498.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "冥",
@@ -4990,8 +4491,7 @@
       "normal": "地力A",
       "hard": "地力S+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/53.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "刃図羅",
@@ -5000,18 +4500,7 @@
       "normal": "地力D",
       "hard": "地力D",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3114.html",
-      "source": "displayed headings on atwiki"
-    },
-    {
-      "title": "千年ノ理",
-      "chart": "ANOTHER",
-      "ver": "22",
-      "normal": "地力E",
-      "hard": "地力F",
-      "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2518.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "千年ノ理",
@@ -5020,8 +4509,16 @@
       "normal": "地力S",
       "hard": "地力A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3666.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "千年ノ理",
+      "chart": "ANOTHER",
+      "ver": "22",
+      "normal": "地力E",
+      "hard": "地力F",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "卑弥呼",
@@ -5030,8 +4527,7 @@
       "normal": "地力S+",
       "hard": "地力S+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/283.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "即席！脳直★ミュージックシステム",
@@ -5040,8 +4536,7 @@
       "normal": "地力D",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2070.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "君のハートにロックオン",
@@ -5050,8 +4545,7 @@
       "normal": "地力A",
       "hard": "地力A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4119.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "嘆きの樹",
@@ -5060,8 +4554,7 @@
       "normal": "地力S",
       "hard": "地力S",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/54.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "夏色DIARY - L.E.D.-G STYLE MIX -",
@@ -5070,18 +4563,16 @@
       "normal": "地力C",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2629.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "天使のカンタータ -Cantata of Angels-",
       "chart": "ANOTHER",
       "ver": "32",
-      "normal": "未定",
-      "hard": "未定",
+      "normal": "個人差S+",
+      "hard": "個人差S+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/5185.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "天空の夜明け",
@@ -5090,8 +4581,7 @@
       "normal": "地力A",
       "hard": "地力A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/1788.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "天邪鬼",
@@ -5100,8 +4590,7 @@
       "normal": "地力D",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4384.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "子供の落書き帳",
@@ -5110,8 +4599,7 @@
       "normal": "地力C",
       "hard": "地力B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/332.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "少年A",
@@ -5120,8 +4608,7 @@
       "normal": "地力E",
       "hard": "地力D",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/52.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "少年は空を辿る",
@@ -5130,28 +4617,16 @@
       "normal": "地力B",
       "hard": "地力B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2627.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "廿",
       "chart": "LEGGENDARIA",
       "ver": "21",
       "normal": "地力B",
-      "hard": "個人差B+",
+      "hard": "個人差B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4255.html",
-      "source": "displayed headings on atwiki"
-    },
-    {
-      "title": "恋する☆宇宙戦争っ！！",
-      "chart": "ANOTHER",
-      "ver": "19",
-      "normal": "地力D",
-      "hard": "地力C",
-      "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/1703.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "恋する☆宇宙戦争っ！！",
@@ -5160,18 +4635,25 @@
       "normal": "地力A+",
       "hard": "地力A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4806.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "恋する☆宇宙戦争っ！！",
+      "chart": "ANOTHER",
+      "ver": "19",
+      "normal": "地力D",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "恋愛＝精度×認識力",
       "chart": "ANOTHER",
       "ver": "30",
       "normal": "地力B",
-      "hard": "個人差A+",
+      "hard": "個人差A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4596.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "惑星鉄道",
@@ -5180,8 +4662,7 @@
       "normal": "地力S+",
       "hard": "地力S+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4975.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "抱きしめてモナムール",
@@ -5190,28 +4671,25 @@
       "normal": "地力B+",
       "hard": "地力B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3492.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "摩天楼",
       "chart": "ANOTHER",
       "ver": "31",
-      "normal": "個人差B",
-      "hard": "個人差B",
+      "normal": "個人差C",
+      "hard": "個人差C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4833.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "新宝島",
       "chart": "LEGGENDARIA",
       "ver": "28",
-      "normal": "未定",
-      "hard": "未定",
+      "normal": "個人差S+",
+      "hard": "個人差S+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/5201.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "旋律のドグマ～Miserables～",
@@ -5220,8 +4698,7 @@
       "normal": "地力C",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2241.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "最小三倍完全数",
@@ -5230,8 +4707,7 @@
       "normal": "地力D",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3567.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "未完成ノ蒸氣驅動乙女",
@@ -5240,8 +4716,7 @@
       "normal": "地力B",
       "hard": "地力B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4866.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "東京神話",
@@ -5250,8 +4725,7 @@
       "normal": "地力B+",
       "hard": "地力A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3249.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "栄冠のカンパネラ",
@@ -5260,18 +4734,16 @@
       "normal": "地力S",
       "hard": "地力S",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4636.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "桜",
       "chart": "ANOTHER",
       "ver": "8",
-      "normal": "個人差D",
-      "hard": "個人差D",
+      "normal": "個人差E",
+      "hard": "個人差E",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/56.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "残像ニ繋ガレタ追憶ノHIDEAWAY",
@@ -5280,18 +4752,16 @@
       "normal": "地力F",
       "hard": "地力F",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/5043.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "水鏡の異界",
       "chart": "ANOTHER",
       "ver": "28",
-      "normal": "個人差B+",
-      "hard": "個人差A",
+      "normal": "個人差B",
+      "hard": "個人差B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3952.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "津軽雪",
@@ -5300,28 +4770,25 @@
       "normal": "地力B+",
       "hard": "地力A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3008.html",
-      "source": "displayed headings on atwiki"
-    },
-    {
-      "title": "海神",
-      "chart": "ANOTHER",
-      "ver": "21",
-      "normal": "個人差C",
-      "hard": "個人差C",
-      "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2300.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "海神",
       "chart": "LEGGENDARIA",
       "ver": "21",
       "normal": "地力B+",
-      "hard": "個人差A",
+      "hard": "個人差B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/5059.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "海神",
+      "chart": "ANOTHER",
+      "ver": "21",
+      "normal": "個人差D",
+      "hard": "個人差D",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "深淵に捧ぐレクイエム",
@@ -5330,78 +4797,70 @@
       "normal": "地力C",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3675.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "火影",
       "chart": "ANOTHER",
       "ver": "24",
-      "normal": "個人差B",
-      "hard": "個人差B+",
+      "normal": "個人差C",
+      "hard": "個人差B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3000.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "灼熱 Lost Summer Dayz",
       "chart": "ANOTHER",
       "ver": "32",
       "normal": "地力E",
-      "hard": "個人差B+",
+      "hard": "個人差B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/5135.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "灼熱 Pt.2 Long Train Running",
       "chart": "ANOTHER",
       "ver": "23",
-      "normal": "個人差S+",
-      "hard": "個人差S+",
+      "normal": "個人差S",
+      "hard": "個人差S",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2541.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "灼熱Beach Side Bunny",
       "chart": "ANOTHER",
       "ver": "18",
-      "normal": "個人差S+",
-      "hard": "個人差S+",
+      "normal": "個人差S",
+      "hard": "個人差S",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/1381.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "灼熱Beach Side Bunny (かめりあ's \"Summertime D'n'B\" Remix)",
       "chart": "ANOTHER",
       "ver": "31",
-      "normal": "個人差B+",
-      "hard": "個人差A",
+      "normal": "個人差B",
+      "hard": "個人差B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4838.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "烽火連天の刃",
       "chart": "ANOTHER",
       "ver": "29",
       "normal": "地力A",
-      "hard": "個人差A",
+      "hard": "個人差B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4350.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "烽火連天の刃",
       "chart": "LEGGENDARIA",
       "ver": "29",
-      "normal": "未定",
-      "hard": "未定",
+      "normal": "個人差S+",
+      "hard": "個人差S+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/5178.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "焔極OVERKILL",
@@ -5410,8 +4869,7 @@
       "normal": "地力S",
       "hard": "地力S",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2988.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "煉獄のエルフェリア",
@@ -5420,8 +4878,7 @@
       "normal": "地力A+",
       "hard": "地力S",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2272.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "狂イ咲ケ焔ノ華",
@@ -5430,18 +4887,7 @@
       "normal": "地力D",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2014.html",
-      "source": "displayed headings on atwiki"
-    },
-    {
-      "title": "疾風迅雷",
-      "chart": "ANOTHER",
-      "ver": "21",
-      "normal": "地力C",
-      "hard": "地力B",
-      "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2281.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "疾風迅雷",
@@ -5450,28 +4896,34 @@
       "normal": "地力S+",
       "hard": "地力S+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4254.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "疾風迅雷",
+      "chart": "ANOTHER",
+      "ver": "21",
+      "normal": "地力C",
+      "hard": "地力B",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "真 地獄超特急 -HELL or HELL-",
       "chart": "ANOTHER",
       "ver": "23",
-      "normal": "個人差A+",
-      "hard": "個人差A+",
+      "normal": "個人差A",
+      "hard": "個人差A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2732.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "神のシナリオ",
       "chart": "ANOTHER",
       "ver": "30",
       "normal": "地力D",
-      "hard": "個人差C",
+      "hard": "個人差D",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4656.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "神謳 -RESONANCE-",
@@ -5480,8 +4932,7 @@
       "normal": "地力B",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3218.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "禊",
@@ -5490,8 +4941,7 @@
       "normal": "地力C",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4279.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "童話回廊",
@@ -5500,8 +4950,7 @@
       "normal": "地力B",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3108.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "紅牡丹",
@@ -5510,8 +4959,16 @@
       "normal": "地力E",
       "hard": "地力E",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2424.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "紫陽花 -AZISAI-",
+      "chart": "LEGGENDARIA",
+      "ver": "23",
+      "normal": "地力A",
+      "hard": "個人差A",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "紫陽花 -AZISAI-",
@@ -5520,18 +4977,7 @@
       "normal": "地力D",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2788.html",
-      "source": "displayed headings on atwiki"
-    },
-    {
-      "title": "紫陽花 -AZISAI-",
-      "chart": "LEGGENDARIA",
-      "ver": "23",
-      "normal": "地力A",
-      "hard": "個人差A+",
-      "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/5015.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "終焔のClaudia",
@@ -5540,8 +4986,7 @@
       "normal": "地力E",
       "hard": "地力D",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4835.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "聖人の塔",
@@ -5550,8 +4995,7 @@
       "normal": "地力D",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/1787.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "華爛漫 -Flowers-",
@@ -5560,8 +5004,7 @@
       "normal": "地力C",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/311.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "華蝶風雪",
@@ -5570,8 +5013,7 @@
       "normal": "地力D",
       "hard": "地力D",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4994.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "華麗なる大犬円舞曲",
@@ -5580,28 +5022,16 @@
       "normal": "地力A",
       "hard": "地力A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3678.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "蛇神",
       "chart": "LEGGENDARIA",
       "ver": "19",
-      "normal": "未定",
-      "hard": "未定",
+      "normal": "個人差S+",
+      "hard": "個人差S+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/5198.html",
-      "source": "displayed headings on atwiki"
-    },
-    {
-      "title": "表裏一体！？怪盗いいんちょの悩み",
-      "chart": "ANOTHER",
-      "ver": "22",
-      "normal": "地力D",
-      "hard": "地力C",
-      "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2425.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "表裏一体！？怪盗いいんちょの悩み",
@@ -5610,8 +5040,16 @@
       "normal": "地力S",
       "hard": "地力S",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4865.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
+    },
+    {
+      "title": "表裏一体！？怪盗いいんちょの悩み",
+      "chart": "ANOTHER",
+      "ver": "22",
+      "normal": "地力D",
+      "hard": "地力C",
+      "level": 12,
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "超青少年ノ為ノ超多幸ナ超古典的超舞曲",
@@ -5620,8 +5058,7 @@
       "normal": "地力A+",
       "hard": "地力A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4262.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "轟け！恋のビーンボール！！",
@@ -5630,18 +5067,16 @@
       "normal": "地力B",
       "hard": "地力B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2218.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "逆月",
       "chart": "ANOTHER",
       "ver": "29",
-      "normal": "個人差B",
+      "normal": "個人差C",
       "hard": "地力B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4314.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "金野火織の金色提言",
@@ -5650,8 +5085,7 @@
       "normal": "地力A",
       "hard": "地力A+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3463.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "閠槞彁の願い",
@@ -5660,28 +5094,25 @@
       "normal": "地力A",
       "hard": "地力A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3980.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "雪上断火",
       "chart": "ANOTHER",
       "ver": "29",
-      "normal": "個人差B",
-      "hard": "個人差B+",
+      "normal": "個人差C",
+      "hard": "個人差B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4014.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "雪月花",
       "chart": "ANOTHER",
       "ver": "10",
-      "normal": "個人差E",
-      "hard": "個人差E",
+      "normal": "個人差F",
+      "hard": "個人差F",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/57.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "電人、暁に斃れる。",
@@ -5690,8 +5121,7 @@
       "normal": "地力D",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/50.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "電光",
@@ -5700,8 +5130,7 @@
       "normal": "地力C",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4819.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "電腦都市",
@@ -5710,18 +5139,16 @@
       "normal": "地力B",
       "hard": "地力B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/5004.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "音楽",
       "chart": "ANOTHER",
       "ver": "20",
-      "normal": "個人差A",
-      "hard": "個人差A+",
+      "normal": "個人差B+",
+      "hard": "個人差A",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2100.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "駅猫のワルツ",
@@ -5730,8 +5157,7 @@
       "normal": "地力S",
       "hard": "地力S",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/2882.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "魅惑のYUMMYスイーツ",
@@ -5740,18 +5166,16 @@
       "normal": "地力B",
       "hard": "地力B+",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3806.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "魔法のかくれんぼ",
       "chart": "ANOTHER",
       "ver": "28",
-      "normal": "個人差D",
-      "hard": "個人差B",
+      "normal": "個人差E",
+      "hard": "個人差C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/3950.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "黒髪乱れし修羅となりて",
@@ -5760,8 +5184,7 @@
       "normal": "地力E",
       "hard": "地力E",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/1406.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "龍と少女とデコヒーレンス",
@@ -5770,8 +5193,7 @@
       "normal": "地力B",
       "hard": "地力B",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4245.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     },
     {
       "title": "龍王の霊廟(Mausoleum Of The Primal Dragon)",
@@ -5780,8 +5202,8 @@
       "normal": "地力C",
       "hard": "地力C",
       "level": 12,
-      "wikiUrl": "https://www19.atwiki.jp/bemani2sp/pages/4605.html",
-      "source": "displayed headings on atwiki"
+      "source": "iidx-difficulty-table-checker.nomadblacky.dev"
     }
-  ]
+  ],
+  "classificationMethod": "legacy bundled data; run GitHub Action Update SP12 data once after upload"
 }

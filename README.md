@@ -1,25 +1,18 @@
 # IIDX SP☆12 OPTION MANAGER
 
-GitHub Pages用の静的サイトです。☆11は取得しません。
+GitHub Pages用の静的サイトです。
 
-## 分類の取得方法
+## データ仕様
 
-`tier` 数値から独自に分類名を推測しません。
-GitHub Actionsが元のatwiki難易度表を読み、ページに表示されている
-`地力A`、`個人差B+` などのセクション見出しをそのまま `data/sp12.json` に保存します。
-同名のANOTHER／LEGGENDARIAを混同しないよう、楽曲Wiki URLで照合します。
+- 曲一覧の母集団：`sp12.iidx.app` の有効なSP☆12譜面全件
+- ノマゲ／ハード分類：atwikiの各地力表から取得
+- 地力表に掲載されていない譜面：`未分類`
+- 地力表で「未定」の譜面：`未分類`
+- 表記差などで照合できなかった譜面：`未分類`
 
-## 初回公開
+## 更新
 
-1. このフォルダの中身をリポジトリ直下へ配置してPushします。
-2. GitHubの `Actions` から `Update SP12 data` を開き、`Run workflow` を実行します。
-3. 緑のチェックが付き、`data/sp12.json` が更新されたらPagesを再読み込みします。
-4. `Settings → Pages → Deploy from a branch → main / root` を選択します。
+GitHubの **Actions → Update SP12 data → Run workflow** を実行してください。
+成功すると `data/sp12.json` と `data/update-report.json` が更新されます。
 
-公開URL: `https://farewell2236.github.io/kirika/`
-
-Actionsは毎日自動実行されます。取得や照合に異常がある場合は既存JSONを上書きせず、Actionをエラー終了させます。
-
-
-## キャッシュ修正
-起動時に必ず `data/sp12.json` の最新版を確認し、取得失敗時のみブラウザ保存済みデータへフォールバックします。旧キャッシュ（v3〜v5）は自動削除されます。
+公開URL：`https://farewell2236.github.io/kirika/`
