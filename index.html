@@ -19,14 +19,14 @@ main{max-width:1100px;margin:auto;padding:8px}.summary{display:flex;gap:5px;flex
 .group{margin-bottom:6px;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--panel)}
 .group-title{width:100%;display:flex;justify-content:space-between;border:0;border-radius:0;background:linear-gradient(90deg,#182235,#101725);padding:7px 10px}
 .group-title strong{color:var(--orange)}.group.closed .rows{display:none}.rows{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:6px;padding:6px}
-.row{display:grid;grid-template-columns:1fr;gap:4px;align-items:stretch;padding:7px;border:1px solid #26354a;border-radius:8px;min-width:0}
+.row{display:grid;grid-template-columns:1fr;gap:2px;align-items:stretch;padding:4px 5px;border:1px solid #26354a;border-radius:8px;min-width:0}
 .row:hover{filter:brightness(1.08)}
-.title{font-weight:650;overflow-wrap:anywhere;font-size:12px;line-height:1.25;min-height:30px}
-.option-select,.clear-select{width:100%;min-height:28px;padding:2px 5px;font-size:11px}
+.title{font-weight:650;overflow-wrap:anywhere;font-size:12px;line-height:1.15;min-height:24px;text-align:center;display:flex;align-items:center;justify-content:center}
+.option-select,.clear-select{width:100%;min-height:24px;padding:1px 4px;font-size:11px}
 .column-head{display:grid;grid-template-columns:minmax(260px,1fr) 140px 140px;gap:10px;align-items:center;padding:8px 12px;border-top:1px solid #202c40;background:#0d1522;color:var(--muted);font-size:12px;font-weight:700}
 .column-head .option-head{color:#25d9ff;text-align:center}
 .column-head .clear-head{color:#ff5aa5;text-align:center}
-.field-label{display:block;color:var(--muted);font-size:10px;font-weight:700;margin-bottom:2px}
+.field-label{display:block;color:var(--muted);font-size:9px;font-weight:700;margin-bottom:1px}
 .row.failed{background:#5f6368;color:#fff}
 .row.assist{background:#7e57c2;color:#fff}
 .row.easy{background:#2e7d32;color:#fff}
@@ -52,7 +52,7 @@ main{max-width:1100px;margin:auto;padding:8px}.summary{display:flex;gap:5px;flex
 .row{grid-template-columns:1fr;padding:6px;gap:4px}
 .field-wrap{display:block}
 .field-label{display:block;color:var(--muted);font-size:11px;font-weight:700}
-.option-select,.clear-select{width:100%;min-height:28px;padding:2px 5px;font-size:11px}
+.option-select,.clear-select{width:100%;min-height:24px;padding:1px 4px;font-size:11px}
 h1{font-size:16px}
 }
 @media(min-width:701px){.field-wrap{display:block}}
