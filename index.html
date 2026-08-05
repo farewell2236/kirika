@@ -254,7 +254,7 @@ function render(){
 
 function switchMode(m){mode=m;save();render()}
 $('#normalBtn').onclick=()=>switchMode('normal');$('#hardBtn').onclick=()=>switchMode('hard');
-$('#search').oninput=render;$('#clearFilter').onchange=render;$('#refreshBtn').onclick=()=>load(true);clears={};save();render()}};
+$('#search').oninput=render;$('#clearFilter').onchange=render;$('#refreshBtn').onclick=()=>load(true);
 $('#clearFilter').innerHTML='<option value="">全クリアランプ</option>'+CLEARS.map(c=>`<option>${c}</option>`).join('');
 ['iidx_sp12_only_sheet_cache_v3','iidx_sp12_only_sheet_cache_v4','iidx_sp12_only_sheet_cache_v5','iidx_sp12_only_sheet_cache_v6'].forEach(k=>localStorage.removeItem(k));
 render();load(false);
