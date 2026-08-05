@@ -45,7 +45,7 @@ main{max-width:1100px;margin:auto;padding:14px}.summary{display:flex;gap:7px;fle
 <input id="importFile" type="file" accept=".json,application/json" hidden>
 <script>
 const DATA_URL='./data/sp12.json';
-const CACHE_KEY='iidx_sp12_only_sheet_cache_v6';
+const CACHE_KEY='iidx_sp12_only_sheet_cache_v7';
 const OPT_KEY='iidx_sp12_options_v3';
 const MODE_KEY='iidx_sp12_mode_v3';
 const OPTIONS=['未設定','正規','MIRROR','RANDOM','R-RANDOM','S-RANDOM','H-RANDOM'];
@@ -138,7 +138,7 @@ $('#exportBtn').onclick=exportData;$('#importBtn').onclick=()=>$('#importFile').
 $('#importFile').onchange=async e=>{try{const d=JSON.parse(await e.target.files[0].text());options=d.options||{};save();render();status('バックアップを読み込みました')}catch(x){status('バックアップを読み込めませんでした',true)}};
 $('#resetBtn').onclick=()=>{if(confirm('すべてのオプションを未設定に戻しますか？')){options={};save();render()}};
 $('#optionFilter').innerHTML='<option value="">全オプション</option>'+OPTIONS.map(o=>`<option>${o}</option>`).join('');
-['iidx_sp12_only_sheet_cache_v3','iidx_sp12_only_sheet_cache_v4','iidx_sp12_only_sheet_cache_v5'].forEach(k=>localStorage.removeItem(k));
+['iidx_sp12_only_sheet_cache_v3','iidx_sp12_only_sheet_cache_v4','iidx_sp12_only_sheet_cache_v5','iidx_sp12_only_sheet_cache_v6'].forEach(k=>localStorage.removeItem(k));
 render();load(false);
 </script>
 </body>

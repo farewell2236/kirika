@@ -1,15 +1,23 @@
-# IIDX SP☆12 OPTION MANAGER
+# Kirika — IIDX SP☆12 OPTION MANAGER
 
-GitHub Pages用です。`sp12.iidx.app` がGitHub Actionsの通常HTTP通信を403で拒否するため、更新処理は次の順で取得を試します。
+`sp12.iidx.app` の公開ページをChromiumで開き、ページが実際に読み込む楽曲データから以下を直接保存します。
 
-1. requests
-2. curl_cffiによるChrome偽装
-3. Playwright Chromiumでページを実際に開き、内部JSONを取得
+- 全SP☆12譜面
+- ノマゲ分類：`n_clear_string`
+- ハード分類：`hard_string`
 
-曲一覧はSP☆12全件を母集団にし、地力表に掲載されていない譜面・未定・照合不能は「未分類」にまとめます。
+atwikiとの照合やtier数値の独自変換は行いません。元サイト側で空欄・未定になっているものだけ「未分類」にまとめます。
 
-## 初回更新
+## 反映手順
 
-Actions → Update SP12 data → Run workflow
+1. ZIPの中身を `farewell2236/kirika` のルートへ上書き
+2. GitHub Desktopで Commit → Push
+3. GitHubの Actions → **Update SP12 data** → **Run workflow**
+4. 成功後、公開ページを `Ctrl + F5` で再読み込み
 
-Chromiumのインストールがあるため、初回は数分かかることがあります。
+公開URL：`https://farewell2236.github.io/kirika/`
+
+## 更新結果の確認
+
+- `data/sp12.json`：表示用データ
+- `data/update-report.json`：取得件数、分類済み件数、未分類一覧
