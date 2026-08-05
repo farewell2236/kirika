@@ -19,7 +19,7 @@ main{max-width:1100px;margin:auto;padding:14px}.summary{display:flex;gap:7px;fle
 .group{margin-bottom:10px;border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--panel)}
 .group-title{width:100%;display:flex;justify-content:space-between;border:0;border-radius:0;background:linear-gradient(90deg,#182235,#101725);padding:12px 14px}
 .group-title strong{color:var(--orange)}.group.closed .rows{display:none}
-.row{display:grid;grid-template-columns:60px minmax(210px,1fr) 140px;gap:10px;align-items:center;padding:9px 12px;border-top:1px solid #202c40}
+.row{display:grid;grid-template-columns:60px minmax(180px,1fr) 140px 140px;gap:10px;align-items:center;padding:9px 12px;border-top:1px solid #202c40}
 .row:hover{background:#152033}.ver{color:var(--muted);font-size:12px}.title{font-weight:650;overflow-wrap:anywhere}.option-select{width:100%}
 .empty{text-align:center;padding:55px 10px;color:var(--muted)}
 @media(max-width:700px){.controls{grid-template-columns:1fr 1fr}.controls input{grid-column:1/-1}.row{grid-template-columns:42px minmax(0,1fr) 112px;padding:9px 8px;gap:7px}h1{font-size:16px}}
@@ -49,16 +49,19 @@ const CACHE_KEY='iidx_sp12_only_sheet_cache_v7';
 const OPT_KEY='iidx_sp12_options_v3';
 const MODE_KEY='iidx_sp12_mode_v3';
 const OPTIONS=['未設定','正規','MIRROR','RANDOM','R-RANDOM','S-RANDOM','H-RANDOM'];
+const CLEARS=['未設定','FAILED','ASSIST','EASY','CLEAR','HARD','EX HARD','FULLCOMBO'];
+const CLEAR_KEY='iidx_sp12_clear_v1';
 const ORDER=['地力S+','個人差S+','地力S','個人差S','地力A+','個人差A+','地力A','個人差A','地力B+','個人差B+','地力B','個人差B','地力C','個人差C','地力D','個人差D','地力E','個人差E','地力F','個人差F','未分類'];
 const $=s=>document.querySelector(s);
 const clean=s=>String(s??'').replace(/\s+/g,' ').trim();
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 let mode=localStorage.getItem(MODE_KEY)||'normal';
 let options=JSON.parse(localStorage.getItem(OPT_KEY)||'{}');
+let clears=JSON.parse(localStorage.getItem(CLEAR_KEY)||'{}');
 let songs=JSON.parse(localStorage.getItem(CACHE_KEY)||'[]');
 
 function status(t,e=false){$('#status').className=e?'error':'';$('#status').textContent=t}
-function save(){localStorage.setItem(OPT_KEY,JSON.stringify(options));localStorage.setItem(MODE_KEY,mode)}
+function save(){localStorage.setItem(OPT_KEY,JSON.stringify(options));localStorage.setItem(CLEAR_KEY,JSON.stringify(clears));localStorage.setItem(MODE_KEY,mode)}
 function optKey(s){return mode+'::'+s.title+'::'+(s.chart||'')}
 function getOpt(s){return options[optKey(s)]||'未設定'}
 function normalizeRank(v){
@@ -120,11 +123,12 @@ function render(){
  $('#app').innerHTML=[...groups].filter(([,a])=>a.length).map(([rank,a])=>`<section class="group">
  <button class="group-title"><strong>${esc(rank)}</strong><span>${a.length}譜面 ▾</span></button>
  <div class="rows">${a.sort((x,y)=>x.title.localeCompare(y.title,'ja')).map(s=>`<div class="row">
- <span class="ver">${esc(s.ver)}</span><span class="title">${esc(s.title)}${(/(LEGGENDARIA|LEGENDARIA|†|L$)/i.test(String(s.chart||""))?" †":"")}</span>
+ <span class="ver">${esc(s.ver)}</span><span class="title">${esc(s.title)}</span>
  <select class="option-select" data-key="${esc(optKey(s))}">${OPTIONS.map(o=>`<option${getOpt(s)===o?' selected':''}>${o}</option>`).join('')}</select>
  </div>`).join('')}</div></section>`).join('')||(songs.length?'<div class="empty">該当曲なし</div>':'<div class="empty">曲データがありません。「曲データ更新」を押してください。</div>');
  document.querySelectorAll('.group-title').forEach(b=>b.onclick=()=>b.parentElement.classList.toggle('closed'));
  document.querySelectorAll('.option-select').forEach(s=>s.onchange=()=>{options[s.dataset.key]=s.value;save();render()});
+  document.querySelectorAll('.clear-select').forEach(s=>s.onchange=()=>{clears[s.dataset.key]=s.value;save();});
  $('#summary').innerHTML=`<span class="badge">全 ${list.length}譜面</span>`+OPTIONS.map(o=>`<span class="badge">${o}: ${list.filter(s=>getOpt(s)===o).length}</span>`).join('');
 }
 function switchMode(m){mode=m;save();render()}
