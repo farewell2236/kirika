@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-08-07T04:32:46+00:00",
+  "updatedAt": "2026-08-07T21:23:17+00:00",
   "pageReports": [
     {
       "pageUrl": "https://sp12.iidx.app/sheets/2891-1732/clear",
       "capturedJsonResponses": 4,
       "responseUrls": [
-        "https://ep1.adtrafficquality.google/getconfig/sodar?sv=200&tid=gda&tv=r20260806&st=env&sjk=4917445584933438",
+        "https://ep1.adtrafficquality.google/getconfig/sodar?sv=200&tid=gda&tv=r20260804&st=env&sjk=90591360293764",
         "https://sp12.iidx.app/api/v1/abilities?type=n_clear",
         "https://sp12.iidx.app/api/v1/sheets",
-        "https://syndication.twitter.com/settings?session_id=ea9710b6edf8a5d91f6b5a94b4d1ec5d23a89cc3"
+        "https://syndication.twitter.com/settings?session_id=d26a56aa5b4ae40e3bda86df1c4a9d419cacab56"
       ],
-      "extractedCount": 669,
+      "extractedCount": 671,
       "normalClassified": 621,
       "hardClassified": 621
     },
@@ -18,21 +18,21 @@
       "pageUrl": "https://sp12.iidx.app/sheets/2891-1732/hard",
       "capturedJsonResponses": 4,
       "responseUrls": [
-        "https://ep1.adtrafficquality.google/getconfig/sodar?sv=200&tid=gda&tv=r20260806&st=env&sjk=3217627577230996",
+        "https://ep1.adtrafficquality.google/getconfig/sodar?sv=200&tid=gda&tv=r20260804&st=env&sjk=5463562536394822",
         "https://sp12.iidx.app/api/v1/abilities?type=hard",
         "https://sp12.iidx.app/api/v1/sheets",
-        "https://syndication.twitter.com/settings?session_id=1239340232398f19502502a5280123c81ba2c894"
+        "https://syndication.twitter.com/settings?session_id=96c52378deafb2adec232df5df02a25430db60b8"
       ],
-      "extractedCount": 669,
+      "extractedCount": 671,
       "normalClassified": 621,
       "hardClassified": 621
     }
   ],
-  "totalCount": 669,
+  "totalCount": 671,
   "normalClassifiedCount": 621,
   "hardClassifiedCount": 621,
-  "normalUnclassifiedCount": 48,
-  "hardUnclassifiedCount": 48,
+  "normalUnclassifiedCount": 50,
+  "hardUnclassifiedCount": 50,
   "normalUnclassified": [
     {
       "title": "Amor∞Fati",
@@ -128,6 +128,11 @@
       "title": "INHERITANCE†",
       "chart": "ANOTHER",
       "ver": "31"
+    },
+    {
+      "title": "Iridescent Memories",
+      "chart": "ANOTHER",
+      "ver": "33"
     },
     {
       "title": "King of Tribe",
@@ -241,6 +246,11 @@
     },
     {
       "title": "クレッシェンド",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "サタデーナイト☆ギャロップ",
       "chart": "ANOTHER",
       "ver": "33"
     },
@@ -372,6 +382,11 @@
       "ver": "31"
     },
     {
+      "title": "Iridescent Memories",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
       "title": "King of Tribe",
       "chart": "ANOTHER",
       "ver": "33"
@@ -483,6 +498,11 @@
     },
     {
       "title": "クレッシェンド",
+      "chart": "ANOTHER",
+      "ver": "33"
+    },
+    {
+      "title": "サタデーナイト☆ギャロップ",
       "chart": "ANOTHER",
       "ver": "33"
     },
