@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-18T19:54:30+00:00",
+  "updatedAt": "2026-08-20T20:04:08+00:00",
   "sourceUrl": [
     "https://sp12.iidx.app/sheets/2891-1732/clear",
     "https://sp12.iidx.app/sheets/2891-1732/hard"
@@ -132,6 +132,19 @@
       "attr": "",
       "normal": "地力A",
       "hard": "個人差A+",
+      "level": 12,
+      "wikiUrl": "",
+      "source": "sp12.iidx.app direct classification strings"
+    },
+    {
+      "title": "27th style†",
+      "chart": "ANOTHER",
+      "ver": "27",
+      "bpm": "",
+      "notes": "",
+      "attr": "",
+      "normal": "未分類",
+      "hard": "未分類",
       "level": 12,
       "wikiUrl": "",
       "source": "sp12.iidx.app direct classification strings"
@@ -4656,6 +4669,19 @@
       "attr": "",
       "normal": "地力C",
       "hard": "地力D",
+      "level": 12,
+      "wikiUrl": "",
+      "source": "sp12.iidx.app direct classification strings"
+    },
+    {
+      "title": "Raison d'etre～交差する宿命～†",
+      "chart": "ANOTHER",
+      "ver": "17",
+      "bpm": "",
+      "notes": "",
+      "attr": "",
+      "normal": "未分類",
+      "hard": "未分類",
       "level": 12,
       "wikiUrl": "",
       "source": "sp12.iidx.app direct classification strings"

@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-08-18T19:54:30+00:00",
+  "updatedAt": "2026-08-20T20:04:08+00:00",
   "pageReports": [
     {
       "pageUrl": "https://sp12.iidx.app/sheets/2891-1732/clear",
       "capturedJsonResponses": 4,
       "responseUrls": [
-        "https://ep1.adtrafficquality.google/getconfig/sodar?sv=200&tid=gda&tv=r20260818&st=env&sjk=3025224753915859",
+        "https://ep1.adtrafficquality.google/getconfig/sodar?sv=200&tid=gda&tv=r20260820&st=env&sjk=4879700340673427",
         "https://sp12.iidx.app/api/v1/abilities?type=n_clear",
         "https://sp12.iidx.app/api/v1/sheets",
-        "https://syndication.twitter.com/settings?session_id=1549763ea4a888cdc72cfe072c5a52744884b776"
+        "https://syndication.twitter.com/settings?session_id=e749a232ff084b96fa68aae62ec079ee80846882"
       ],
-      "extractedCount": 671,
+      "extractedCount": 673,
       "normalClassified": 621,
       "hardClassified": 621
     },
@@ -18,22 +18,27 @@
       "pageUrl": "https://sp12.iidx.app/sheets/2891-1732/hard",
       "capturedJsonResponses": 4,
       "responseUrls": [
-        "https://ep1.adtrafficquality.google/getconfig/sodar?sv=200&tid=gda&tv=r20260818&st=env&sjk=6856263447788031",
+        "https://ep1.adtrafficquality.google/getconfig/sodar?sv=200&tid=gda&tv=r20260820&st=env&sjk=3933413426538328",
         "https://sp12.iidx.app/api/v1/abilities?type=hard",
         "https://sp12.iidx.app/api/v1/sheets",
-        "https://syndication.twitter.com/settings?session_id=beb9246191a5faf65a046eea29a27b028a4859a8"
+        "https://syndication.twitter.com/settings?session_id=9b2e7a64119d003a7992d689dcb0774117dcbd6a"
       ],
-      "extractedCount": 671,
+      "extractedCount": 673,
       "normalClassified": 621,
       "hardClassified": 621
     }
   ],
-  "totalCount": 671,
+  "totalCount": 673,
   "normalClassifiedCount": 621,
   "hardClassifiedCount": 621,
-  "normalUnclassifiedCount": 50,
-  "hardUnclassifiedCount": 50,
+  "normalUnclassifiedCount": 52,
+  "hardUnclassifiedCount": 52,
   "normalUnclassified": [
+    {
+      "title": "27th style†",
+      "chart": "ANOTHER",
+      "ver": "27"
+    },
     {
       "title": "Amor∞Fati",
       "chart": "ANOTHER",
@@ -168,6 +173,11 @@
       "title": "Plazma†",
       "chart": "ANOTHER",
       "ver": "32"
+    },
+    {
+      "title": "Raison d'etre～交差する宿命～†",
+      "chart": "ANOTHER",
+      "ver": "17"
     },
     {
       "title": "Rise'n Beauty†",
@@ -287,6 +297,11 @@
   ],
   "hardUnclassified": [
     {
+      "title": "27th style†",
+      "chart": "ANOTHER",
+      "ver": "27"
+    },
+    {
       "title": "Amor∞Fati",
       "chart": "ANOTHER",
       "ver": "33"
@@ -420,6 +435,11 @@
       "title": "Plazma†",
       "chart": "ANOTHER",
       "ver": "32"
+    },
+    {
+      "title": "Raison d'etre～交差する宿命～†",
+      "chart": "ANOTHER",
+      "ver": "17"
     },
     {
       "title": "Rise'n Beauty†",
