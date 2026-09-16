@@ -1,38 +1,38 @@
 {
-  "updatedAt": "2026-09-14T22:31:05+00:00",
+  "updatedAt": "2026-09-16T22:11:25+00:00",
   "pageReports": [
     {
       "pageUrl": "https://sp12.iidx.app/sheets/2891-1732/clear",
       "capturedJsonResponses": 4,
       "responseUrls": [
-        "https://ep1.adtrafficquality.google/getconfig/sodar?sv=200&tid=gda&tv=r20260911&st=env&sjk=5678624104093890",
+        "https://ep1.adtrafficquality.google/getconfig/sodar?sv=200&tid=gda&tv=r20260915&st=env&sjk=4851433583553477",
         "https://sp12.iidx.app/api/v1/abilities?type=n_clear",
         "https://sp12.iidx.app/api/v1/sheets",
-        "https://syndication.twitter.com/settings?session_id=d474097e43e42f43a34de86caefa174be9c55c99"
+        "https://syndication.twitter.com/settings?session_id=85a7fffd6ea65af6d9fa8fb212c46a51d66ec2e0"
       ],
       "extractedCount": 673,
-      "normalClassified": 621,
-      "hardClassified": 621
+      "normalClassified": 662,
+      "hardClassified": 662
     },
     {
       "pageUrl": "https://sp12.iidx.app/sheets/2891-1732/hard",
       "capturedJsonResponses": 4,
       "responseUrls": [
-        "https://ep1.adtrafficquality.google/getconfig/sodar?sv=200&tid=gda&tv=r20260911&st=env&sjk=7270314194325546",
+        "https://ep1.adtrafficquality.google/getconfig/sodar?sv=200&tid=gda&tv=r20260915&st=env&sjk=1057249690054039",
         "https://sp12.iidx.app/api/v1/abilities?type=hard",
         "https://sp12.iidx.app/api/v1/sheets",
-        "https://syndication.twitter.com/settings?session_id=37a49fbd54974765607801281494102e1ed0ae8d"
+        "https://syndication.twitter.com/settings?session_id=f32143a0e82aeda51cae576efd95d58826f67906"
       ],
       "extractedCount": 673,
-      "normalClassified": 621,
-      "hardClassified": 621
+      "normalClassified": 662,
+      "hardClassified": 662
     }
   ],
   "totalCount": 673,
-  "normalClassifiedCount": 621,
-  "hardClassifiedCount": 621,
-  "normalUnclassifiedCount": 52,
-  "hardUnclassifiedCount": 52,
+  "normalClassifiedCount": 662,
+  "hardClassifiedCount": 662,
+  "normalUnclassifiedCount": 11,
+  "hardUnclassifiedCount": 11,
   "normalUnclassified": [
     {
       "title": "27th style†",
@@ -40,34 +40,9 @@
       "ver": "27"
     },
     {
-      "title": "Amor∞Fati",
-      "chart": "ANOTHER",
-      "ver": "33"
-    },
-    {
       "title": "Any％",
       "chart": "ANOTHER",
       "ver": "33"
-    },
-    {
-      "title": "Astra Blaze",
-      "chart": "ANOTHER",
-      "ver": "33"
-    },
-    {
-      "title": "Begin",
-      "chart": "ANOTHER",
-      "ver": "33"
-    },
-    {
-      "title": "BitRacer",
-      "chart": "ANOTHER",
-      "ver": "33"
-    },
-    {
-      "title": "CoMAAAAAAA†",
-      "chart": "ANOTHER",
-      "ver": "26"
     },
     {
       "title": "Digitized Ocean",
@@ -75,72 +50,12 @@
       "ver": "33"
     },
     {
-      "title": "Do it!! Do it!!†",
-      "chart": "ANOTHER",
-      "ver": "15"
-    },
-    {
       "title": "Dolphin Kick",
       "chart": "ANOTHER",
       "ver": "33"
     },
     {
-      "title": "Dusk Endir",
-      "chart": "ANOTHER",
-      "ver": "33"
-    },
-    {
-      "title": "Ember Lights†",
-      "chart": "ANOTHER",
-      "ver": "26"
-    },
-    {
-      "title": "fixer",
-      "chart": "ANOTHER",
-      "ver": "33"
-    },
-    {
-      "title": "FiZZλ_POT!0N",
-      "chart": "ANOTHER",
-      "ver": "33"
-    },
-    {
-      "title": "Flashes†",
-      "chart": "ANOTHER",
-      "ver": "22"
-    },
-    {
-      "title": "GENE†",
-      "chart": "ANOTHER",
-      "ver": "26"
-    },
-    {
-      "title": "Gimme a Big Beat(青龍 Remix)",
-      "chart": "ANOTHER",
-      "ver": "33"
-    },
-    {
-      "title": "HEROES",
-      "chart": "ANOTHER",
-      "ver": "33"
-    },
-    {
-      "title": "HyperTwist",
-      "chart": "ANOTHER",
-      "ver": "33"
-    },
-    {
-      "title": "INHERITANCE†",
-      "chart": "ANOTHER",
-      "ver": "31"
-    },
-    {
       "title": "Iridescent Memories",
-      "chart": "ANOTHER",
-      "ver": "33"
-    },
-    {
-      "title": "King of Tribe",
       "chart": "ANOTHER",
       "ver": "33"
     },
@@ -150,49 +65,9 @@
       "ver": "33"
     },
     {
-      "title": "Lisa-RICCIA†",
-      "chart": "ANOTHER",
-      "ver": "33"
-    },
-    {
-      "title": "Mighty Beat Monsterz",
-      "chart": "ANOTHER",
-      "ver": "33"
-    },
-    {
-      "title": "OMEGA",
-      "chart": "ANOTHER",
-      "ver": "33"
-    },
-    {
-      "title": "PERFECT GREAT!!",
-      "chart": "ANOTHER",
-      "ver": "33"
-    },
-    {
-      "title": "Plazma†",
-      "chart": "ANOTHER",
-      "ver": "32"
-    },
-    {
       "title": "Raison d'etre～交差する宿命～†",
       "chart": "ANOTHER",
       "ver": "17"
-    },
-    {
-      "title": "Rise'n Beauty†",
-      "chart": "ANOTHER",
-      "ver": "10"
-    },
-    {
-      "title": "RIZING-GAMERS.",
-      "chart": "ANOTHER",
-      "ver": "33"
-    },
-    {
-      "title": "RUINA",
-      "chart": "ANOTHER",
-      "ver": "33"
     },
     {
       "title": "Smintheus",
@@ -200,62 +75,7 @@
       "ver": "33"
     },
     {
-      "title": "Submerge Serenade†",
-      "chart": "ANOTHER",
-      "ver": "31"
-    },
-    {
       "title": "super double play sessions",
-      "chart": "ANOTHER",
-      "ver": "33"
-    },
-    {
-      "title": "Super Duper Racers†",
-      "chart": "ANOTHER",
-      "ver": "23"
-    },
-    {
-      "title": "THE BLACK KNIGHT†",
-      "chart": "ANOTHER",
-      "ver": "18"
-    },
-    {
-      "title": "THUNDERSTRIKE",
-      "chart": "ANOTHER",
-      "ver": "33"
-    },
-    {
-      "title": "UNDO THE NIGHT",
-      "chart": "ANOTHER",
-      "ver": "33"
-    },
-    {
-      "title": "Urban Constellations†",
-      "chart": "ANOTHER",
-      "ver": "26"
-    },
-    {
-      "title": "ZED†",
-      "chart": "ANOTHER",
-      "ver": "20"
-    },
-    {
-      "title": "⁽⁽ଘ( ˙꒳˙ )ଓ⁾⁾ beyond reason",
-      "chart": "ANOTHER",
-      "ver": "33"
-    },
-    {
-      "title": "かわいいだけじゃだめですか？†",
-      "chart": "ANOTHER",
-      "ver": "33"
-    },
-    {
-      "title": "ちょえちょえまぎか†",
-      "chart": "ANOTHER",
-      "ver": "30"
-    },
-    {
-      "title": "クレッシェンド",
       "chart": "ANOTHER",
       "ver": "33"
     },
@@ -265,32 +85,7 @@
       "ver": "33"
     },
     {
-      "title": "ベンガル vs. アムール Battle",
-      "chart": "ANOTHER",
-      "ver": "33"
-    },
-    {
-      "title": "ミュージック・アワー†",
-      "chart": "ANOTHER",
-      "ver": "29"
-    },
-    {
-      "title": "ラブコメトキドキシリアス",
-      "chart": "ANOTHER",
-      "ver": "33"
-    },
-    {
-      "title": "寝起きヤシの木†",
-      "chart": "ANOTHER",
-      "ver": "31"
-    },
-    {
       "title": "断罪のミメシス",
-      "chart": "ANOTHER",
-      "ver": "33"
-    },
-    {
-      "title": "色を喪った街",
       "chart": "ANOTHER",
       "ver": "33"
     }
@@ -302,34 +97,9 @@
       "ver": "27"
     },
     {
-      "title": "Amor∞Fati",
-      "chart": "ANOTHER",
-      "ver": "33"
-    },
-    {
       "title": "Any％",
       "chart": "ANOTHER",
       "ver": "33"
-    },
-    {
-      "title": "Astra Blaze",
-      "chart": "ANOTHER",
-      "ver": "33"
-    },
-    {
-      "title": "Begin",
-      "chart": "ANOTHER",
-      "ver": "33"
-    },
-    {
-      "title": "BitRacer",
-      "chart": "ANOTHER",
-      "ver": "33"
-    },
-    {
-      "title": "CoMAAAAAAA†",
-      "chart": "ANOTHER",
-      "ver": "26"
     },
     {
       "title": "Digitized Ocean",
@@ -337,72 +107,12 @@
       "ver": "33"
     },
     {
-      "title": "Do it!! Do it!!†",
-      "chart": "ANOTHER",
-      "ver": "15"
-    },
-    {
       "title": "Dolphin Kick",
       "chart": "ANOTHER",
       "ver": "33"
     },
     {
-      "title": "Dusk Endir",
-      "chart": "ANOTHER",
-      "ver": "33"
-    },
-    {
-      "title": "Ember Lights†",
-      "chart": "ANOTHER",
-      "ver": "26"
-    },
-    {
-      "title": "fixer",
-      "chart": "ANOTHER",
-      "ver": "33"
-    },
-    {
-      "title": "FiZZλ_POT!0N",
-      "chart": "ANOTHER",
-      "ver": "33"
-    },
-    {
-      "title": "Flashes†",
-      "chart": "ANOTHER",
-      "ver": "22"
-    },
-    {
-      "title": "GENE†",
-      "chart": "ANOTHER",
-      "ver": "26"
-    },
-    {
-      "title": "Gimme a Big Beat(青龍 Remix)",
-      "chart": "ANOTHER",
-      "ver": "33"
-    },
-    {
-      "title": "HEROES",
-      "chart": "ANOTHER",
-      "ver": "33"
-    },
-    {
-      "title": "HyperTwist",
-      "chart": "ANOTHER",
-      "ver": "33"
-    },
-    {
-      "title": "INHERITANCE†",
-      "chart": "ANOTHER",
-      "ver": "31"
-    },
-    {
       "title": "Iridescent Memories",
-      "chart": "ANOTHER",
-      "ver": "33"
-    },
-    {
-      "title": "King of Tribe",
       "chart": "ANOTHER",
       "ver": "33"
     },
@@ -412,49 +122,9 @@
       "ver": "33"
     },
     {
-      "title": "Lisa-RICCIA†",
-      "chart": "ANOTHER",
-      "ver": "33"
-    },
-    {
-      "title": "Mighty Beat Monsterz",
-      "chart": "ANOTHER",
-      "ver": "33"
-    },
-    {
-      "title": "OMEGA",
-      "chart": "ANOTHER",
-      "ver": "33"
-    },
-    {
-      "title": "PERFECT GREAT!!",
-      "chart": "ANOTHER",
-      "ver": "33"
-    },
-    {
-      "title": "Plazma†",
-      "chart": "ANOTHER",
-      "ver": "32"
-    },
-    {
       "title": "Raison d'etre～交差する宿命～†",
       "chart": "ANOTHER",
       "ver": "17"
-    },
-    {
-      "title": "Rise'n Beauty†",
-      "chart": "ANOTHER",
-      "ver": "10"
-    },
-    {
-      "title": "RIZING-GAMERS.",
-      "chart": "ANOTHER",
-      "ver": "33"
-    },
-    {
-      "title": "RUINA",
-      "chart": "ANOTHER",
-      "ver": "33"
     },
     {
       "title": "Smintheus",
@@ -462,62 +132,7 @@
       "ver": "33"
     },
     {
-      "title": "Submerge Serenade†",
-      "chart": "ANOTHER",
-      "ver": "31"
-    },
-    {
       "title": "super double play sessions",
-      "chart": "ANOTHER",
-      "ver": "33"
-    },
-    {
-      "title": "Super Duper Racers†",
-      "chart": "ANOTHER",
-      "ver": "23"
-    },
-    {
-      "title": "THE BLACK KNIGHT†",
-      "chart": "ANOTHER",
-      "ver": "18"
-    },
-    {
-      "title": "THUNDERSTRIKE",
-      "chart": "ANOTHER",
-      "ver": "33"
-    },
-    {
-      "title": "UNDO THE NIGHT",
-      "chart": "ANOTHER",
-      "ver": "33"
-    },
-    {
-      "title": "Urban Constellations†",
-      "chart": "ANOTHER",
-      "ver": "26"
-    },
-    {
-      "title": "ZED†",
-      "chart": "ANOTHER",
-      "ver": "20"
-    },
-    {
-      "title": "⁽⁽ଘ( ˙꒳˙ )ଓ⁾⁾ beyond reason",
-      "chart": "ANOTHER",
-      "ver": "33"
-    },
-    {
-      "title": "かわいいだけじゃだめですか？†",
-      "chart": "ANOTHER",
-      "ver": "33"
-    },
-    {
-      "title": "ちょえちょえまぎか†",
-      "chart": "ANOTHER",
-      "ver": "30"
-    },
-    {
-      "title": "クレッシェンド",
       "chart": "ANOTHER",
       "ver": "33"
     },
@@ -527,32 +142,7 @@
       "ver": "33"
     },
     {
-      "title": "ベンガル vs. アムール Battle",
-      "chart": "ANOTHER",
-      "ver": "33"
-    },
-    {
-      "title": "ミュージック・アワー†",
-      "chart": "ANOTHER",
-      "ver": "29"
-    },
-    {
-      "title": "ラブコメトキドキシリアス",
-      "chart": "ANOTHER",
-      "ver": "33"
-    },
-    {
-      "title": "寝起きヤシの木†",
-      "chart": "ANOTHER",
-      "ver": "31"
-    },
-    {
       "title": "断罪のミメシス",
-      "chart": "ANOTHER",
-      "ver": "33"
-    },
-    {
-      "title": "色を喪った街",
       "chart": "ANOTHER",
       "ver": "33"
     }
