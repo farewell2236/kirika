@@ -1,14 +1,14 @@
 {
-  "updatedAt": "2026-10-13T01:22:32+00:00",
+  "updatedAt": "2026-10-13T23:16:53+00:00",
   "pageReports": [
     {
       "pageUrl": "https://sp12.iidx.app/sheets/2891-1732/clear",
       "capturedJsonResponses": 4,
       "responseUrls": [
-        "https://ep1.adtrafficquality.google/getconfig/sodar?sv=200&tid=gda&tv=r20261012&st=env&sjk=2717631859111317",
+        "https://ep1.adtrafficquality.google/getconfig/sodar?sv=200&tid=gda&tv=r20261013&st=env&sjk=6715259844618073",
         "https://sp12.iidx.app/api/v1/abilities?type=n_clear",
         "https://sp12.iidx.app/api/v1/sheets",
-        "https://syndication.twitter.com/settings?session_id=9d7c5afef3cf7cb567403e0963d3b6e17ecddf0b"
+        "https://syndication.twitter.com/settings?session_id=3552b6d8693ea29e989fdd030de211aef660d909"
       ],
       "extractedCount": 673,
       "normalClassified": 662,
@@ -18,10 +18,10 @@
       "pageUrl": "https://sp12.iidx.app/sheets/2891-1732/hard",
       "capturedJsonResponses": 4,
       "responseUrls": [
-        "https://ep1.adtrafficquality.google/getconfig/sodar?sv=200&tid=gda&tv=r20261012&st=env&sjk=3562469420597337",
+        "https://ep1.adtrafficquality.google/getconfig/sodar?sv=200&tid=gda&tv=r20261013&st=env&sjk=6900793085310110",
         "https://sp12.iidx.app/api/v1/abilities?type=hard",
         "https://sp12.iidx.app/api/v1/sheets",
-        "https://syndication.twitter.com/settings?session_id=2c6b90d8a090d095a7e34e8bfc76009c909a7f51"
+        "https://syndication.twitter.com/settings?session_id=310046e4251435b968119046733e6bf13d9ee143"
       ],
       "extractedCount": 673,
       "normalClassified": 662,
